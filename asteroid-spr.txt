@@ -1,0 +1,33 @@
+<HEADER>
+frames 7
+width 3
+height 2
+color green
+slowdown 5
+</HEADER>
+<BODY>
+ooo
+ooo
+end
+*oo
+ooo
+end
+o*o
+ooo
+end
+oo*
+ooo
+end
+ooo
+*oo
+end
+ooo
+o*o
+end
+ooo
+oo*
+end
+</BODY>
+<FOOTER>
+version 1
+</FOOTER>
