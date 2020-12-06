@@ -96,8 +96,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\SFML-2.5\include;C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\dragonfly\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\dragonfly\lib;C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\SFML-2.5\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\holdz\Documents\Visual Studio 2019\Projects\SFML-2.5\include;C:\Users\holdz\Documents\Visual Studio 2019\Projects\dragonfly\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\holdz\Documents\Visual Studio 2019\Projects\SFML-2.5\lib;C:\Users\holdz\Documents\Visual Studio 2019\Projects\dragonfly\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>

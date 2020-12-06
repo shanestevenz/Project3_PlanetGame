@@ -1,9 +1,2 @@
-﻿  Asteroid.cpp
-C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(24,53): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(30,54): warning C4305: 'argument': truncation from 'double' to 'float'
-  Bullet.cpp
-  GameStart.cpp
-  game.cpp
-  Generating Code...
-C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(58): warning C4715: 'Asteroid::eventHandler': not all control paths return a value
-  Project3_PlanetGame.vcxproj -> C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Debug\Project3_PlanetGame.exe
+﻿  game.cpp
+  Project3_PlanetGame.vcxproj -> C:\Users\holdz\Source\Repos\Project3_PlanetGame\x64\Debug\Project3_PlanetGame.exe
