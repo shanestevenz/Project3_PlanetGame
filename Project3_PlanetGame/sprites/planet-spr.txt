@@ -1,0 +1,19 @@
+<HEADER>
+frames 1
+width 11
+height 6
+color yellow
+slowdown 5
+</HEADER>
+<BODY>
+    o-o    
+  o-~-~-o  
+o-o-0-0-o-o
+o-o\___/o-o
+  o-o-o-o  
+    o-o    
+end
+</BODY>
+<FOOTER>
+version 1
+</FOOTER>
