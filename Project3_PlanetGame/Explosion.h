@@ -1,6 +1,6 @@
 #pragma once
 #include "Object.h"
-
+#include <Color.h>
 class Explosion : public df::Object {
 
 private:
@@ -9,5 +9,6 @@ private:
 
 public:
     Explosion();
+    Explosion(df::Color color);
     int eventHandler(const df::Event* p_e);
 };

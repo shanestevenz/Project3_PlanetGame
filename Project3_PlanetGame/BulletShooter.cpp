@@ -14,6 +14,15 @@ BulletShooter::BulletShooter()
 	df::Vector p(WM.getBoundary().getHorizontal() / 2, WM.getBoundary().getVertical() / 2); //default to center screen
 	setPosition(p);
 
+
+	// Player controls hero, so register for input events.
+	registerInterest(df::KEYBOARD_EVENT);
+	registerInterest(df::MSE_EVENT);
+
+	// Need to update rate control each step.
+	registerInterest(df::STEP_EVENT);
+	setSolidness(df::SPECTRAL); //no sprite but just in case
+
 	fire_slowdown = 30;
 	fire_countdown = fire_slowdown;
 	LM.writeLog("Spawning BulletShooter");
@@ -39,6 +48,7 @@ int BulletShooter::eventHandler(const df::Event* p_e)
 {
 	if (p_e->getType() == df::STEP_EVENT) {
 		step();
+		//LM.writeLog(" BulletShooter: Step event");
 		return 1;
 	}
 
@@ -75,14 +85,20 @@ void BulletShooter::step()
 
 void BulletShooter::mouse(const df::EventMouse* p_mouse_event)
 {
+	/*
 	// LeftPressed button?
 	if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
-		(p_mouse_event->getMouseButton() == df::Mouse::LEFT))
+		(p_mouse_event->getMouseButton() == df::Mouse::LEFT)) //used by block placer
 		fire(p_mouse_event->getMousePosition());
+	*/
 
-	if ((p_mouse_event->getMouseAction() == df::CLICKED) && //right click alt fire, doesnt do anything yet ...might remove
+	if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
 		(p_mouse_event->getMouseButton() == df::Mouse::RIGHT))
-		altFire(p_mouse_event->getMousePosition());
+	{
+		//LM.writeLog("BulletShooter: Mouse Event");
+		fire(p_mouse_event->getMousePosition());
+	}
+	
 
 }
 

@@ -1,15 +1,17 @@
 #pragma once
 #include "Object.h"
 #include <EventCollision.h>
+#include <EventKeyboard.h>
 #include "BlockPlacer.h"
 
 class Planet : public df::Object 
 {
 
 private:
-	int health = 2;
+	int health;
 	void step();
-	BlockPlacer* p_blockplacer;
+	//BlockPlacer* p_blockplacer;
+	void kbd(const df::EventKeyboard* p_keyboard_event);
 
 public:
 	Planet();

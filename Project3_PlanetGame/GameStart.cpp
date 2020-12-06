@@ -14,7 +14,7 @@
 #include "Planet.h"
 #include "BulletShooter.h"
 #include "Color.h"
-
+#include "Vector.h"
 //Events
 #include "EventKeyboard.h"
 
@@ -65,18 +65,27 @@ void GameStart::start() {  //things that needs to be spawned when the game resta
 
     //create objects
     for (int i = 0; i < 10; i++)
-        new Asteroid;
+      new Asteroid;
+    new Planet;
+  
+    new BulletShooter; //cringe but whatever -> creates new planet and then creates bullet shooter at the positon without having to explicitly store pointer reference
 
-    new BulletShooter ((new Planet)->getPosition()); //cringe but whatever -> creates new planet and then creates bullet shooter at the positon without having to explicitly store pointer reference
-
+    new BlockPlacer();
     //start
-
-    df::ViewObject* p_Health = new df::ViewObject; // Health Gui
+    
+    df::ViewObject* p_Health = new df::ViewObject; // Health Gui 
     p_Health->setLocation(df::TOP_CENTER);
     p_Health->setViewString("Health");
     p_Health->setValue(3);
     p_Health->setColor(df::RED);
+    
 
+    df::ViewObject* p_BlockCount = new df::ViewObject; // Block count Gui
+    p_BlockCount->setLocation(df::TOP_RIGHT);
+    p_BlockCount->setViewString("# of Blocks");
+    p_BlockCount->setValue(5);
+    p_BlockCount->setColor(df::BLUE);
+    
 
     // stop the menu music
    // p_music->pause();

@@ -3,6 +3,7 @@
 #include "EventStep.h"
 #include "WorldManager.h"
 
+
 Explosion::Explosion() {
 
 	// this object doesn't react to the collision
@@ -16,6 +17,29 @@ Explosion::Explosion() {
 	if (setSprite("explosion") == 0)
 		// Set live time as long as sprite length.
 		time_to_live = getAnimation().getSprite()->getFrameCount();
+	else
+		time_to_live = 0;
+
+
+}
+
+
+Explosion::Explosion(df::Color color) {
+
+	// this object doesn't react to the collision
+	setSolidness(df::SPECTRAL);
+
+	registerInterest(df::STEP_EVENT);
+
+	setSprite("explosion");
+
+	// Link to "explosion" sprite.
+	if (setSprite("explosion") == 0)
+	{
+		// Set live time as long as sprite length.
+		time_to_live = getAnimation().getSprite()->getFrameCount();
+		getAnimation().getSprite()->setColor(color);
+	}
 	else
 		time_to_live = 0;
 

@@ -4,6 +4,8 @@
 #include <WorldManager.h>
 #include <EventView.h>
 #include <DisplayManager.h>
+#include <LogManager.h>
+#include <EventStep.h>
 
 
 
@@ -15,18 +17,27 @@ Planet::Planet()
 	// set object type
 	setType("Planet");
 
-	p_blockplacer = new BlockPlacer;
+	//p_blockplacer = new BlockPlacer; //better to put this in gamestart
+
+	// Player controls hero, so register for input events.
+	registerInterest(df::KEYBOARD_EVENT);
+	registerInterest(df::MSE_EVENT);
+
+	// Need to update rate control each step.
+	registerInterest(df::STEP_EVENT);
+
 
 	df::Vector p(WM.getBoundary().getHorizontal()/2 , WM.getBoundary().getVertical()/2 );
 	//df::Vector p(10, 4);
 	setPosition(p);
+	health = 3;
 }
 
 
 
 int Planet::eventHandler(const df::Event* p_e)
 {
-	if (p_e->getType() == df::OUT_EVENT) {
+	if (p_e->getType() == df::STEP_EVENT) {
 		step();
 		return 1;
 	}
@@ -55,7 +66,7 @@ void Planet::hit(const df::EventCollision* p_c)
 
 		//decerese health
 		health--;
-		df::EventView ev2("Health", -1, true);
+		df::EventView ev2("Health", -1, true); //update UI
 		WM.onEvent(&ev2);
 
 
@@ -73,6 +84,19 @@ void Planet::hit(const df::EventCollision* p_c)
 }
 void Planet::step()
 {
+	//nothing atm
+}
+
+void Planet::kbd(const df::EventKeyboard* p_keyboard_event)
+{
+	switch (p_keyboard_event->getKey()) { //for future features
+	case df::Keyboard::Q:        // quit
+		if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
+			WM.markForDelete(this);
+		break;
+	default: // Key not handled.
+		return;
+	};
 
 }
 
