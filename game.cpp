@@ -50,7 +50,7 @@ int main(int argc, char* argv[])
 void loadResources(void) {
    //rm load stuff
 	RM.loadSprite("sprites/asteroid-spr.txt", "asteroid");
-
+	RM.loadSprite("sprites/explosion-spr.txt", "explosion");
 }
 
 // Populate world with some objects.

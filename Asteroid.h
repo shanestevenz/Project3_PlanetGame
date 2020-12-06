@@ -2,6 +2,8 @@
 #include "Object.h"
 #include "EventCollision.h"
 #include "WorldManager.h"
+#include "Explosion.h"
+#include "ResourceManager.h"
 
 
 class Asteroid : public df::Object {
