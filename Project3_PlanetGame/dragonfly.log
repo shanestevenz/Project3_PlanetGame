@@ -1,0 +1,66 @@
+21:13:37    0 ****************************************************
+21:13:37    0 ** Dragonfly version 4.15 **
+21:13:37    0 ** Game engine started **
+21:13:37    0 ****************************************************
+21:13:37    0 ResourceManager::loadSprite(): Loading sprite 'sprites/asteroid-spr.txt'.
+21:13:37    0 ResourceManager::loadSprite(): Sprite 'asteroid' loaded.
+21:13:37    0 ResourceManager::loadSprite(): Loading sprite 'sprites/planet-spr.txt'.
+21:13:37    0 ResourceManager::loadSprite(): Sprite 'planet' loaded.
+21:13:37    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'.
+21:13:37    0 ResourceManager::loadSprite(): Sprite 'gameover' loaded.
+21:13:37    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'.
+21:13:37    0 ResourceManager::loadSprite(): Sprite 'gamestart' loaded.
+21:13:38    9 GameManager::run(): Can't keep up! frame_time 33 ms, split 34 ms
+21:13:38   10 GameManager::run(): Can't keep up! frame_time 33 ms, split 36 ms
+21:13:38   11 GameManager::run(): Can't keep up! frame_time 33 ms, split 37 ms
+21:13:38   12 GameManager::run(): Can't keep up! frame_time 33 ms, split 54 ms
+21:13:38   24 GameManager::run(): Can't keep up! frame_time 33 ms, split 47 ms
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 ResourceManager::getSprite(): Warning! Sprite 'explosion' not found.
+21:13:42  148 Object::setSprite(): Warning! Sprite 'explosion' not found
+21:13:42  148 SceneGraph::updateType(): Error! Unable to remove Object (26) type (Undefined)
+21:13:42  148 SceneGraph::updateType(): Error! Unable to remove Object (26) type ViewObject
+21:13:42  148 SceneGraph::removeObject(): Error removing Object (id 26)! Pointer is 000001A08CC25750.
+21:13:42  148 ****************************************************
+21:13:42  148 ** Game engine stopped **

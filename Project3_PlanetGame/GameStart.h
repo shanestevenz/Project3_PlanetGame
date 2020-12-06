@@ -1,4 +1,4 @@
-
+#pragma once
 #include "ViewObject.h"
 
 class GameStart : public df::ViewObject {

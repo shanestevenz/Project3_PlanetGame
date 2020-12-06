@@ -1,5 +1,8 @@
+
 #include "Asteroid.h"
 #include "EventOut.h"
+#include "Explosion.h"
+
 
 Asteroid::Asteroid()
 {
@@ -33,6 +36,9 @@ Asteroid::Asteroid()
 
 Asteroid::~Asteroid()
 {
+	// Create an explosion.
+	Explosion* p_explosion = new Explosion;
+	p_explosion->setPosition(this->getPosition());
 }
 
 int Asteroid::eventHandler(const df::Event* p_e)
@@ -58,16 +64,20 @@ void Asteroid::out()
 	// Spawn new Saucer to make the game get harder.
 	moveToStart();
 
+	new Asteroid;
 }
 
 void Asteroid::hit(const df::EventCollision* p_c)
 {
-	if ((p_c->getObject1()->getType() == "Saucer") &&
-		(p_c->getObject2()->getType() == "Saucer")) {
+	if ((p_c->getObject1()->getType() == "Asteroid") &&
+		(p_c->getObject2()->getType() == "Asteroid")) {
 
-		WM.markForDelete(p_c->getObject1());
-		WM.markForDelete(p_c->getObject2());
+		WM.markForDelete(this);
 	}
+
+	// Play "explode" sound.
+	//df::Sound* p_sound = RM.getSound("explode");
+	//p_sound->play();
 
 }
 
@@ -81,7 +91,7 @@ void Asteroid::moveToStart()
 	// if left screen--1
 	if (randomIndex == 1) {
 		// x is off left side of window
-		temp_pos.setX(0 - rand() % (int)world_horiz + 2.0f);
+		temp_pos.setX(0 - rand() % (int)world_horiz + 4.0f);
 
 		// y is in vertical range.
 		temp_pos.setY(rand() % (int)(world_vert - 4) + 4.0f);
@@ -102,7 +112,7 @@ void Asteroid::moveToStart()
 		temp_pos.setX(rand() % (int)(world_horiz - 4) + 4.0f);
 
 		// y is off top of window
-		temp_pos.setY(0 - rand() % (int)world_vert + 5.0f);
+		temp_pos.setY(0 - rand() % (int)world_vert + 2.0f);
 
 		// If collision, move up slightly until empty space.
 		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
@@ -120,7 +130,7 @@ void Asteroid::moveToStart()
 		temp_pos.setX(world_horiz + rand() % (int)world_horiz + 4.0f);
 
 		// y is in vertical range.
-		temp_pos.setY(rand() % (int)(world_vert - 4) + 5.0f);
+		temp_pos.setY(rand() % (int)(world_vert - 4) + 4.0f);
 
 		// If collision, move right slightly until empty space.
 		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
@@ -138,7 +148,7 @@ void Asteroid::moveToStart()
 		temp_pos.setX(rand() % (int)(world_horiz - 4) + 4.0f);
 
 		// y is down off window
-		temp_pos.setY(world_vert + rand() % (int)world_vert + 3.0f);
+		temp_pos.setY(world_vert + rand() % (int)world_vert + 2.0f);
 
 		// If collision, move down slightly until empty space.
 		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
