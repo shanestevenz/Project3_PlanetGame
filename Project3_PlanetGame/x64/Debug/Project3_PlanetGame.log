@@ -1,2 +1,7 @@
-﻿  game.cpp
+﻿  Asteroid.cpp
+C:\Users\holdz\source\repos\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(26,53): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\holdz\source\repos\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(32,54): warning C4305: 'argument': truncation from 'double' to 'float'
+  game.cpp
+  Generating Code...
+C:\Users\holdz\source\repos\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(60): warning C4715: 'Asteroid::eventHandler': not all control paths return a value
   Project3_PlanetGame.vcxproj -> C:\Users\holdz\Source\Repos\Project3_PlanetGame\x64\Debug\Project3_PlanetGame.exe
