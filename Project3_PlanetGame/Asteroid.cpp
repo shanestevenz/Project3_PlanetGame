@@ -2,6 +2,7 @@
 #include "Asteroid.h"
 #include "EventOut.h"
 #include "Explosion.h"
+#include <LogManager.h>
 
 
 Asteroid::Asteroid()
@@ -72,6 +73,7 @@ void Asteroid::hit(const df::EventCollision* p_c)
 	if ((p_c->getObject1()->getType() == "Asteroid") &&
 		(p_c->getObject2()->getType() == "Asteroid")) {
 
+		LM.writeLog("Removing Asteroid");
 		WM.markForDelete(this);
 	}
 

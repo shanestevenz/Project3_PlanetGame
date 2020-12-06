@@ -55,6 +55,8 @@ void loadResources(void) {
 	RM.loadSprite("sprites/planet-spr.txt", "planet");
 	RM.loadSprite("sprites/gameover-spr.txt", "gameover");
 	RM.loadSprite("sprites/gamestart-spr.txt", "gamestart");
+	RM.loadSprite("sprites/bullet-spr.txt", "bullet");
+	RM.loadSprite("sprites/explosion-spr.txt", "explosion");
 }
 
 // Populate world with some objects.

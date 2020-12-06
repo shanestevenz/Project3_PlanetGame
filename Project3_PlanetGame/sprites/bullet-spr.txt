@@ -2,13 +2,13 @@
 frames 2
 width 2
 height 1
-color blue
+color red
 slowdown 5
 </HEADER>
 <BODY>
->-
+O>
 end
->:
+0>
 end
 </BODY>
 <FOOTER>

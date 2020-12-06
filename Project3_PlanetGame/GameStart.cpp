@@ -12,7 +12,7 @@
 #include "Music.h"
 #include "Asteroid.h"
 #include "Planet.h"
-
+#include "BulletShooter.h"
 #include "Color.h"
 
 //Events
@@ -67,7 +67,7 @@ void GameStart::start() {  //things that needs to be spawned when the game resta
     for (int i = 0; i < 10; i++)
         new Asteroid;
 
-    new Planet;
+    new BulletShooter ((new Planet)->getPosition()); //cringe but whatever -> creates new planet and then creates bullet shooter at the positon without having to explicitly store pointer reference
 
     //start
 

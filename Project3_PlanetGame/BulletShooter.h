@@ -22,12 +22,16 @@ private:
 
     void mouse(const df::EventMouse* p_mouse_event);
 
+
+    int fire_slowdown;
+    int fire_countdown;
     //Reticle* p_reticle;
  
 
 
 public:
     BulletShooter();
+    BulletShooter(df::Vector startPos);
     ~BulletShooter();
     int eventHandler(const df::Event* p_e);
 

@@ -42,12 +42,12 @@ GameOver::~GameOver() {
         df::Object* p_o = i.currentObject();
         if (p_o->getType() == "Saucer" || p_o->getType() == "ViewObject")
             WM.markForDelete(p_o);
-        /*
+        
         if (p_o->getType() == "GameStart") {
             p_o->setActive(true);
-            dynamic_cast <GameStart*> (p_o)->playMusic(); // Resume start music.
+           // dynamic_cast <GameStart*> (p_o)->playMusic(); // Resume start music.
         }
-        */
+        
     }
 }
 

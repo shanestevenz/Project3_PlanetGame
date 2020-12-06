@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="Asteroid.h" />
     <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletShooter.h" />
     <ClInclude Include="Explosion.h" />
     <ClInclude Include="Gameover.h" />
     <ClInclude Include="GameStart.h" />
