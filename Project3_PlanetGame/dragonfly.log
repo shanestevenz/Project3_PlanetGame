@@ -1,23 +1,23 @@
-05:44:12    0 ****************************************************
-05:44:12    0 ** Dragonfly version 4.15 **
-05:44:12    0 ** Game engine started **
-05:44:12    0 ****************************************************
-05:44:12    0 ResourceManager::loadSprite(): Loading sprite 'sprites/asteroid-spr.txt'.
-05:44:12    0 ResourceManager::loadSprite(): Sprite 'asteroid' loaded.
-05:44:12    0 ResourceManager::loadSprite(): Loading sprite 'sprites/planet-spr.txt'.
-05:44:12    0 ResourceManager::loadSprite(): Sprite 'planet' loaded.
-05:44:12    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'.
-05:44:12    0 ResourceManager::loadSprite(): Sprite 'gameover' loaded.
-05:44:12    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'.
-05:44:12    0 ResourceManager::loadSprite(): Sprite 'gamestart' loaded.
-05:44:12    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'.
-05:44:12    0 ResourceManager::loadSprite(): Sprite 'explosion' loaded.
-05:44:12    0 ResourceManager::loadSprite(): Loading sprite 'sprites/block-spr.txt'.
-05:44:12    0 ResourceManager::loadSprite(): Sprite 'block' loaded.
-05:44:37  757 SceneGraph::removeObject(): Error removing Object (id 25)! Pointer is 0000022B6D23AF20.
-05:44:37  757 SceneGraph::removeObject(): Error removing Object (id 26)! Pointer is 0000022B6D2359D0.
-05:44:37  757 SceneGraph::updateType(): Error! Unable to remove Object (27) type (Undefined)
-05:44:37  757 SceneGraph::updateType(): Error! Unable to remove Object (27) type ViewObject
-05:44:37  757 SceneGraph::removeObject(): Error removing Object (id 27)! Pointer is 0000022B6D236AE0.
-05:44:37  757 ****************************************************
-05:44:37  757 ** Game engine stopped **
+08:28:07    0 ****************************************************
+08:28:07    0 ** Dragonfly version 4.15 **
+08:28:07    0 ** Game engine started **
+08:28:07    0 ****************************************************
+08:28:07    0 ResourceManager::loadSprite(): Loading sprite 'sprites/asteroid-spr.txt'.
+08:28:07    0 ResourceManager::loadSprite(): Sprite 'asteroid' loaded.
+08:28:07    0 ResourceManager::loadSprite(): Loading sprite 'sprites/planet-spr.txt'.
+08:28:07    0 ResourceManager::loadSprite(): Sprite 'planet' loaded.
+08:28:07    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'.
+08:28:07    0 ResourceManager::loadSprite(): Sprite 'gameover' loaded.
+08:28:07    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'.
+08:28:07    0 ResourceManager::loadSprite(): Sprite 'gamestart' loaded.
+08:28:07    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'.
+08:28:07    0 ResourceManager::loadSprite(): Sprite 'explosion' loaded.
+08:28:07    0 ResourceManager::loadSprite(): Loading sprite 'sprites/block-spr.txt'.
+08:28:07    0 ResourceManager::loadSprite(): Sprite 'block' loaded.
+08:28:23  469 SceneGraph::removeObject(): Error removing Object (id 29)! Pointer is 00000172370AB3A0.
+08:28:23  469 SceneGraph::removeObject(): Error removing Object (id 30)! Pointer is 000001723706AB50.
+08:28:23  469 SceneGraph::updateType(): Error! Unable to remove Object (31) type (Undefined)
+08:28:23  469 SceneGraph::updateType(): Error! Unable to remove Object (31) type ViewObject
+08:28:23  469 SceneGraph::removeObject(): Error removing Object (id 31)! Pointer is 00000172370BEE80.
+08:28:23  469 ****************************************************
+08:28:23  469 ** Game engine stopped **

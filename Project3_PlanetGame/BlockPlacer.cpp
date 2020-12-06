@@ -1,7 +1,5 @@
 #include "BlockPlacer.h"
-#include "EventMouse.h"
-#include "WorldManager.h"
-#include "DisplayManager.h"
+
 
 BlockPlacer::BlockPlacer()
 {
@@ -32,6 +30,7 @@ int BlockPlacer::eventHandler(const df::Event* p_e)
 			setPosition(p_mouse_event->getMousePosition());
 			return 1;
 		}
+		mouse(p_mouse_event);
 	}
 
 	// If get here, have ignored this event.
@@ -40,4 +39,14 @@ int BlockPlacer::eventHandler(const df::Event* p_e)
 
 int BlockPlacer::draw() {
 	return DM.drawString(getPosition(),"|---|", df::CENTER_JUSTIFIED, df::WHITE);
+}
+
+// Take appropriate action according to mouse action.
+void BlockPlacer::mouse(const df::EventMouse* p_mouse_event) {
+
+	// left click
+	if ((p_mouse_event->getMouseAction() == df::CLICKED) &&
+		(p_mouse_event->getMouseButton() == df::Mouse::LEFT))
+		new Block;
+
 }
