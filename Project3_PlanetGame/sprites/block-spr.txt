@@ -1,0 +1,52 @@
+<HEADER>
+frames 10
+width 7
+height 3
+color green
+slowdown 3
+</HEADER>
+<BODY>
+ _____ 
+       
+       
+end
+ _____ 
+      |
+       
+end
+ _____ 
+      |
+      |
+end
+       
+      |
+ _____|
+end
+       
+       
+ _____|
+end
+       
+       
+ _____ 
+end
+       
+       
+|_____ 
+end
+       
+|      
+|_____ 
+end
+       
+|      
+|      
+end
+ _____ 
+|     |
+|_____|
+end
+</BODY>
+<FOOTER>
+version 1
+</FOOTER>

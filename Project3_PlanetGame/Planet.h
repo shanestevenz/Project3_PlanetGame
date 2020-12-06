@@ -1,6 +1,7 @@
 #pragma once
 #include "Object.h"
 #include <EventCollision.h>
+#include "BlockPlacer.h"
 
 class Planet : public df::Object 
 {
@@ -8,7 +9,7 @@ class Planet : public df::Object
 private:
 	int health = 2;
 	void step();
-
+	BlockPlacer* p_blockplacer;
 
 public:
 	Planet();
