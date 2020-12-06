@@ -15,6 +15,8 @@ Planet::Planet()
 	// set object type
 	setType("Planet");
 
+	p_blockplacer = new BlockPlacer;
+
 	df::Vector p(WM.getBoundary().getHorizontal()/2 , WM.getBoundary().getVertical()/2 );
 	//df::Vector p(10, 4);
 	setPosition(p);

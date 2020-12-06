@@ -7,6 +7,8 @@
 
 Asteroid::Asteroid()
 {
+	// Hi bitch!
+
 	// initiallize the random index
 	//(left screen--1 , top screen--2, right screen--3, bottom screen--4 )
 	randomIndex = rand() % 4 + 1;
