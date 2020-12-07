@@ -2,6 +2,7 @@
 #include "Explosion.h"
 #include <LogManager.h>
 #include <WorldManager.h>
+#include <ResourceManager.h>
 #include <Color.h>
 
 Block::Block()
@@ -60,13 +61,25 @@ void Block::hit(const df::EventCollision* p_c)
 		else
 			WM.markForDelete(p_c->getObject2()); //delete Asteroid
 
+		
 
 		//decerese health
 		durability--;
 		LM.writeLog("Block hit by asteroid");
+
+		// if the any of the blick has durability of one, change the color to red
+		if (durability == 1) {
+			RM.getSprite("block")->setColor(df::RED);
+			RM.getSprite("explosion")->setColor(df::YELLOW);
+		}
+
 		if (durability <= 0) //Block broke
 		{
 			WM.markForDelete(this);
+
+			// Create an explosion.
+			Explosion* p_explosion = new Explosion;
+			p_explosion->setPosition(this->getPosition());
 
 			return;
 		}

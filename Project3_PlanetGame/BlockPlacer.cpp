@@ -5,6 +5,7 @@
 #include <EventView.h>
 
 
+
 BlockPlacer::BlockPlacer()
 {
 	setType("BlockPlacer");
@@ -37,12 +38,33 @@ int BlockPlacer::eventHandler(const df::Event* p_e)
 		return 1;
 	}
 
+	if (p_e->getType() == df::STEP_EVENT) {
+		// every 15 seconds block increments by one for capacity
+		if (dynamic_cast <const df::EventStep*> (p_e)->getStepCount() % 450 == 0) {
+			step();
+		}
+		
+		return 1;
+	}
+
 	// If get here, have ignored this event.
 	return 0;
 }
 
 int BlockPlacer::draw() {
 	return DM.drawString(getPosition(),"|---|", df::CENTER_JUSTIFIED, df::WHITE);
+}
+
+void BlockPlacer::step() {
+
+
+	if (numberOfBlocks < 5) {
+		numberOfBlocks++;
+		df::EventView ev("# of Blocks", +1, true); //update UI
+		WM.onEvent(&ev);
+	}
+	
+
 }
 
 // Take appropriate action according to mouse action.
@@ -76,6 +98,10 @@ void BlockPlacer::mouse(const df::EventMouse* p_mouse_event) {
 
 
 			new Block(getPosition());
+
+			RM.getSprite("block")->setColor(df::CYAN);
+			RM.getSprite("explosion")->setColor(df::RED);
+
 			numberOfBlocks--;
 			df::EventView ev("# of Blocks", -1, true); //update UI
 			WM.onEvent(&ev);

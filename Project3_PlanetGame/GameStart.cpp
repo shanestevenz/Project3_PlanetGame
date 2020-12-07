@@ -62,15 +62,16 @@ void GameStart::start() {  //things that needs to be spawned when the game resta
 
 
 
-
-    //create objects
     for (int i = 0; i < 10; i++)
-      new Asteroid;
+        new Asteroid;
+    
+   
     new Planet;
   
     new BulletShooter; //cringe but whatever -> creates new planet and then creates bullet shooter at the positon without having to explicitly store pointer reference
 
-    new BlockPlacer();
+    new BlockPlacer;
+
     //start
     
     df::ViewObject* p_Health = new df::ViewObject; // Health Gui 

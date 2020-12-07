@@ -57,5 +57,7 @@ void Bullet::hit(const df::EventCollision* p_collision_event) {
 		(p_collision_event->getObject2()->getType() == "Asteroid")) {
 		WM.markForDelete(p_collision_event->getObject1());
 		WM.markForDelete(p_collision_event->getObject2());
+		new Asteroid;
+		
 	}
 }

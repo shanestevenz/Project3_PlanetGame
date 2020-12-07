@@ -1,664 +1,1677 @@
-18:17:40    0 ****************************************************
-18:17:40    0 ** Dragonfly version 4.15 **
-18:17:40    0 ** Game engine started **
-18:17:40    0 ****************************************************
-18:17:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/asteroid-spr.txt'.
-18:17:40    0 ResourceManager::loadSprite(): Sprite 'asteroid' loaded.
-18:17:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/planet-spr.txt'.
-18:17:40    0 ResourceManager::loadSprite(): Sprite 'planet' loaded.
-18:17:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'.
-18:17:40    0 ResourceManager::loadSprite(): Sprite 'gameover' loaded.
-18:17:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'.
-18:17:40    0 ResourceManager::loadSprite(): Sprite 'gamestart' loaded.
-18:17:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet-spr.txt'.
-18:17:40    0 ResourceManager::loadSprite(): Sprite 'bullet' loaded.
-18:17:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'.
-18:17:40    0 ResourceManager::loadSprite(): Sprite 'explosion' loaded.
-18:17:40    0 ResourceManager::loadSprite(): Loading sprite 'sprites/block-spr.txt'.
-18:17:40    0 ResourceManager::loadSprite(): Sprite 'block' loaded.
-18:17:41   16 GameManager::run(): Can't keep up! frame_time 33 ms, split 54 ms
-18:17:47  205 Spawning BulletShooter
-18:17:47  220  BulletShooter: mouse event
-18:17:47  221  BulletShooter: mouse event
-18:17:48  222  BulletShooter: mouse event
-18:17:48  223  BulletShooter: mouse event
-18:17:48  224  BulletShooter: mouse event
-18:17:48  225  BulletShooter: mouse event
-18:17:48  226  BulletShooter: mouse event
-18:17:48  227  BulletShooter: mouse event
-18:17:48  228  BulletShooter: mouse event
-18:17:48  229  BulletShooter: mouse event
-18:17:48  230  BulletShooter: mouse event
-18:17:48  231  BulletShooter: mouse event
-18:17:48  232  BulletShooter: mouse event
-18:17:48  233  BulletShooter: mouse event
-18:17:48  233  BulletShooter: mouse event
-18:17:48  234  BulletShooter: mouse event
-18:17:48  235  BulletShooter: mouse event
-18:17:48  236  BulletShooter: mouse event
-18:17:48  237  BulletShooter: mouse event
-18:17:48  238  BulletShooter: mouse event
-18:17:48  239  BulletShooter: mouse event
-18:17:48  240  BulletShooter: mouse event
-18:17:48  241  BulletShooter: mouse event
-18:17:48  242  BulletShooter: mouse event
-18:17:48  243  BulletShooter: mouse event
-18:17:48  244  BulletShooter: mouse event
-18:17:48  245  BulletShooter: mouse event
-18:17:48  246  BulletShooter: mouse event
-18:17:48  247  BulletShooter: mouse event
-18:17:48  248  BulletShooter: mouse event
-18:17:48  248 BlockPlacer: Placing block
-18:17:48  248 Block placed
-18:17:48  248  BulletShooter: mouse event
-18:17:48  249  BulletShooter: mouse event
-18:17:48  251  BulletShooter: mouse event
-18:17:49  252  BulletShooter: mouse event
-18:17:49  252  BulletShooter: mouse event
-18:17:49  253  BulletShooter: mouse event
-18:17:49  253  BulletShooter: mouse event
-18:17:49  254  BulletShooter: mouse event
-18:17:49  255  BulletShooter: mouse event
-18:17:49  256  BulletShooter: mouse event
-18:17:49  257  BulletShooter: mouse event
-18:17:49  258  BulletShooter: mouse event
-18:17:49  259  BulletShooter: mouse event
-18:17:49  260  BulletShooter: mouse event
-18:17:49  260  BulletShooter: mouse event
-18:17:49  261  BulletShooter: mouse event
-18:17:49  269 Block hit by asteroid
-18:17:50  292  BulletShooter: mouse event
-18:17:50  293  BulletShooter: mouse event
-18:17:50  294  BulletShooter: mouse event
-18:17:50  295  BulletShooter: mouse event
-18:17:50  296  BulletShooter: mouse event
-18:17:50  297  BulletShooter: mouse event
-18:17:50  297  BulletShooter: mouse event
-18:17:50  298  BulletShooter: mouse event
-18:17:50  299  BulletShooter: mouse event
-18:17:50  300  BulletShooter: mouse event
-18:17:50  301  BulletShooter: mouse event
-18:17:50  302  BulletShooter: mouse event
-18:17:50  303  BulletShooter: mouse event
-18:17:50  303  BulletShooter: mouse event
-18:17:50  304  BulletShooter: mouse event
-18:17:50  305  BulletShooter: mouse event
-18:17:50  306  BulletShooter: mouse event
-18:17:50  306 BlockPlacer: Placing block
-18:17:50  306 Block placed
-18:17:50  306  BulletShooter: mouse event
-18:17:50  307  BulletShooter: mouse event
-18:17:50  308  BulletShooter: mouse event
-18:17:50  310  BulletShooter: mouse event
-18:17:50  311  BulletShooter: mouse event
-18:17:50  312  BulletShooter: mouse event
-18:17:51  313  BulletShooter: mouse event
-18:17:51  314  BulletShooter: mouse event
-18:17:51  315  BulletShooter: mouse event
-18:17:51  316  BulletShooter: mouse event
-18:17:51  317  BulletShooter: mouse event
-18:17:51  321  BulletShooter: mouse event
-18:17:51  322  BulletShooter: mouse event
-18:17:51  323  BulletShooter: mouse event
-18:17:51  324  BulletShooter: mouse event
-18:17:51  325  BulletShooter: mouse event
-18:17:51  326  BulletShooter: mouse event
-18:17:51  327  BulletShooter: mouse event
-18:17:51  328  BulletShooter: mouse event
-18:17:51  329  BulletShooter: mouse event
-18:17:51  329  BulletShooter: mouse event
-18:17:51  330  BulletShooter: mouse event
-18:17:51  331  BulletShooter: mouse event
-18:17:51  332  BulletShooter: mouse event
-18:17:51  333  BulletShooter: mouse event
-18:17:51  340  BulletShooter: mouse event
-18:17:51  342  BulletShooter: mouse event
-18:17:52  346 Block hit by asteroid
-18:17:52  350  BulletShooter: mouse event
-18:17:52  354  BulletShooter: mouse event
-18:17:52  355  BulletShooter: mouse event
-18:17:52  356  BulletShooter: mouse event
-18:17:52  357  BulletShooter: mouse event
-18:17:52  358  BulletShooter: mouse event
-18:17:52  358  BulletShooter: mouse event
-18:17:52  359  BulletShooter: mouse event
-18:17:52  360  BulletShooter: mouse event
-18:17:52  361  BulletShooter: mouse event
-18:17:52  361  BulletShooter: mouse event
-18:17:52  362  BulletShooter: mouse event
-18:17:52  363  BulletShooter: mouse event
-18:17:52  364  BulletShooter: mouse event
-18:17:52  365  BulletShooter: mouse event
-18:17:52  366  BulletShooter: mouse event
-18:17:52  367  BulletShooter: mouse event
-18:17:52  368  BulletShooter: mouse event
-18:17:52  369  BulletShooter: mouse event
-18:17:52  371  BulletShooter: mouse event
-18:17:52  372  BulletShooter: mouse event
-18:17:53  373  BulletShooter: mouse event
-18:17:53  373  BulletShooter: mouse event
-18:17:53  374  BulletShooter: mouse event
-18:17:53  375  BulletShooter: mouse event
-18:17:53  376  BulletShooter: mouse event
-18:17:53  377  BulletShooter: mouse event
-18:17:53  378  BulletShooter: mouse event
-18:17:53  379 Block hit by asteroid
-18:17:53  382  BulletShooter: mouse event
-18:17:53  383  BulletShooter: mouse event
-18:17:53  384  BulletShooter: mouse event
-18:17:53  385  BulletShooter: mouse event
-18:17:53  385  BulletShooter: mouse event
-18:17:53  386  BulletShooter: mouse event
-18:17:53  387  BulletShooter: mouse event
-18:17:53  388  BulletShooter: mouse event
-18:17:53  389  BulletShooter: mouse event
-18:17:53  390  BulletShooter: mouse event
-18:17:53  391  BulletShooter: mouse event
-18:17:53  392  BulletShooter: mouse event
-18:17:53  392 Removing Asteroid
-18:17:53  392 Removing Asteroid
-18:17:53  393  BulletShooter: mouse event
-18:17:53  393 BlockPlacer: Placing block
-18:17:53  393 Block placed
-18:17:53  393  BulletShooter: mouse event
-18:17:53  393  BulletShooter: mouse event
-18:17:53  394  BulletShooter: mouse event
-18:17:53  395  BulletShooter: mouse event
-18:17:53  396  BulletShooter: mouse event
-18:17:53  396  BulletShooter: mouse event
-18:17:53  397  BulletShooter: mouse event
-18:17:53  398  BulletShooter: mouse event
-18:17:53  399  BulletShooter: mouse event
-18:17:53  400  BulletShooter: mouse event
-18:17:53  401  BulletShooter: mouse event
-18:17:53  401  BulletShooter: mouse event
-18:17:53  402  BulletShooter: mouse event
-18:17:53  403  BulletShooter: mouse event
-18:17:54  404  BulletShooter: mouse event
-18:17:54  405  BulletShooter: mouse event
-18:17:54  406  BulletShooter: mouse event
-18:17:54  407  BulletShooter: mouse event
-18:17:54  408  BulletShooter: mouse event
-18:17:54  409  BulletShooter: mouse event
-18:17:54  410  BulletShooter: mouse event
-18:17:54  411  BulletShooter: mouse event
-18:17:54  412  BulletShooter: mouse event
-18:17:54  413  BulletShooter: mouse event
-18:17:54  414  BulletShooter: mouse event
-18:17:54  415  BulletShooter: mouse event
-18:17:54  416  BulletShooter: mouse event
-18:17:54  417  BulletShooter: mouse event
-18:17:54  418  BulletShooter: mouse event
-18:17:54  419  BulletShooter: mouse event
-18:17:54  420  BulletShooter: mouse event
-18:17:54  421  BulletShooter: mouse event
-18:17:54  422  BulletShooter: mouse event
-18:17:54  423  BulletShooter: mouse event
-18:17:54  424  BulletShooter: mouse event
-18:17:54  425  BulletShooter: mouse event
-18:17:54  426  BulletShooter: mouse event
-18:17:54  426  BulletShooter: mouse event
-18:17:54  426 BlockPlacer: Placing block
-18:17:54  426 Block placed
-18:17:54  426  BulletShooter: mouse event
-18:17:54  426  BulletShooter: mouse event
-18:17:54  426  BulletShooter: mouse event
-18:17:54  427  BulletShooter: mouse event
-18:17:54  427  BulletShooter: mouse event
-18:17:54  428  BulletShooter: mouse event
-18:17:54  428  BulletShooter: mouse event
-18:17:54  429  BulletShooter: mouse event
-18:17:54  430  BulletShooter: mouse event
-18:17:54  431  BulletShooter: mouse event
-18:17:54  431  BulletShooter: mouse event
-18:17:54  432  BulletShooter: mouse event
-18:17:54  433  BulletShooter: mouse event
-18:17:55  434  BulletShooter: mouse event
-18:17:55  435  BulletShooter: mouse event
-18:17:55  435  BulletShooter: mouse event
-18:17:55  436  BulletShooter: mouse event
-18:17:55  437  BulletShooter: mouse event
-18:17:55  438  BulletShooter: mouse event
-18:17:55  452  BulletShooter: mouse event
-18:17:55  463  BulletShooter: mouse event
-18:17:56  464  BulletShooter: mouse event
-18:17:56  465  BulletShooter: mouse event
-18:17:56  467  BulletShooter: mouse event
-18:17:56  468  BulletShooter: mouse event
-18:17:56  469  BulletShooter: mouse event
-18:17:56  470  BulletShooter: mouse event
-18:17:56  471  BulletShooter: mouse event
-18:17:56  472  BulletShooter: mouse event
-18:17:56  473  BulletShooter: mouse event
-18:17:56  474  BulletShooter: mouse event
-18:17:56  474  BulletShooter: mouse event
-18:17:56  474 Removing Asteroid
-18:17:56  474 Removing Asteroid
-18:17:56  475  BulletShooter: mouse event
-18:17:56  476  BulletShooter: mouse event
-18:17:56  477  BulletShooter: mouse event
-18:17:56  478  BulletShooter: mouse event
-18:17:56  479  BulletShooter: mouse event
-18:17:56  480  BulletShooter: mouse event
-18:17:56  480  BulletShooter: mouse event
-18:17:56  481  BulletShooter: mouse event
-18:17:56  482  BulletShooter: mouse event
-18:17:56  483  BulletShooter: mouse event
-18:17:56  484  BulletShooter: mouse event
-18:17:56  485  BulletShooter: mouse event
-18:17:56  486  BulletShooter: mouse event
-18:17:56  487  BulletShooter: mouse event
-18:17:56  488  BulletShooter: mouse event
-18:17:56  489  BulletShooter: mouse event
-18:17:56  490  BulletShooter: mouse event
-18:17:56  492  BulletShooter: mouse event
-18:17:56  493  BulletShooter: mouse event
-18:17:56  493  BulletShooter: mouse event
-18:17:56  494  BulletShooter: mouse event
-18:17:57  495  BulletShooter: mouse event
-18:17:57  496  BulletShooter: mouse event
-18:17:57  497  BulletShooter: mouse event
-18:17:57  497 BlockPlacer: Placing block
-18:17:57  497 Block placed
-18:17:57  497  BulletShooter: mouse event
-18:17:57  498  BulletShooter: mouse event
-18:17:57  499  BulletShooter: mouse event
-18:17:57  501  BulletShooter: mouse event
-18:17:57  501  BulletShooter: mouse event
-18:17:57  502  BulletShooter: mouse event
-18:17:57  503  BulletShooter: mouse event
-18:17:57  503  BulletShooter: mouse event
-18:17:57  504  BulletShooter: mouse event
-18:17:57  505  BulletShooter: mouse event
-18:17:57  506  BulletShooter: mouse event
-18:17:57  507  BulletShooter: mouse event
-18:17:57  508  BulletShooter: mouse event
-18:17:57  509  BulletShooter: mouse event
-18:17:57  510  BulletShooter: mouse event
-18:17:57  511  BulletShooter: mouse event
-18:17:57  512  BulletShooter: mouse event
-18:17:57  513  BulletShooter: mouse event
-18:17:57  514  BulletShooter: mouse event
-18:17:57  515 Block hit by asteroid
-18:17:58  530 Removing Asteroid
-18:17:58  530 Removing Asteroid
-18:17:58  530 Removing Asteroid
-18:17:58  530 Removing Asteroid
-18:17:58  532  BulletShooter: mouse event
-18:17:58  533  BulletShooter: mouse event
-18:17:58  535  BulletShooter: mouse event
-18:17:58  536  BulletShooter: mouse event
-18:17:58  537  BulletShooter: mouse event
-18:17:58  538  BulletShooter: mouse event
-18:17:58  539  BulletShooter: mouse event
-18:17:58  540  BulletShooter: mouse event
-18:17:58  543  BulletShooter: mouse event
-18:17:58  552  BulletShooter: mouse event
-18:17:58  553  BulletShooter: mouse event
-18:17:58  554  BulletShooter: mouse event
-18:17:59  555  BulletShooter: mouse event
-18:17:59  556  BulletShooter: mouse event
-18:17:59  574  BulletShooter: mouse event
-18:17:59  575  BulletShooter: mouse event
-18:18:02  672  BulletShooter: mouse event
-18:18:03  698  BulletShooter: mouse event
-18:18:03  699  BulletShooter: mouse event
-18:18:08  855  BulletShooter: mouse event
-18:18:09  880  BulletShooter: mouse event
-18:18:09  880  BulletShooter: mouse event
-18:18:09  881  BulletShooter: mouse event
-18:18:09  882  BulletShooter: mouse event
-18:18:09  882  BulletShooter: mouse event
-18:18:09  883  BulletShooter: mouse event
-18:18:09  884  BulletShooter: mouse event
-18:18:09  884  BulletShooter: mouse event
-18:18:09  885  BulletShooter: mouse event
-18:18:09  886  BulletShooter: mouse event
-18:18:09  887  BulletShooter: mouse event
-18:18:10  890  BulletShooter: mouse event
-18:18:10  891  BulletShooter: mouse event
-18:18:10  892  BulletShooter: mouse event
-18:18:10  892  BulletShooter: mouse event
-18:18:10  893  BulletShooter: mouse event
-18:18:10  894  BulletShooter: mouse event
-18:18:10  894  BulletShooter: mouse event
-18:18:10  895  BulletShooter: mouse event
-18:18:10  898  BulletShooter: mouse event
-18:18:10  899  BulletShooter: mouse event
-18:18:10  900  BulletShooter: mouse event
-18:18:10  901  BulletShooter: mouse event
-18:18:10  906  BulletShooter: mouse event
-18:18:10  907  BulletShooter: mouse event
-18:18:10  908  BulletShooter: mouse event
-18:18:10  909  BulletShooter: mouse event
-18:18:10  910  BulletShooter: mouse event
-18:18:12  958  BulletShooter: mouse event
-18:18:12  958  BulletShooter: mouse event
-18:18:12  959  BulletShooter: mouse event
-18:18:12  960  BulletShooter: mouse event
-18:18:12  961  BulletShooter: mouse event
-18:18:12  962  BulletShooter: mouse event
-18:18:12  963  BulletShooter: mouse event
-18:18:12  964  BulletShooter: mouse event
-18:18:12  965  BulletShooter: mouse event
-18:18:12  966  BulletShooter: mouse event
-18:18:12  967  BulletShooter: mouse event
-18:18:12  968  BulletShooter: mouse event
-18:18:12  969  BulletShooter: mouse event
-18:18:12  970  BulletShooter: mouse event
-18:18:12  970  BulletShooter: mouse event
-18:18:12  971  BulletShooter: mouse event
-18:18:12  972  BulletShooter: mouse event
-18:18:12  973  BulletShooter: mouse event
-18:18:12  974  BulletShooter: mouse event
-18:18:12  975  BulletShooter: mouse event
-18:18:12  976  BulletShooter: mouse event
-18:18:12  977  BulletShooter: mouse event
-18:18:12  978  BulletShooter: mouse event
-18:18:12  979  BulletShooter: mouse event
-18:18:13  980  BulletShooter: mouse event
-18:18:13  980  BulletShooter: mouse event
-18:18:13  981  BulletShooter: mouse event
-18:18:13  982  BulletShooter: mouse event
-18:18:13  983  BulletShooter: mouse event
-18:18:13  984  BulletShooter: mouse event
-18:18:13  988  BulletShooter: mouse event
-18:18:13  989  BulletShooter: mouse event
-18:18:13  990  BulletShooter: mouse event
-18:18:13  991  BulletShooter: mouse event
-18:18:13  992  BulletShooter: mouse event
-18:18:13  993  BulletShooter: mouse event
-18:18:13  994  BulletShooter: mouse event
-18:18:13  995  BulletShooter: mouse event
-18:18:13  996  BulletShooter: mouse event
-18:18:13  996 BlockPlacer: Out of blocks
-18:18:13  996  BulletShooter: mouse event
-18:18:13  997  BulletShooter: mouse event
-18:18:13  998  BulletShooter: mouse event
-18:18:13  999  BulletShooter: mouse event
-18:18:13 1000  BulletShooter: mouse event
-18:18:13 1000  BulletShooter: mouse event
-18:18:13 1001  BulletShooter: mouse event
-18:18:13 1002  BulletShooter: mouse event
-18:18:13 1003  BulletShooter: mouse event
-18:18:13 1004  BulletShooter: mouse event
-18:18:13 1005  BulletShooter: mouse event
-18:18:13 1006  BulletShooter: mouse event
-18:18:13 1007  BulletShooter: mouse event
-18:18:13 1007  BulletShooter: mouse event
-18:18:13 1008  BulletShooter: mouse event
-18:18:13 1009  BulletShooter: mouse event
-18:18:14 1010  BulletShooter: mouse event
-18:18:14 1011  BulletShooter: mouse event
-18:18:14 1014  BulletShooter: mouse event
-18:18:14 1015  BulletShooter: mouse event
-18:18:14 1018  BulletShooter: mouse event
-18:18:14 1019  BulletShooter: mouse event
-18:18:14 1020  BulletShooter: mouse event
-18:18:14 1026  BulletShooter: mouse event
-18:18:14 1026 BlockPlacer: Out of blocks
-18:18:14 1026  BulletShooter: mouse event
-18:18:14 1027  BulletShooter: mouse event
-18:18:14 1028  BulletShooter: mouse event
-18:18:14 1029  BulletShooter: mouse event
-18:18:14 1030  BulletShooter: mouse event
-18:18:14 1031  BulletShooter: mouse event
-18:18:14 1032  BulletShooter: mouse event
-18:18:14 1033  BulletShooter: mouse event
-18:18:14 1033  BulletShooter: mouse event
-18:18:14 1034  BulletShooter: mouse event
-18:18:14 1035  BulletShooter: mouse event
-18:18:14 1035  BulletShooter: mouse event
-18:18:14 1036  BulletShooter: mouse event
-18:18:14 1037  BulletShooter: mouse event
-18:18:14 1038  BulletShooter: mouse event
-18:18:14 1039  BulletShooter: mouse event
-18:18:15 1040  BulletShooter: mouse event
-18:18:15 1040  BulletShooter: mouse event
-18:18:15 1041  BulletShooter: mouse event
-18:18:15 1042  BulletShooter: mouse event
-18:18:15 1043  BulletShooter: mouse event
-18:18:15 1044  BulletShooter: mouse event
-18:18:15 1045  BulletShooter: mouse event
-18:18:15 1046  BulletShooter: mouse event
-18:18:15 1046  BulletShooter: mouse event
-18:18:15 1047  BulletShooter: mouse event
-18:18:15 1048  BulletShooter: mouse event
-18:18:15 1049  BulletShooter: mouse event
-18:18:15 1051  BulletShooter: mouse event
-18:18:15 1052  BulletShooter: mouse event
-18:18:15 1053  BulletShooter: mouse event
-18:18:15 1054  BulletShooter: mouse event
-18:18:15 1055  BulletShooter: mouse event
-18:18:15 1056  BulletShooter: mouse event
-18:18:15 1061  BulletShooter: mouse event
-18:18:15 1062  BulletShooter: mouse event
-18:18:15 1063  BulletShooter: mouse event
-18:18:15 1064  BulletShooter: mouse event
-18:18:15 1065  BulletShooter: mouse event
-18:18:15 1066  BulletShooter: mouse event
-18:18:15 1067  BulletShooter: mouse event
-18:18:15 1067  BulletShooter: mouse event
-18:18:15 1068  BulletShooter: mouse event
-18:18:15 1069  BulletShooter: mouse event
-18:18:16 1070  BulletShooter: mouse event
-18:18:16 1071  BulletShooter: mouse event
-18:18:16 1072  BulletShooter: mouse event
-18:18:16 1073  BulletShooter: mouse event
-18:18:16 1074  BulletShooter: mouse event
-18:18:16 1075  BulletShooter: mouse event
-18:18:16 1076  BulletShooter: mouse event
-18:18:16 1077 BulletShooter: Pew Pew
-18:18:16 1077  BulletShooter: mouse event
-18:18:16 1077  BulletShooter: mouse event
-18:18:16 1078  BulletShooter: mouse event
-18:18:16 1078  BulletShooter: mouse event
-18:18:16 1079  BulletShooter: mouse event
-18:18:16 1080  BulletShooter: mouse event
-18:18:16 1081  BulletShooter: mouse event
-18:18:16 1082  BulletShooter: mouse event
-18:18:16 1083  BulletShooter: mouse event
-18:18:16 1084  BulletShooter: mouse event
-18:18:16 1085  BulletShooter: mouse event
-18:18:16 1086  BulletShooter: mouse event
-18:18:16 1087  BulletShooter: mouse event
-18:18:16 1088  BulletShooter: mouse event
-18:18:16 1089  BulletShooter: mouse event
-18:18:16 1090  BulletShooter: mouse event
-18:18:16 1091  BulletShooter: mouse event
-18:18:16 1091  BulletShooter: mouse event
-18:18:16 1092  BulletShooter: mouse event
-18:18:16 1093  BulletShooter: mouse event
-18:18:16 1094  BulletShooter: mouse event
-18:18:16 1095  BulletShooter: mouse event
-18:18:16 1096  BulletShooter: mouse event
-18:18:16 1097  BulletShooter: mouse event
-18:18:16 1099  BulletShooter: mouse event
-18:18:16 1100  BulletShooter: mouse event
-18:18:17 1101  BulletShooter: mouse event
-18:18:17 1102  BulletShooter: mouse event
-18:18:17 1103  BulletShooter: mouse event
-18:18:17 1103  BulletShooter: mouse event
-18:18:17 1103  BulletShooter: mouse event
-18:18:17 1103  BulletShooter: mouse event
-18:18:17 1104  BulletShooter: mouse event
-18:18:17 1105  BulletShooter: mouse event
-18:18:17 1106  BulletShooter: mouse event
-18:18:17 1107  BulletShooter: mouse event
-18:18:17 1110  BulletShooter: mouse event
-18:18:17 1111  BulletShooter: mouse event
-18:18:17 1112  BulletShooter: mouse event
-18:18:17 1113  BulletShooter: mouse event
-18:18:17 1116 BulletShooter: Pew Pew
-18:18:17 1116  BulletShooter: mouse event
-18:18:17 1116  BulletShooter: mouse event
-18:18:17 1117  BulletShooter: mouse event
-18:18:17 1117  BulletShooter: mouse event
-18:18:17 1118  BulletShooter: mouse event
-18:18:17 1118  BulletShooter: mouse event
-18:18:17 1119  BulletShooter: mouse event
-18:18:17 1120  BulletShooter: mouse event
-18:18:17 1120  BulletShooter: mouse event
-18:18:17 1121  BulletShooter: mouse event
-18:18:17 1128  BulletShooter: mouse event
-18:18:17 1130  BulletShooter: mouse event
-18:18:18 1131  BulletShooter: mouse event
-18:18:18 1132  BulletShooter: mouse event
-18:18:18 1133  BulletShooter: mouse event
-18:18:18 1135  BulletShooter: mouse event
-18:18:18 1136  BulletShooter: mouse event
-18:18:18 1137  BulletShooter: mouse event
-18:18:18 1138  BulletShooter: mouse event
-18:18:18 1139  BulletShooter: mouse event
-18:18:18 1140  BulletShooter: mouse event
-18:18:18 1141  BulletShooter: mouse event
-18:18:18 1142  BulletShooter: mouse event
-18:18:18 1143  BulletShooter: mouse event
-18:18:18 1144  BulletShooter: mouse event
-18:18:18 1145  BulletShooter: mouse event
-18:18:18 1146  BulletShooter: mouse event
-18:18:18 1147  BulletShooter: mouse event
-18:18:18 1148  BulletShooter: mouse event
-18:18:18 1148  BulletShooter: mouse event
-18:18:18 1149  BulletShooter: mouse event
-18:18:18 1150  BulletShooter: mouse event
-18:18:18 1151  BulletShooter: mouse event
-18:18:18 1152  BulletShooter: mouse event
-18:18:18 1153  BulletShooter: mouse event
-18:18:18 1153 BulletShooter: Pew Pew
-18:18:18 1153  BulletShooter: mouse event
-18:18:18 1153  BulletShooter: mouse event
-18:18:18 1154  BulletShooter: mouse event
-18:18:18 1155  BulletShooter: mouse event
-18:18:18 1156  BulletShooter: mouse event
-18:18:18 1157  BulletShooter: mouse event
-18:18:19 1164  BulletShooter: mouse event
-18:18:19 1164  BulletShooter: mouse event
-18:18:19 1165  BulletShooter: mouse event
-18:18:19 1166  BulletShooter: mouse event
-18:18:19 1167  BulletShooter: mouse event
-18:18:19 1172  BulletShooter: mouse event
-18:18:19 1173  BulletShooter: mouse event
-18:18:19 1174  BulletShooter: mouse event
-18:18:19 1175  BulletShooter: mouse event
-18:18:19 1176  BulletShooter: mouse event
-18:18:19 1177  BulletShooter: mouse event
-18:18:19 1178  BulletShooter: mouse event
-18:18:19 1179  BulletShooter: mouse event
-18:18:19 1180  BulletShooter: mouse event
-18:18:19 1180  BulletShooter: mouse event
-18:18:19 1181  BulletShooter: mouse event
-18:18:19 1181  BulletShooter: mouse event
-18:18:19 1181  BulletShooter: mouse event
-18:18:19 1182  BulletShooter: mouse event
-18:18:19 1182  BulletShooter: mouse event
-18:18:19 1183  BulletShooter: mouse event
-18:18:19 1185  BulletShooter: mouse event
-18:18:19 1186  BulletShooter: mouse event
-18:18:19 1189 BulletShooter: Pew Pew
-18:18:19 1189  BulletShooter: mouse event
-18:18:19 1189  BulletShooter: mouse event
-18:18:19 1190  BulletShooter: mouse event
-18:18:19 1191  BulletShooter: mouse event
-18:18:20 1192  BulletShooter: mouse event
-18:18:20 1193  BulletShooter: mouse event
-18:18:20 1194  BulletShooter: mouse event
-18:18:20 1194  BulletShooter: mouse event
-18:18:20 1195  BulletShooter: mouse event
-18:18:20 1196  BulletShooter: mouse event
-18:18:20 1196  BulletShooter: mouse event
-18:18:20 1197  BulletShooter: mouse event
-18:18:20 1198  BulletShooter: mouse event
-18:18:20 1199  BulletShooter: mouse event
-18:18:20 1200  BulletShooter: mouse event
-18:18:20 1201  BulletShooter: mouse event
-18:18:20 1201  BulletShooter: mouse event
-18:18:20 1202  BulletShooter: mouse event
-18:18:20 1203  BulletShooter: mouse event
-18:18:20 1204  BulletShooter: mouse event
-18:18:20 1205  BulletShooter: mouse event
-18:18:20 1206  BulletShooter: mouse event
-18:18:20 1207  BulletShooter: mouse event
-18:18:20 1207  BulletShooter: mouse event
-18:18:20 1208  BulletShooter: mouse event
-18:18:20 1209  BulletShooter: mouse event
-18:18:20 1210  BulletShooter: mouse event
-18:18:20 1211  BulletShooter: mouse event
-18:18:20 1212  BulletShooter: mouse event
-18:18:20 1214  BulletShooter: mouse event
-18:18:20 1215  BulletShooter: mouse event
-18:18:20 1216  BulletShooter: mouse event
-18:18:20 1216  BulletShooter: mouse event
-18:18:20 1217  BulletShooter: mouse event
-18:18:20 1218  BulletShooter: mouse event
-18:18:20 1219  BulletShooter: mouse event
-18:18:20 1220  BulletShooter: mouse event
-18:18:20 1221  BulletShooter: mouse event
-18:18:21 1222  BulletShooter: mouse event
-18:18:21 1226 BulletShooter: Pew Pew
-18:18:21 1226  BulletShooter: mouse event
-18:18:21 1226  BulletShooter: mouse event
-18:18:21 1227  BulletShooter: mouse event
-18:18:21 1231  BulletShooter: mouse event
-18:18:21 1232  BulletShooter: mouse event
-18:18:21 1233  BulletShooter: mouse event
-18:18:21 1234  BulletShooter: mouse event
-18:18:21 1235  BulletShooter: mouse event
-18:18:21 1236  BulletShooter: mouse event
-18:18:21 1237  BulletShooter: mouse event
-18:18:21 1238  BulletShooter: mouse event
-18:18:21 1239  BulletShooter: mouse event
-18:18:22 1269  BulletShooter: mouse event
-18:18:22 1270  BulletShooter: mouse event
-18:18:22 1272  BulletShooter: mouse event
-18:18:22 1273  BulletShooter: mouse event
-18:18:22 1273  BulletShooter: mouse event
-18:18:22 1274  BulletShooter: mouse event
-18:18:22 1275  BulletShooter: mouse event
-18:18:22 1282  BulletShooter: mouse event
-18:18:22 1282 BulletShooter: Pew Pew
-18:18:22 1282  BulletShooter: mouse event
-18:18:22 1282  BulletShooter: mouse event
-18:18:23 1283  BulletShooter: mouse event
-18:18:23 1284  BulletShooter: mouse event
-18:18:23 1286  BulletShooter: mouse event
-18:18:23 1287  BulletShooter: mouse event
-18:18:23 1288  BulletShooter: mouse event
-18:18:23 1288  BulletShooter: mouse event
-18:18:23 1288  BulletShooter: mouse event
-18:18:23 1289  BulletShooter: mouse event
-18:18:23 1290  BulletShooter: mouse event
-18:18:23 1291  BulletShooter: mouse event
-18:18:23 1292  BulletShooter: mouse event
-18:18:23 1293  BulletShooter: mouse event
-18:18:24 1316  BulletShooter: mouse event
-18:18:24 1317  BulletShooter: mouse event
-18:18:24 1318  BulletShooter: mouse event
-18:18:24 1319  BulletShooter: mouse event
-18:18:24 1320  BulletShooter: mouse event
-18:18:24 1321  BulletShooter: mouse event
-18:18:24 1322  BulletShooter: mouse event
-18:18:24 1322  BulletShooter: mouse event
-18:18:24 1323  BulletShooter: mouse event
-18:18:24 1324  BulletShooter: mouse event
-18:18:24 1325  BulletShooter: mouse event
-18:18:24 1326  BulletShooter: mouse event
-18:18:24 1327  BulletShooter: mouse event
-18:18:24 1328  BulletShooter: mouse event
-18:18:24 1328  BulletShooter: mouse event
-18:18:25 1347 SceneGraph::updateType(): Error! Unable to remove Object (40) type (Undefined)
-18:18:25 1347 SceneGraph::updateType(): Error! Unable to remove Object (40) type ViewObject
-18:18:25 1347 SceneGraph::removeObject(): Error removing Object (id 40)! Pointer is 000001EACCFC7AA0.
-18:18:25 1347 Destroying BulletShooter
-18:18:25 1347 SceneGraph::removeObject(): Error removing Object (id 41)! Pointer is 000001EACCFA28D0.
-18:18:25 1347 Block Destroyed
-18:18:25 1347 SceneGraph::removeObject(): Error removing Object (id 42)! Pointer is 000001EACCFE1890.
-18:18:25 1347 Block Destroyed
-18:18:25 1347 SceneGraph::removeObject(): Error removing Object (id 43)! Pointer is 000001EACCFC1440.
-18:18:25 1347 Block Destroyed
-18:18:25 1347 SceneGraph::removeObject(): Error removing Object (id 44)! Pointer is 000001EACCFC2550.
-18:18:25 1347 Block Destroyed
-18:18:25 1347 SceneGraph::removeObject(): Error removing Object (id 45)! Pointer is 000001EACCFC6870.
-18:18:25 1347 Block Destroyed
-18:18:25 1347 ****************************************************
-18:18:25 1347 ** Game engine stopped **
+20:43:54    0 ****************************************************
+20:43:54    0 ** Dragonfly version 4.15 **
+20:43:54    0 ** Game engine started **
+20:43:54    0 ****************************************************
+20:43:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/asteroid-spr.txt'.
+20:43:54    0 ResourceManager::loadSprite(): Sprite 'asteroid' loaded.
+20:43:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/planet-spr.txt'.
+20:43:54    0 ResourceManager::loadSprite(): Sprite 'planet' loaded.
+20:43:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'.
+20:43:54    0 ResourceManager::loadSprite(): Sprite 'gameover' loaded.
+20:43:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'.
+20:43:54    0 ResourceManager::loadSprite(): Sprite 'gamestart' loaded.
+20:43:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet-spr.txt'.
+20:43:54    0 ResourceManager::loadSprite(): Sprite 'bullet' loaded.
+20:43:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'.
+20:43:54    0 ResourceManager::loadSprite(): Sprite 'explosion' loaded.
+20:43:54    0 ResourceManager::loadSprite(): Loading sprite 'sprites/block-spr.txt'.
+20:43:54    0 ResourceManager::loadSprite(): Sprite 'block' loaded.
+20:43:55   32 Spawning BulletShooter
+20:43:56   51  BulletShooter: mouse event
+20:43:56   52  BulletShooter: mouse event
+20:43:56   53  BulletShooter: mouse event
+20:43:56   54  BulletShooter: mouse event
+20:43:56   55  BulletShooter: mouse event
+20:43:56   56  BulletShooter: mouse event
+20:43:56   57  BulletShooter: mouse event
+20:43:56   58  BulletShooter: mouse event
+20:43:56   59  BulletShooter: mouse event
+20:43:56   60  BulletShooter: mouse event
+20:43:56   61  BulletShooter: mouse event
+20:43:56   62  BulletShooter: mouse event
+20:43:56   63  BulletShooter: mouse event
+20:43:56   64  BulletShooter: mouse event
+20:43:56   65  BulletShooter: mouse event
+20:43:56   65  BulletShooter: mouse event
+20:43:56   66  BulletShooter: mouse event
+20:43:56   67  BulletShooter: mouse event
+20:43:56   68  BulletShooter: mouse event
+20:43:57   72  BulletShooter: mouse event
+20:43:57   72 BlockPlacer: Placing block
+20:43:57   72 Block placed
+20:43:57   72  BulletShooter: mouse event
+20:43:57   73  BulletShooter: mouse event
+20:43:57   74  BulletShooter: mouse event
+20:43:57   77  BulletShooter: mouse event
+20:43:57   78  BulletShooter: mouse event
+20:43:57   79  BulletShooter: mouse event
+20:43:57   82  BulletShooter: mouse event
+20:43:57   83  BulletShooter: mouse event
+20:43:57   84  BulletShooter: mouse event
+20:43:57   85  BulletShooter: mouse event
+20:43:57   86  BulletShooter: mouse event
+20:43:57   87  BulletShooter: mouse event
+20:43:57   88  BulletShooter: mouse event
+20:43:57   89  BulletShooter: mouse event
+20:43:57   90  BulletShooter: mouse event
+20:43:57   91  BulletShooter: mouse event
+20:43:57   92  BulletShooter: mouse event
+20:43:57   93  BulletShooter: mouse event
+20:43:57   93 Block hit by asteroid
+20:43:57   94  BulletShooter: mouse event
+20:43:57   95  BulletShooter: mouse event
+20:43:57   96  BulletShooter: mouse event
+20:43:57   97  BulletShooter: mouse event
+20:43:57   98  BulletShooter: mouse event
+20:43:57   99  BulletShooter: mouse event
+20:43:57  100  BulletShooter: mouse event
+20:43:57  100 BlockPlacer: Placing block
+20:43:57  100 Block placed
+20:43:57  100  BulletShooter: mouse event
+20:43:57  101  BulletShooter: mouse event
+20:43:58  104  BulletShooter: mouse event
+20:43:58  105  BulletShooter: mouse event
+20:43:58  106  BulletShooter: mouse event
+20:43:58  107  BulletShooter: mouse event
+20:43:58  108  BulletShooter: mouse event
+20:43:58  109  BulletShooter: mouse event
+20:43:58  110  BulletShooter: mouse event
+20:43:58  110  BulletShooter: mouse event
+20:43:58  111  BulletShooter: mouse event
+20:43:58  112  BulletShooter: mouse event
+20:43:58  113  BulletShooter: mouse event
+20:43:58  114  BulletShooter: mouse event
+20:43:58  115  BulletShooter: mouse event
+20:43:58  116  BulletShooter: mouse event
+20:43:58  117  BulletShooter: mouse event
+20:43:58  118  BulletShooter: mouse event
+20:43:58  119  BulletShooter: mouse event
+20:43:58  120  BulletShooter: mouse event
+20:43:58  121  BulletShooter: mouse event
+20:43:58  121 BlockPlacer: Placing block
+20:43:58  121 Block placed
+20:43:58  121  BulletShooter: mouse event
+20:43:58  122  BulletShooter: mouse event
+20:43:58  124  BulletShooter: mouse event
+20:43:58  124  BulletShooter: mouse event
+20:43:58  125  BulletShooter: mouse event
+20:43:58  126  BulletShooter: mouse event
+20:43:58  127  BulletShooter: mouse event
+20:43:58  128  BulletShooter: mouse event
+20:43:58  129  BulletShooter: mouse event
+20:43:58  130  BulletShooter: mouse event
+20:43:58  131  BulletShooter: mouse event
+20:43:59  132  BulletShooter: mouse event
+20:43:59  133  BulletShooter: mouse event
+20:43:59  134  BulletShooter: mouse event
+20:43:59  136  BulletShooter: mouse event
+20:43:59  136 BlockPlacer: Placing block
+20:43:59  136 Block placed
+20:43:59  136  BulletShooter: mouse event
+20:43:59  137  BulletShooter: mouse event
+20:43:59  138  BulletShooter: mouse event
+20:43:59  140  BulletShooter: mouse event
+20:43:59  141  BulletShooter: mouse event
+20:43:59  141  BulletShooter: mouse event
+20:43:59  142  BulletShooter: mouse event
+20:43:59  143  BulletShooter: mouse event
+20:43:59  143  BulletShooter: mouse event
+20:43:59  144  BulletShooter: mouse event
+20:43:59  145  BulletShooter: mouse event
+20:43:59  146  BulletShooter: mouse event
+20:43:59  146  BulletShooter: mouse event
+20:43:59  147  BulletShooter: mouse event
+20:43:59  148  BulletShooter: mouse event
+20:43:59  149  BulletShooter: mouse event
+20:43:59  149  BulletShooter: mouse event
+20:43:59  149 BlockPlacer: Placing block
+20:43:59  149 Block placed
+20:43:59  149  BulletShooter: mouse event
+20:43:59  150  BulletShooter: mouse event
+20:43:59  151  BulletShooter: mouse event
+20:43:59  156  BulletShooter: mouse event
+20:43:59  157  BulletShooter: mouse event
+20:43:59  158  BulletShooter: mouse event
+20:43:59  159  BulletShooter: mouse event
+20:43:59  160  BulletShooter: mouse event
+20:43:59  161  BulletShooter: mouse event
+20:44:00  162  BulletShooter: mouse event
+20:44:00  163  BulletShooter: mouse event
+20:44:00  164  BulletShooter: mouse event
+20:44:00  165  BulletShooter: mouse event
+20:44:00  166  BulletShooter: mouse event
+20:44:00  167  BulletShooter: mouse event
+20:44:00  167  BulletShooter: mouse event
+20:44:00  168  BulletShooter: mouse event
+20:44:00  168  BulletShooter: mouse event
+20:44:00  169  BulletShooter: mouse event
+20:44:00  174  BulletShooter: mouse event
+20:44:00  175  BulletShooter: mouse event
+20:44:00  176  BulletShooter: mouse event
+20:44:00  177  BulletShooter: mouse event
+20:44:00  178  BulletShooter: mouse event
+20:44:00  178  BulletShooter: mouse event
+20:44:00  179  BulletShooter: mouse event
+20:44:00  180  BulletShooter: mouse event
+20:44:00  181  BulletShooter: mouse event
+20:44:00  182  BulletShooter: mouse event
+20:44:00  183  BulletShooter: mouse event
+20:44:00  184  BulletShooter: mouse event
+20:44:00  185  BulletShooter: mouse event
+20:44:00  186  BulletShooter: mouse event
+20:44:00  187  BulletShooter: mouse event
+20:44:00  188  BulletShooter: mouse event
+20:44:00  189  BulletShooter: mouse event
+20:44:00  190  BulletShooter: mouse event
+20:44:00  191  BulletShooter: mouse event
+20:44:00  192  BulletShooter: mouse event
+20:44:01  193  BulletShooter: mouse event
+20:44:01  194  BulletShooter: mouse event
+20:44:01  195  BulletShooter: mouse event
+20:44:01  196  BulletShooter: mouse event
+20:44:01  197  BulletShooter: mouse event
+20:44:01  201  BulletShooter: mouse event
+20:44:01  202  BulletShooter: mouse event
+20:44:01  203  BulletShooter: mouse event
+20:44:01  204  BulletShooter: mouse event
+20:44:01  205  BulletShooter: mouse event
+20:44:01  206  BulletShooter: mouse event
+20:44:01  207  BulletShooter: mouse event
+20:44:01  208  BulletShooter: mouse event
+20:44:01  209  BulletShooter: mouse event
+20:44:01  210  BulletShooter: mouse event
+20:44:01  211  BulletShooter: mouse event
+20:44:01  212  BulletShooter: mouse event
+20:44:01  213  BulletShooter: mouse event
+20:44:01  214  BulletShooter: mouse event
+20:44:01  214  BulletShooter: mouse event
+20:44:01  215  BulletShooter: mouse event
+20:44:01  216  BulletShooter: mouse event
+20:44:01  217  BulletShooter: mouse event
+20:44:01  218  BulletShooter: mouse event
+20:44:01  219  BulletShooter: mouse event
+20:44:01  219 Removing Asteroid
+20:44:01  219 Removing Asteroid
+20:44:01  220  BulletShooter: mouse event
+20:44:01  221  BulletShooter: mouse event
+20:44:01  222  BulletShooter: mouse event
+20:44:02  223  BulletShooter: mouse event
+20:44:02  224  BulletShooter: mouse event
+20:44:02  225  BulletShooter: mouse event
+20:44:02  226  BulletShooter: mouse event
+20:44:02  227  BulletShooter: mouse event
+20:44:02  228  BulletShooter: mouse event
+20:44:02  229  BulletShooter: mouse event
+20:44:02  230  BulletShooter: mouse event
+20:44:02  231  BulletShooter: mouse event
+20:44:02  232  BulletShooter: mouse event
+20:44:02  235  BulletShooter: mouse event
+20:44:02  237  BulletShooter: mouse event
+20:44:02  238  BulletShooter: mouse event
+20:44:02  239  BulletShooter: mouse event
+20:44:02  240  BulletShooter: mouse event
+20:44:02  241  BulletShooter: mouse event
+20:44:02  242  BulletShooter: mouse event
+20:44:02  243  BulletShooter: mouse event
+20:44:02  243  BulletShooter: mouse event
+20:44:02  244  BulletShooter: mouse event
+20:44:02  245  BulletShooter: mouse event
+20:44:02  246  BulletShooter: mouse event
+20:44:02  247  BulletShooter: mouse event
+20:44:02  248  BulletShooter: mouse event
+20:44:02  249  BulletShooter: mouse event
+20:44:02  249  BulletShooter: mouse event
+20:44:02  250  BulletShooter: mouse event
+20:44:02  251  BulletShooter: mouse event
+20:44:02  252  BulletShooter: mouse event
+20:44:03  253  BulletShooter: mouse event
+20:44:03  254  BulletShooter: mouse event
+20:44:03  255  BulletShooter: mouse event
+20:44:03  256  BulletShooter: mouse event
+20:44:03  257  BulletShooter: mouse event
+20:44:03  258  BulletShooter: mouse event
+20:44:03  259  BulletShooter: mouse event
+20:44:03  264  BulletShooter: mouse event
+20:44:03  265  BulletShooter: mouse event
+20:44:03  266  BulletShooter: mouse event
+20:44:03  267  BulletShooter: mouse event
+20:44:03  268  BulletShooter: mouse event
+20:44:03  269  BulletShooter: mouse event
+20:44:03  270  BulletShooter: mouse event
+20:44:03  271  BulletShooter: mouse event
+20:44:03  272  BulletShooter: mouse event
+20:44:03  273  BulletShooter: mouse event
+20:44:03  274  BulletShooter: mouse event
+20:44:03  276 BulletShooter: Pew Pew
+20:44:03  276  BulletShooter: mouse event
+20:44:03  276  BulletShooter: mouse event
+20:44:03  277  BulletShooter: mouse event
+20:44:03  278  BulletShooter: mouse event
+20:44:03  279  BulletShooter: mouse event
+20:44:03  280  BulletShooter: mouse event
+20:44:03  281  BulletShooter: mouse event
+20:44:03  282  BulletShooter: mouse event
+20:44:03  283  BulletShooter: mouse event
+20:44:04  284  BulletShooter: mouse event
+20:44:04  285  BulletShooter: mouse event
+20:44:04  286  BulletShooter: mouse event
+20:44:04  287  BulletShooter: mouse event
+20:44:04  288  BulletShooter: mouse event
+20:44:04  289  BulletShooter: mouse event
+20:44:04  290  BulletShooter: mouse event
+20:44:04  292  BulletShooter: mouse event
+20:44:04  293  BulletShooter: mouse event
+20:44:04  293  BulletShooter: mouse event
+20:44:04  294  BulletShooter: mouse event
+20:44:04  294  BulletShooter: mouse event
+20:44:04  295  BulletShooter: mouse event
+20:44:04  296  BulletShooter: mouse event
+20:44:04  296  BulletShooter: mouse event
+20:44:04  297  BulletShooter: mouse event
+20:44:04  298  BulletShooter: mouse event
+20:44:04  300  BulletShooter: mouse event
+20:44:04  300  BulletShooter: mouse event
+20:44:04  301  BulletShooter: mouse event
+20:44:04  301 Removing Asteroid
+20:44:04  301 Removing Asteroid
+20:44:04  302  BulletShooter: mouse event
+20:44:04  303  BulletShooter: mouse event
+20:44:04  304  BulletShooter: mouse event
+20:44:04  305  BulletShooter: mouse event
+20:44:04  306  BulletShooter: mouse event
+20:44:04  307  BulletShooter: mouse event
+20:44:04  308  BulletShooter: mouse event
+20:44:04  309  BulletShooter: mouse event
+20:44:04  311  BulletShooter: mouse event
+20:44:05  315 Removing Asteroid
+20:44:05  315 Removing Asteroid
+20:44:05  316  BulletShooter: mouse event
+20:44:05  316 BulletShooter: Pew Pew
+20:44:05  316  BulletShooter: mouse event
+20:44:05  316  BulletShooter: mouse event
+20:44:05  317  BulletShooter: mouse event
+20:44:05  317  BulletShooter: mouse event
+20:44:05  318  BulletShooter: mouse event
+20:44:05  319  BulletShooter: mouse event
+20:44:05  320  BulletShooter: mouse event
+20:44:05  320  BulletShooter: mouse event
+20:44:05  321  BulletShooter: mouse event
+20:44:05  326  BulletShooter: mouse event
+20:44:05  327  BulletShooter: mouse event
+20:44:05  328  BulletShooter: mouse event
+20:44:05  329  BulletShooter: mouse event
+20:44:05  330  BulletShooter: mouse event
+20:44:05  331  BulletShooter: mouse event
+20:44:05  332  BulletShooter: mouse event
+20:44:05  333  BulletShooter: mouse event
+20:44:05  334  BulletShooter: mouse event
+20:44:05  335  BulletShooter: mouse event
+20:44:05  337  BulletShooter: mouse event
+20:44:05  338  BulletShooter: mouse event
+20:44:05  339  BulletShooter: mouse event
+20:44:06  349 BulletShooter: Pew Pew
+20:44:06  349  BulletShooter: mouse event
+20:44:06  349  BulletShooter: mouse event
+20:44:06  350  BulletShooter: mouse event
+20:44:06  351  BulletShooter: mouse event
+20:44:06  356  BulletShooter: mouse event
+20:44:06  356  BulletShooter: mouse event
+20:44:06  357  BulletShooter: mouse event
+20:44:06  357 Removing Asteroid
+20:44:06  357 Removing Asteroid
+20:44:06  357 Removing Asteroid
+20:44:06  357 Removing Asteroid
+20:44:06  358  BulletShooter: mouse event
+20:44:06  359  BulletShooter: mouse event
+20:44:06  359  BulletShooter: mouse event
+20:44:06  360  BulletShooter: mouse event
+20:44:06  361  BulletShooter: mouse event
+20:44:06  361  BulletShooter: mouse event
+20:44:06  362  BulletShooter: mouse event
+20:44:06  362  BulletShooter: mouse event
+20:44:06  363  BulletShooter: mouse event
+20:44:06  364  BulletShooter: mouse event
+20:44:06  364  BulletShooter: mouse event
+20:44:06  364  BulletShooter: mouse event
+20:44:06  364  BulletShooter: mouse event
+20:44:06  365  BulletShooter: mouse event
+20:44:06  365  BulletShooter: mouse event
+20:44:06  366  BulletShooter: mouse event
+20:44:06  366  BulletShooter: mouse event
+20:44:06  367  BulletShooter: mouse event
+20:44:06  367  BulletShooter: mouse event
+20:44:06  368  BulletShooter: mouse event
+20:44:06  370  BulletShooter: mouse event
+20:44:06  370  BulletShooter: mouse event
+20:44:06  371  BulletShooter: mouse event
+20:44:06  372  BulletShooter: mouse event
+20:44:06  374  BulletShooter: mouse event
+20:44:06  374  BulletShooter: mouse event
+20:44:07  375  BulletShooter: mouse event
+20:44:07  376  BulletShooter: mouse event
+20:44:07  377  BulletShooter: mouse event
+20:44:07  377  BulletShooter: mouse event
+20:44:07  378  BulletShooter: mouse event
+20:44:07  379 BulletShooter: Pew Pew
+20:44:07  379  BulletShooter: mouse event
+20:44:07  379  BulletShooter: mouse event
+20:44:07  380  BulletShooter: mouse event
+20:44:07  380  BulletShooter: mouse event
+20:44:07  381  BulletShooter: mouse event
+20:44:07  382  BulletShooter: mouse event
+20:44:07  383  BulletShooter: mouse event
+20:44:07  383 Removing Asteroid
+20:44:07  383 Removing Asteroid
+20:44:07  384  BulletShooter: mouse event
+20:44:07  385  BulletShooter: mouse event
+20:44:07  385  BulletShooter: mouse event
+20:44:07  386  BulletShooter: mouse event
+20:44:07  387  BulletShooter: mouse event
+20:44:07  388  BulletShooter: mouse event
+20:44:07  389  BulletShooter: mouse event
+20:44:07  389  BulletShooter: mouse event
+20:44:07  389  BulletShooter: mouse event
+20:44:07  390  BulletShooter: mouse event
+20:44:07  391  BulletShooter: mouse event
+20:44:07  392  BulletShooter: mouse event
+20:44:07  392  BulletShooter: mouse event
+20:44:07  393  BulletShooter: mouse event
+20:44:07  393 Removing Asteroid
+20:44:07  393 Removing Asteroid
+20:44:07  394  BulletShooter: mouse event
+20:44:07  395  BulletShooter: mouse event
+20:44:07  395  BulletShooter: mouse event
+20:44:07  396  BulletShooter: mouse event
+20:44:07  398  BulletShooter: mouse event
+20:44:07  398 Block hit by asteroid
+20:44:07  399  BulletShooter: mouse event
+20:44:07  402  BulletShooter: mouse event
+20:44:07  403  BulletShooter: mouse event
+20:44:07  404  BulletShooter: mouse event
+20:44:07  404 Block hit by asteroid
+20:44:08  405  BulletShooter: mouse event
+20:44:08  406  BulletShooter: mouse event
+20:44:08  407  BulletShooter: mouse event
+20:44:08  408  BulletShooter: mouse event
+20:44:08  409  BulletShooter: mouse event
+20:44:08  410  BulletShooter: mouse event
+20:44:08  410 BulletShooter: Pew Pew
+20:44:08  410  BulletShooter: mouse event
+20:44:08  410  BulletShooter: mouse event
+20:44:08  410  BulletShooter: mouse event
+20:44:08  411  BulletShooter: mouse event
+20:44:08  411  BulletShooter: mouse event
+20:44:08  412  BulletShooter: mouse event
+20:44:08  412  BulletShooter: mouse event
+20:44:08  413  BulletShooter: mouse event
+20:44:08  414  BulletShooter: mouse event
+20:44:08  415  BulletShooter: mouse event
+20:44:08  417  BulletShooter: mouse event
+20:44:08  417  BulletShooter: mouse event
+20:44:08  418  BulletShooter: mouse event
+20:44:08  418  BulletShooter: mouse event
+20:44:08  419  BulletShooter: mouse event
+20:44:08  419  BulletShooter: mouse event
+20:44:08  420  BulletShooter: mouse event
+20:44:08  420 Block hit by asteroid
+20:44:08  421  BulletShooter: mouse event
+20:44:08  422  BulletShooter: mouse event
+20:44:08  423  BulletShooter: mouse event
+20:44:08  424  BulletShooter: mouse event
+20:44:08  425  BulletShooter: mouse event
+20:44:08  426  BulletShooter: mouse event
+20:44:08  427  BulletShooter: mouse event
+20:44:08  428  BulletShooter: mouse event
+20:44:08  429  BulletShooter: mouse event
+20:44:08  430  BulletShooter: mouse event
+20:44:08  431  BulletShooter: mouse event
+20:44:08  432  BulletShooter: mouse event
+20:44:08  433  BulletShooter: mouse event
+20:44:08  434  BulletShooter: mouse event
+20:44:09  435  BulletShooter: mouse event
+20:44:09  436  BulletShooter: mouse event
+20:44:09  437  BulletShooter: mouse event
+20:44:09  439  BulletShooter: mouse event
+20:44:09  439  BulletShooter: mouse event
+20:44:09  440  BulletShooter: mouse event
+20:44:09  444 BulletShooter: Pew Pew
+20:44:09  444  BulletShooter: mouse event
+20:44:09  444  BulletShooter: mouse event
+20:44:09  445  BulletShooter: mouse event
+20:44:09  446  BulletShooter: mouse event
+20:44:09  450  BulletShooter: mouse event
+20:44:09  450  BulletShooter: mouse event
+20:44:09  451  BulletShooter: mouse event
+20:44:09  455  BulletShooter: mouse event
+20:44:09  455  BulletShooter: mouse event
+20:44:09  456  BulletShooter: mouse event
+20:44:09  458  BulletShooter: mouse event
+20:44:09  458  BulletShooter: mouse event
+20:44:09  459  BulletShooter: mouse event
+20:44:09  460  BulletShooter: mouse event
+20:44:09  461  BulletShooter: mouse event
+20:44:09  462  BulletShooter: mouse event
+20:44:09  463  BulletShooter: mouse event
+20:44:09  464  BulletShooter: mouse event
+20:44:09  465  BulletShooter: mouse event
+20:44:10  466  BulletShooter: mouse event
+20:44:10  467  BulletShooter: mouse event
+20:44:10  468  BulletShooter: mouse event
+20:44:10  469  BulletShooter: mouse event
+20:44:10  470  BulletShooter: mouse event
+20:44:10  470  BulletShooter: mouse event
+20:44:10  471  BulletShooter: mouse event
+20:44:10  471  BulletShooter: mouse event
+20:44:10  472  BulletShooter: mouse event
+20:44:10  472  BulletShooter: mouse event
+20:44:10  473  BulletShooter: mouse event
+20:44:10  474  BulletShooter: mouse event
+20:44:10  475  BulletShooter: mouse event
+20:44:10  476  BulletShooter: mouse event
+20:44:10  477  BulletShooter: mouse event
+20:44:10  478  BulletShooter: mouse event
+20:44:10  479  BulletShooter: mouse event
+20:44:10  480  BulletShooter: mouse event
+20:44:10  481  BulletShooter: mouse event
+20:44:10  482  BulletShooter: mouse event
+20:44:10  483  BulletShooter: mouse event
+20:44:10  483  BulletShooter: mouse event
+20:44:10  484  BulletShooter: mouse event
+20:44:10  485  BulletShooter: mouse event
+20:44:10  486  BulletShooter: mouse event
+20:44:10  487  BulletShooter: mouse event
+20:44:10  488  BulletShooter: mouse event
+20:44:10  489  BulletShooter: mouse event
+20:44:10  491 BulletShooter: Pew Pew
+20:44:10  491  BulletShooter: mouse event
+20:44:10  491  BulletShooter: mouse event
+20:44:10  492  BulletShooter: mouse event
+20:44:10  493  BulletShooter: mouse event
+20:44:10  494  BulletShooter: mouse event
+20:44:10  494  BulletShooter: mouse event
+20:44:10  495  BulletShooter: mouse event
+20:44:11  496  BulletShooter: mouse event
+20:44:11  497  BulletShooter: mouse event
+20:44:11  497  BulletShooter: mouse event
+20:44:11  498  BulletShooter: mouse event
+20:44:11  498  BulletShooter: mouse event
+20:44:11  499  BulletShooter: mouse event
+20:44:11  500  BulletShooter: mouse event
+20:44:11  501  BulletShooter: mouse event
+20:44:11  502  BulletShooter: mouse event
+20:44:11  502  BulletShooter: mouse event
+20:44:11  503  BulletShooter: mouse event
+20:44:11  503  BulletShooter: mouse event
+20:44:11  503 Removing Asteroid
+20:44:11  503 Removing Asteroid
+20:44:11  504  BulletShooter: mouse event
+20:44:11  504  BulletShooter: mouse event
+20:44:11  506  BulletShooter: mouse event
+20:44:11  507  BulletShooter: mouse event
+20:44:11  511  BulletShooter: mouse event
+20:44:11  512  BulletShooter: mouse event
+20:44:11  513  BulletShooter: mouse event
+20:44:11  514  BulletShooter: mouse event
+20:44:11  515  BulletShooter: mouse event
+20:44:11  515  BulletShooter: mouse event
+20:44:11  516  BulletShooter: mouse event
+20:44:11  517  BulletShooter: mouse event
+20:44:11  518  BulletShooter: mouse event
+20:44:11  518 Block hit by asteroid
+20:44:11  519  BulletShooter: mouse event
+20:44:11  519 Removing Asteroid
+20:44:11  519 Removing Asteroid
+20:44:11  521  BulletShooter: mouse event
+20:44:11  521 BulletShooter: Pew Pew
+20:44:11  521  BulletShooter: mouse event
+20:44:11  521  BulletShooter: mouse event
+20:44:11  522  BulletShooter: mouse event
+20:44:11  523  BulletShooter: mouse event
+20:44:11  523  BulletShooter: mouse event
+20:44:11  524  BulletShooter: mouse event
+20:44:11  524  BulletShooter: mouse event
+20:44:11  525  BulletShooter: mouse event
+20:44:12  526  BulletShooter: mouse event
+20:44:12  526  BulletShooter: mouse event
+20:44:12  527  BulletShooter: mouse event
+20:44:12  528  BulletShooter: mouse event
+20:44:12  529  BulletShooter: mouse event
+20:44:12  530  BulletShooter: mouse event
+20:44:12  531  BulletShooter: mouse event
+20:44:12  532  BulletShooter: mouse event
+20:44:12  533  BulletShooter: mouse event
+20:44:12  534  BulletShooter: mouse event
+20:44:12  534  BulletShooter: mouse event
+20:44:12  534  BulletShooter: mouse event
+20:44:12  535  BulletShooter: mouse event
+20:44:12  535  BulletShooter: mouse event
+20:44:12  536  BulletShooter: mouse event
+20:44:12  537  BulletShooter: mouse event
+20:44:12  537  BulletShooter: mouse event
+20:44:12  538  BulletShooter: mouse event
+20:44:12  538  BulletShooter: mouse event
+20:44:12  539  BulletShooter: mouse event
+20:44:12  540  BulletShooter: mouse event
+20:44:12  540  BulletShooter: mouse event
+20:44:12  541  BulletShooter: mouse event
+20:44:12  541  BulletShooter: mouse event
+20:44:12  542  BulletShooter: mouse event
+20:44:12  542  BulletShooter: mouse event
+20:44:12  543  BulletShooter: mouse event
+20:44:12  543  BulletShooter: mouse event
+20:44:12  544  BulletShooter: mouse event
+20:44:12  545  BulletShooter: mouse event
+20:44:12  546  BulletShooter: mouse event
+20:44:12  546  BulletShooter: mouse event
+20:44:12  546  BulletShooter: mouse event
+20:44:12  546 Block hit by asteroid
+20:44:12  547  BulletShooter: mouse event
+20:44:12  547  BulletShooter: mouse event
+20:44:12  548  BulletShooter: mouse event
+20:44:12  549  BulletShooter: mouse event
+20:44:12  549  BulletShooter: mouse event
+20:44:12  550  BulletShooter: mouse event
+20:44:12  551 Removing Asteroid
+20:44:12  551 Removing Asteroid
+20:44:12  552 BulletShooter: Pew Pew
+20:44:12  552  BulletShooter: mouse event
+20:44:12  552  BulletShooter: mouse event
+20:44:12  553  BulletShooter: mouse event
+20:44:12  554  BulletShooter: mouse event
+20:44:12  555  BulletShooter: mouse event
+20:44:13  556  BulletShooter: mouse event
+20:44:13  557  BulletShooter: mouse event
+20:44:13  558  BulletShooter: mouse event
+20:44:13  559  BulletShooter: mouse event
+20:44:13  559  BulletShooter: mouse event
+20:44:13  559  BulletShooter: mouse event
+20:44:13  560  BulletShooter: mouse event
+20:44:13  561  BulletShooter: mouse event
+20:44:13  562  BulletShooter: mouse event
+20:44:13  562  BulletShooter: mouse event
+20:44:13  563  BulletShooter: mouse event
+20:44:13  563  BulletShooter: mouse event
+20:44:13  563  BulletShooter: mouse event
+20:44:13  564  BulletShooter: mouse event
+20:44:13  566  BulletShooter: mouse event
+20:44:13  566  BulletShooter: mouse event
+20:44:13  566  BulletShooter: mouse event
+20:44:13  567  BulletShooter: mouse event
+20:44:13  567  BulletShooter: mouse event
+20:44:13  568  BulletShooter: mouse event
+20:44:13  568  BulletShooter: mouse event
+20:44:13  569  BulletShooter: mouse event
+20:44:13  571  BulletShooter: mouse event
+20:44:13  571  BulletShooter: mouse event
+20:44:13  571  BulletShooter: mouse event
+20:44:13  571  BulletShooter: mouse event
+20:44:13  572  BulletShooter: mouse event
+20:44:13  572  BulletShooter: mouse event
+20:44:13  572  BulletShooter: mouse event
+20:44:13  573  BulletShooter: mouse event
+20:44:13  574  BulletShooter: mouse event
+20:44:13  574  BulletShooter: mouse event
+20:44:13  575  BulletShooter: mouse event
+20:44:13  577  BulletShooter: mouse event
+20:44:13  577  BulletShooter: mouse event
+20:44:13  577  BulletShooter: mouse event
+20:44:13  578  BulletShooter: mouse event
+20:44:13  578  BulletShooter: mouse event
+20:44:13  579  BulletShooter: mouse event
+20:44:13  579  BulletShooter: mouse event
+20:44:13  579 Removing Asteroid
+20:44:13  579 Removing Asteroid
+20:44:13  580  BulletShooter: mouse event
+20:44:13  581  BulletShooter: mouse event
+20:44:13  582 BulletShooter: Pew Pew
+20:44:13  582  BulletShooter: mouse event
+20:44:13  582  BulletShooter: mouse event
+20:44:13  583  BulletShooter: mouse event
+20:44:13  583  BulletShooter: mouse event
+20:44:13  584  BulletShooter: mouse event
+20:44:13  584  BulletShooter: mouse event
+20:44:13  586  BulletShooter: mouse event
+20:44:14  587  BulletShooter: mouse event
+20:44:14  588  BulletShooter: mouse event
+20:44:14  588  BulletShooter: mouse event
+20:44:14  588  BulletShooter: mouse event
+20:44:14  589  BulletShooter: mouse event
+20:44:14  589  BulletShooter: mouse event
+20:44:14  590  BulletShooter: mouse event
+20:44:14  590  BulletShooter: mouse event
+20:44:14  591  BulletShooter: mouse event
+20:44:14  591  BulletShooter: mouse event
+20:44:14  592  BulletShooter: mouse event
+20:44:14  594  BulletShooter: mouse event
+20:44:14  594  BulletShooter: mouse event
+20:44:14  594  BulletShooter: mouse event
+20:44:14  595  BulletShooter: mouse event
+20:44:14  595  BulletShooter: mouse event
+20:44:14  596  BulletShooter: mouse event
+20:44:14  597  BulletShooter: mouse event
+20:44:14  598  BulletShooter: mouse event
+20:44:14  600  BulletShooter: mouse event
+20:44:14  601  BulletShooter: mouse event
+20:44:14  601  BulletShooter: mouse event
+20:44:14  602  BulletShooter: mouse event
+20:44:14  602  BulletShooter: mouse event
+20:44:14  603  BulletShooter: mouse event
+20:44:14  604  BulletShooter: mouse event
+20:44:14  605  BulletShooter: mouse event
+20:44:14  606  BulletShooter: mouse event
+20:44:14  607  BulletShooter: mouse event
+20:44:14  607  BulletShooter: mouse event
+20:44:14  607  BulletShooter: mouse event
+20:44:14  608  BulletShooter: mouse event
+20:44:14  609  BulletShooter: mouse event
+20:44:14  610  BulletShooter: mouse event
+20:44:14  610  BulletShooter: mouse event
+20:44:14  611  BulletShooter: mouse event
+20:44:14  612  BulletShooter: mouse event
+20:44:14  613 BulletShooter: Pew Pew
+20:44:14  613  BulletShooter: mouse event
+20:44:14  613  BulletShooter: mouse event
+20:44:14  614  BulletShooter: mouse event
+20:44:14  615  BulletShooter: mouse event
+20:44:14  615  BulletShooter: mouse event
+20:44:14  616  BulletShooter: mouse event
+20:44:14  616  BulletShooter: mouse event
+20:44:15  617  BulletShooter: mouse event
+20:44:15  617  BulletShooter: mouse event
+20:44:15  618  BulletShooter: mouse event
+20:44:15  619  BulletShooter: mouse event
+20:44:15  619  BulletShooter: mouse event
+20:44:15  620  BulletShooter: mouse event
+20:44:15  620  BulletShooter: mouse event
+20:44:15  621  BulletShooter: mouse event
+20:44:15  621  BulletShooter: mouse event
+20:44:15  621 Block hit by asteroid
+20:44:15  622  BulletShooter: mouse event
+20:44:15  622  BulletShooter: mouse event
+20:44:15  623  BulletShooter: mouse event
+20:44:15  624  BulletShooter: mouse event
+20:44:15  625  BulletShooter: mouse event
+20:44:15  625  BulletShooter: mouse event
+20:44:15  626  BulletShooter: mouse event
+20:44:15  627  BulletShooter: mouse event
+20:44:15  628  BulletShooter: mouse event
+20:44:15  628  BulletShooter: mouse event
+20:44:15  628 Block hit by asteroid
+20:44:15  629  BulletShooter: mouse event
+20:44:15  630  BulletShooter: mouse event
+20:44:15  631  BulletShooter: mouse event
+20:44:15  631  BulletShooter: mouse event
+20:44:15  632  BulletShooter: mouse event
+20:44:15  632  BulletShooter: mouse event
+20:44:15  633  BulletShooter: mouse event
+20:44:15  635  BulletShooter: mouse event
+20:44:15  636  BulletShooter: mouse event
+20:44:15  636  BulletShooter: mouse event
+20:44:15  636  BulletShooter: mouse event
+20:44:15  637  BulletShooter: mouse event
+20:44:15  638  BulletShooter: mouse event
+20:44:15  640  BulletShooter: mouse event
+20:44:15  641  BulletShooter: mouse event
+20:44:15  642  BulletShooter: mouse event
+20:44:15  642  BulletShooter: mouse event
+20:44:15  643  BulletShooter: mouse event
+20:44:15  644  BulletShooter: mouse event
+20:44:15  645  BulletShooter: mouse event
+20:44:15  646  BulletShooter: mouse event
+20:44:16  647  BulletShooter: mouse event
+20:44:16  648  BulletShooter: mouse event
+20:44:16  649  BulletShooter: mouse event
+20:44:16  649 BulletShooter: Pew Pew
+20:44:16  649  BulletShooter: mouse event
+20:44:16  649  BulletShooter: mouse event
+20:44:16  649  BulletShooter: mouse event
+20:44:16  650  BulletShooter: mouse event
+20:44:16  651  BulletShooter: mouse event
+20:44:16  652  BulletShooter: mouse event
+20:44:16  653  BulletShooter: mouse event
+20:44:16  655  BulletShooter: mouse event
+20:44:16  655  BulletShooter: mouse event
+20:44:16  656  BulletShooter: mouse event
+20:44:16  657  BulletShooter: mouse event
+20:44:16  658  BulletShooter: mouse event
+20:44:16  658  BulletShooter: mouse event
+20:44:16  658  BulletShooter: mouse event
+20:44:16  659  BulletShooter: mouse event
+20:44:16  661  BulletShooter: mouse event
+20:44:16  661  BulletShooter: mouse event
+20:44:16  661  BulletShooter: mouse event
+20:44:16  662  BulletShooter: mouse event
+20:44:16  663  BulletShooter: mouse event
+20:44:16  664  BulletShooter: mouse event
+20:44:16  664  BulletShooter: mouse event
+20:44:16  665  BulletShooter: mouse event
+20:44:16  666  BulletShooter: mouse event
+20:44:16  667  BulletShooter: mouse event
+20:44:16  668  BulletShooter: mouse event
+20:44:16  669  BulletShooter: mouse event
+20:44:16  669 Removing Asteroid
+20:44:16  669 Removing Asteroid
+20:44:16  670  BulletShooter: mouse event
+20:44:16  671  BulletShooter: mouse event
+20:44:16  672  BulletShooter: mouse event
+20:44:16  672  BulletShooter: mouse event
+20:44:16  673  BulletShooter: mouse event
+20:44:16  674  BulletShooter: mouse event
+20:44:16  674  BulletShooter: mouse event
+20:44:16  675  BulletShooter: mouse event
+20:44:16  675  BulletShooter: mouse event
+20:44:16  675  BulletShooter: mouse event
+20:44:16  676  BulletShooter: mouse event
+20:44:16  677  BulletShooter: mouse event
+20:44:17  678  BulletShooter: mouse event
+20:44:17  678  BulletShooter: mouse event
+20:44:17  679  BulletShooter: mouse event
+20:44:17  680  BulletShooter: mouse event
+20:44:17  680 Block hit by asteroid
+20:44:17  681  BulletShooter: mouse event
+20:44:17  682  BulletShooter: mouse event
+20:44:17  683  BulletShooter: mouse event
+20:44:17  684 BulletShooter: Pew Pew
+20:44:17  684  BulletShooter: mouse event
+20:44:17  684  BulletShooter: mouse event
+20:44:17  685  BulletShooter: mouse event
+20:44:17  686  BulletShooter: mouse event
+20:44:17  686 Removing Asteroid
+20:44:17  686 Removing Asteroid
+20:44:17  688  BulletShooter: mouse event
+20:44:17  689  BulletShooter: mouse event
+20:44:17  689  BulletShooter: mouse event
+20:44:17  690  BulletShooter: mouse event
+20:44:17  691  BulletShooter: mouse event
+20:44:17  692  BulletShooter: mouse event
+20:44:17  693  BulletShooter: mouse event
+20:44:17  693 Removing Asteroid
+20:44:17  693 Removing Asteroid
+20:44:17  693 Removing Asteroid
+20:44:17  693 Removing Asteroid
+20:44:17  693 Removing Asteroid
+20:44:17  693 Removing Asteroid
+20:44:17  694  BulletShooter: mouse event
+20:44:17  695  BulletShooter: mouse event
+20:44:17  696  BulletShooter: mouse event
+20:44:17  697  BulletShooter: mouse event
+20:44:17  698  BulletShooter: mouse event
+20:44:17  699  BulletShooter: mouse event
+20:44:17  700  BulletShooter: mouse event
+20:44:17  701  BulletShooter: mouse event
+20:44:17  702  BulletShooter: mouse event
+20:44:17  703  BulletShooter: mouse event
+20:44:17  704  BulletShooter: mouse event
+20:44:17  704  BulletShooter: mouse event
+20:44:17  705  BulletShooter: mouse event
+20:44:17  706  BulletShooter: mouse event
+20:44:17  706  BulletShooter: mouse event
+20:44:17  707  BulletShooter: mouse event
+20:44:18  708  BulletShooter: mouse event
+20:44:18  709  BulletShooter: mouse event
+20:44:18  710  BulletShooter: mouse event
+20:44:18  712  BulletShooter: mouse event
+20:44:18  712  BulletShooter: mouse event
+20:44:18  713  BulletShooter: mouse event
+20:44:18  714  BulletShooter: mouse event
+20:44:18  715  BulletShooter: mouse event
+20:44:18  715  BulletShooter: mouse event
+20:44:18  716  BulletShooter: mouse event
+20:44:18  717 BulletShooter: Pew Pew
+20:44:18  717  BulletShooter: mouse event
+20:44:18  717  BulletShooter: mouse event
+20:44:18  718  BulletShooter: mouse event
+20:44:18  719  BulletShooter: mouse event
+20:44:18  720  BulletShooter: mouse event
+20:44:18  721  BulletShooter: mouse event
+20:44:18  722  BulletShooter: mouse event
+20:44:18  722 Block hit by asteroid
+20:44:18  723  BulletShooter: mouse event
+20:44:18  723  BulletShooter: mouse event
+20:44:18  724  BulletShooter: mouse event
+20:44:18  725  BulletShooter: mouse event
+20:44:18  726  BulletShooter: mouse event
+20:44:18  727  BulletShooter: mouse event
+20:44:18  727  BulletShooter: mouse event
+20:44:18  727  BulletShooter: mouse event
+20:44:18  728  BulletShooter: mouse event
+20:44:18  729  BulletShooter: mouse event
+20:44:18  730  BulletShooter: mouse event
+20:44:18  731  BulletShooter: mouse event
+20:44:18  732  BulletShooter: mouse event
+20:44:18  733  BulletShooter: mouse event
+20:44:18  734  BulletShooter: mouse event
+20:44:18  736  BulletShooter: mouse event
+20:44:18  736 Block hit by asteroid
+20:44:18  737  BulletShooter: mouse event
+20:44:19  738  BulletShooter: mouse event
+20:44:19  739  BulletShooter: mouse event
+20:44:19  740  BulletShooter: mouse event
+20:44:19  741  BulletShooter: mouse event
+20:44:19  743  BulletShooter: mouse event
+20:44:19  743  BulletShooter: mouse event
+20:44:19  744  BulletShooter: mouse event
+20:44:19  745  BulletShooter: mouse event
+20:44:19  746  BulletShooter: mouse event
+20:44:19  746 Block hit by asteroid
+20:44:19  747  BulletShooter: mouse event
+20:44:19  748  BulletShooter: mouse event
+20:44:19  748  BulletShooter: mouse event
+20:44:19  748  BulletShooter: mouse event
+20:44:19  749  BulletShooter: mouse event
+20:44:19  750  BulletShooter: mouse event
+20:44:19  752  BulletShooter: mouse event
+20:44:19  753  BulletShooter: mouse event
+20:44:19  754  BulletShooter: mouse event
+20:44:19  754  BulletShooter: mouse event
+20:44:19  755  BulletShooter: mouse event
+20:44:19  756  BulletShooter: mouse event
+20:44:19  757  BulletShooter: mouse event
+20:44:19  759 Removing Asteroid
+20:44:19  759 Removing Asteroid
+20:44:19  761  BulletShooter: mouse event
+20:44:19  762  BulletShooter: mouse event
+20:44:19  763  BulletShooter: mouse event
+20:44:19  764  BulletShooter: mouse event
+20:44:19  765  BulletShooter: mouse event
+20:44:19  766  BulletShooter: mouse event
+20:44:19  767  BulletShooter: mouse event
+20:44:19  768  BulletShooter: mouse event
+20:44:20  769  BulletShooter: mouse event
+20:44:20  769 BlockPlacer: Placing block
+20:44:20  769 Block placed
+20:44:20  769  BulletShooter: mouse event
+20:44:20  770  BulletShooter: mouse event
+20:44:20  773  BulletShooter: mouse event
+20:44:20  774  BulletShooter: mouse event
+20:44:20  774 Removing Asteroid
+20:44:20  774 Removing Asteroid
+20:44:20  775  BulletShooter: mouse event
+20:44:20  776  BulletShooter: mouse event
+20:44:20  777  BulletShooter: mouse event
+20:44:20  778 Block hit by asteroid
+20:44:20  778 Block Destroyed
+20:44:20  779 BulletShooter: Pew Pew
+20:44:20  779  BulletShooter: mouse event
+20:44:20  779  BulletShooter: mouse event
+20:44:20  780  BulletShooter: mouse event
+20:44:20  781  BulletShooter: mouse event
+20:44:20  781 Block hit by asteroid
+20:44:20  781 Block Destroyed
+20:44:20  782  BulletShooter: mouse event
+20:44:20  782  BulletShooter: mouse event
+20:44:20  783  BulletShooter: mouse event
+20:44:20  784  BulletShooter: mouse event
+20:44:20  785  BulletShooter: mouse event
+20:44:20  785  BulletShooter: mouse event
+20:44:20  786  BulletShooter: mouse event
+20:44:20  787  BulletShooter: mouse event
+20:44:20  788  BulletShooter: mouse event
+20:44:20  788  BulletShooter: mouse event
+20:44:20  789  BulletShooter: mouse event
+20:44:20  790  BulletShooter: mouse event
+20:44:20  790  BulletShooter: mouse event
+20:44:20  790  BulletShooter: mouse event
+20:44:20  791  BulletShooter: mouse event
+20:44:20  792  BulletShooter: mouse event
+20:44:20  793  BulletShooter: mouse event
+20:44:20  794  BulletShooter: mouse event
+20:44:20  795  BulletShooter: mouse event
+20:44:20  796  BulletShooter: mouse event
+20:44:20  797  BulletShooter: mouse event
+20:44:20  798  BulletShooter: mouse event
+20:44:20  798  BulletShooter: mouse event
+20:44:21  799  BulletShooter: mouse event
+20:44:21  799  BulletShooter: mouse event
+20:44:21  800  BulletShooter: mouse event
+20:44:21  800  BulletShooter: mouse event
+20:44:21  801  BulletShooter: mouse event
+20:44:21  801  BulletShooter: mouse event
+20:44:21  802  BulletShooter: mouse event
+20:44:21  803  BulletShooter: mouse event
+20:44:21  803 Removing Asteroid
+20:44:21  803 Removing Asteroid
+20:44:21  804  BulletShooter: mouse event
+20:44:21  805  BulletShooter: mouse event
+20:44:21  806  BulletShooter: mouse event
+20:44:21  806  BulletShooter: mouse event
+20:44:21  807  BulletShooter: mouse event
+20:44:21  808  BulletShooter: mouse event
+20:44:21  808  BulletShooter: mouse event
+20:44:21  809  BulletShooter: mouse event
+20:44:21  809  BulletShooter: mouse event
+20:44:21  810  BulletShooter: mouse event
+20:44:21  810  BulletShooter: mouse event
+20:44:21  811  BulletShooter: mouse event
+20:44:21  812  BulletShooter: mouse event
+20:44:21  812 BulletShooter: Pew Pew
+20:44:21  812  BulletShooter: mouse event
+20:44:21  812  BulletShooter: mouse event
+20:44:21  812  BulletShooter: mouse event
+20:44:21  813  BulletShooter: mouse event
+20:44:21  813  BulletShooter: mouse event
+20:44:21  814  BulletShooter: mouse event
+20:44:21  814  BulletShooter: mouse event
+20:44:21  815  BulletShooter: mouse event
+20:44:21  815  BulletShooter: mouse event
+20:44:21  816  BulletShooter: mouse event
+20:44:21  816  BulletShooter: mouse event
+20:44:21  817  BulletShooter: mouse event
+20:44:21  817 Block hit by asteroid
+20:44:21  819  BulletShooter: mouse event
+20:44:21  819  BulletShooter: mouse event
+20:44:21  820  BulletShooter: mouse event
+20:44:21  820  BulletShooter: mouse event
+20:44:21  823  BulletShooter: mouse event
+20:44:21  823  BulletShooter: mouse event
+20:44:21  823 Removing Asteroid
+20:44:21  823 Removing Asteroid
+20:44:21  824  BulletShooter: mouse event
+20:44:21  825  BulletShooter: mouse event
+20:44:21  827  BulletShooter: mouse event
+20:44:21  827  BulletShooter: mouse event
+20:44:21  828  BulletShooter: mouse event
+20:44:21  828  BulletShooter: mouse event
+20:44:22  829  BulletShooter: mouse event
+20:44:22  829  BulletShooter: mouse event
+20:44:22  830  BulletShooter: mouse event
+20:44:22  831  BulletShooter: mouse event
+20:44:22  831  BulletShooter: mouse event
+20:44:22  831  BulletShooter: mouse event
+20:44:22  831  BulletShooter: mouse event
+20:44:22  832  BulletShooter: mouse event
+20:44:22  832  BulletShooter: mouse event
+20:44:22  833  BulletShooter: mouse event
+20:44:22  833  BulletShooter: mouse event
+20:44:22  834  BulletShooter: mouse event
+20:44:22  834  BulletShooter: mouse event
+20:44:22  835  BulletShooter: mouse event
+20:44:22  835 Removing Asteroid
+20:44:22  835 Removing Asteroid
+20:44:22  835 Block hit by asteroid
+20:44:22  836  BulletShooter: mouse event
+20:44:22  837  BulletShooter: mouse event
+20:44:22  837  BulletShooter: mouse event
+20:44:22  837  BulletShooter: mouse event
+20:44:22  837  BulletShooter: mouse event
+20:44:22  838  BulletShooter: mouse event
+20:44:22  838  BulletShooter: mouse event
+20:44:22  839  BulletShooter: mouse event
+20:44:22  841  BulletShooter: mouse event
+20:44:22  842  BulletShooter: mouse event
+20:44:22  843 BulletShooter: Pew Pew
+20:44:22  843  BulletShooter: mouse event
+20:44:22  843  BulletShooter: mouse event
+20:44:22  844  BulletShooter: mouse event
+20:44:22  845  BulletShooter: mouse event
+20:44:22  846  BulletShooter: mouse event
+20:44:22  846  BulletShooter: mouse event
+20:44:22  847  BulletShooter: mouse event
+20:44:22  847  BulletShooter: mouse event
+20:44:22  848  BulletShooter: mouse event
+20:44:22  849  BulletShooter: mouse event
+20:44:22  850  BulletShooter: mouse event
+20:44:22  851  BulletShooter: mouse event
+20:44:22  852  BulletShooter: mouse event
+20:44:22  852  BulletShooter: mouse event
+20:44:22  852  BulletShooter: mouse event
+20:44:22  853  BulletShooter: mouse event
+20:44:22  853  BulletShooter: mouse event
+20:44:22  854  BulletShooter: mouse event
+20:44:22  854  BulletShooter: mouse event
+20:44:22  855  BulletShooter: mouse event
+20:44:22  856  BulletShooter: mouse event
+20:44:22  857  BulletShooter: mouse event
+20:44:22  857  BulletShooter: mouse event
+20:44:22  857  BulletShooter: mouse event
+20:44:22  858  BulletShooter: mouse event
+20:44:23  859  BulletShooter: mouse event
+20:44:23  859  BulletShooter: mouse event
+20:44:23  860  BulletShooter: mouse event
+20:44:23  861  BulletShooter: mouse event
+20:44:23  862  BulletShooter: mouse event
+20:44:23  863  BulletShooter: mouse event
+20:44:23  863  BulletShooter: mouse event
+20:44:23  863  BulletShooter: mouse event
+20:44:23  864  BulletShooter: mouse event
+20:44:23  865  BulletShooter: mouse event
+20:44:23  866  BulletShooter: mouse event
+20:44:23  867  BulletShooter: mouse event
+20:44:23  868  BulletShooter: mouse event
+20:44:23  869  BulletShooter: mouse event
+20:44:23  869  BulletShooter: mouse event
+20:44:23  870  BulletShooter: mouse event
+20:44:23  871  BulletShooter: mouse event
+20:44:23  871  BulletShooter: mouse event
+20:44:23  872  BulletShooter: mouse event
+20:44:23  873  BulletShooter: mouse event
+20:44:23  873  BulletShooter: mouse event
+20:44:23  874  BulletShooter: mouse event
+20:44:23  875  BulletShooter: mouse event
+20:44:23  876  BulletShooter: mouse event
+20:44:23  877  BulletShooter: mouse event
+20:44:23  878  BulletShooter: mouse event
+20:44:23  879  BulletShooter: mouse event
+20:44:23  880  BulletShooter: mouse event
+20:44:23  881  BulletShooter: mouse event
+20:44:23  882  BulletShooter: mouse event
+20:44:23  883  BulletShooter: mouse event
+20:44:23  884  BulletShooter: mouse event
+20:44:23  885  BulletShooter: mouse event
+20:44:23  886  BulletShooter: mouse event
+20:44:23  886 BulletShooter: Pew Pew
+20:44:23  886  BulletShooter: mouse event
+20:44:23  886  BulletShooter: mouse event
+20:44:23  886  BulletShooter: mouse event
+20:44:23  886 Block hit by asteroid
+20:44:23  887  BulletShooter: mouse event
+20:44:23  887  BulletShooter: mouse event
+20:44:23  888  BulletShooter: mouse event
+20:44:23  889  BulletShooter: mouse event
+20:44:24  890  BulletShooter: mouse event
+20:44:24  892  BulletShooter: mouse event
+20:44:24  892  BulletShooter: mouse event
+20:44:24  893  BulletShooter: mouse event
+20:44:24  894  BulletShooter: mouse event
+20:44:24  894  BulletShooter: mouse event
+20:44:24  894  BulletShooter: mouse event
+20:44:24  895  BulletShooter: mouse event
+20:44:24  896  BulletShooter: mouse event
+20:44:24  896 Block hit by asteroid
+20:44:24  897  BulletShooter: mouse event
+20:44:24  898  BulletShooter: mouse event
+20:44:24  899  BulletShooter: mouse event
+20:44:24  900  BulletShooter: mouse event
+20:44:24  901  BulletShooter: mouse event
+20:44:24  902  BulletShooter: mouse event
+20:44:24  902  BulletShooter: mouse event
+20:44:24  903  BulletShooter: mouse event
+20:44:24  905  BulletShooter: mouse event
+20:44:24  907  BulletShooter: mouse event
+20:44:24  907  BulletShooter: mouse event
+20:44:24  908  BulletShooter: mouse event
+20:44:24  912  BulletShooter: mouse event
+20:44:24  912  BulletShooter: mouse event
+20:44:24  913  BulletShooter: mouse event
+20:44:24  915  BulletShooter: mouse event
+20:44:24  916  BulletShooter: mouse event
+20:44:24  917  BulletShooter: mouse event
+20:44:24  918  BulletShooter: mouse event
+20:44:24  919  BulletShooter: mouse event
+20:44:25  920  BulletShooter: mouse event
+20:44:25  922  BulletShooter: mouse event
+20:44:25  923  BulletShooter: mouse event
+20:44:25  923 Removing Asteroid
+20:44:25  923 Removing Asteroid
+20:44:25  926  BulletShooter: mouse event
+20:44:25  927  BulletShooter: mouse event
+20:44:25  927  BulletShooter: mouse event
+20:44:25  928  BulletShooter: mouse event
+20:44:25  928  BulletShooter: mouse event
+20:44:25  929  BulletShooter: mouse event
+20:44:25  929  BulletShooter: mouse event
+20:44:25  930  BulletShooter: mouse event
+20:44:25  931  BulletShooter: mouse event
+20:44:25  932  BulletShooter: mouse event
+20:44:25  933  BulletShooter: mouse event
+20:44:25  933 Removing Asteroid
+20:44:25  933 Removing Asteroid
+20:44:25  934  BulletShooter: mouse event
+20:44:25  935  BulletShooter: mouse event
+20:44:25  936 BulletShooter: Pew Pew
+20:44:25  936  BulletShooter: mouse event
+20:44:25  936  BulletShooter: mouse event
+20:44:25  937  BulletShooter: mouse event
+20:44:25  938  BulletShooter: mouse event
+20:44:25  939  BulletShooter: mouse event
+20:44:25  942  BulletShooter: mouse event
+20:44:25  942  BulletShooter: mouse event
+20:44:25  943  BulletShooter: mouse event
+20:44:25  943 Removing Asteroid
+20:44:25  943 Removing Asteroid
+20:44:25  944  BulletShooter: mouse event
+20:44:25  946  BulletShooter: mouse event
+20:44:25  948  BulletShooter: mouse event
+20:44:25  948  BulletShooter: mouse event
+20:44:25  949  BulletShooter: mouse event
+20:44:26  950  BulletShooter: mouse event
+20:44:26  950 Removing Asteroid
+20:44:26  950 Removing Asteroid
+20:44:26  952  BulletShooter: mouse event
+20:44:26  953  BulletShooter: mouse event
+20:44:26  955  BulletShooter: mouse event
+20:44:26  955  BulletShooter: mouse event
+20:44:26  956  BulletShooter: mouse event
+20:44:26  957  BulletShooter: mouse event
+20:44:26  962  BulletShooter: mouse event
+20:44:26  962  BulletShooter: mouse event
+20:44:26  963  BulletShooter: mouse event
+20:44:26  963  BulletShooter: mouse event
+20:44:26  964  BulletShooter: mouse event
+20:44:26  964  BulletShooter: mouse event
+20:44:26  968  BulletShooter: mouse event
+20:44:26  969 BulletShooter: Pew Pew
+20:44:26  969  BulletShooter: mouse event
+20:44:26  969  BulletShooter: mouse event
+20:44:26  969  BulletShooter: mouse event
+20:44:26  969  BulletShooter: mouse event
+20:44:26  969 Removing Asteroid
+20:44:26  969 Removing Asteroid
+20:44:26  970  BulletShooter: mouse event
+20:44:26  970  BulletShooter: mouse event
+20:44:26  970 Removing Asteroid
+20:44:26  970 Removing Asteroid
+20:44:26  971  BulletShooter: mouse event
+20:44:26  971  BulletShooter: mouse event
+20:44:26  972  BulletShooter: mouse event
+20:44:26  972  BulletShooter: mouse event
+20:44:26  973  BulletShooter: mouse event
+20:44:26  975  BulletShooter: mouse event
+20:44:26  975  BulletShooter: mouse event
+20:44:26  975  BulletShooter: mouse event
+20:44:26  975  BulletShooter: mouse event
+20:44:26  976  BulletShooter: mouse event
+20:44:26  976  BulletShooter: mouse event
+20:44:26  977  BulletShooter: mouse event
+20:44:26  977  BulletShooter: mouse event
+20:44:26  978  BulletShooter: mouse event
+20:44:27  981  BulletShooter: mouse event
+20:44:27  981  BulletShooter: mouse event
+20:44:27  981  BulletShooter: mouse event
+20:44:27  981  BulletShooter: mouse event
+20:44:27  982  BulletShooter: mouse event
+20:44:27  982  BulletShooter: mouse event
+20:44:27  983  BulletShooter: mouse event
+20:44:27  983  BulletShooter: mouse event
+20:44:27  984  BulletShooter: mouse event
+20:44:27  985  BulletShooter: mouse event
+20:44:27  986  BulletShooter: mouse event
+20:44:27  986  BulletShooter: mouse event
+20:44:27  986  BulletShooter: mouse event
+20:44:27  986  BulletShooter: mouse event
+20:44:27  987  BulletShooter: mouse event
+20:44:27  987  BulletShooter: mouse event
+20:44:27  988  BulletShooter: mouse event
+20:44:27  989  BulletShooter: mouse event
+20:44:27  990  BulletShooter: mouse event
+20:44:27  992  BulletShooter: mouse event
+20:44:27  992  BulletShooter: mouse event
+20:44:27  993  BulletShooter: mouse event
+20:44:27  994  BulletShooter: mouse event
+20:44:27  995  BulletShooter: mouse event
+20:44:27  995  BulletShooter: mouse event
+20:44:27  996  BulletShooter: mouse event
+20:44:27  998  BulletShooter: mouse event
+20:44:27  998  BulletShooter: mouse event
+20:44:27  999  BulletShooter: mouse event
+20:44:27 1000  BulletShooter: mouse event
+20:44:27 1000  BulletShooter: mouse event
+20:44:27 1001  BulletShooter: mouse event
+20:44:27 1002  BulletShooter: mouse event
+20:44:27 1003  BulletShooter: mouse event
+20:44:27 1004 BulletShooter: Pew Pew
+20:44:27 1004  BulletShooter: mouse event
+20:44:27 1004  BulletShooter: mouse event
+20:44:27 1005  BulletShooter: mouse event
+20:44:27 1005  BulletShooter: mouse event
+20:44:27 1005 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+20:44:27 1006  BulletShooter: mouse event
+20:44:27 1007  BulletShooter: mouse event
+20:44:27 1008  BulletShooter: mouse event
+20:44:27 1009  BulletShooter: mouse event
+20:44:27 1009  BulletShooter: mouse event
+20:44:27 1009  BulletShooter: mouse event
+20:44:28 1010  BulletShooter: mouse event
+20:44:28 1010  BulletShooter: mouse event
+20:44:28 1011  BulletShooter: mouse event
+20:44:28 1011  BulletShooter: mouse event
+20:44:28 1012  BulletShooter: mouse event
+20:44:28 1013  BulletShooter: mouse event
+20:44:28 1013  BulletShooter: mouse event
+20:44:28 1014  BulletShooter: mouse event
+20:44:28 1015  BulletShooter: mouse event
+20:44:28 1016  BulletShooter: mouse event
+20:44:28 1017  BulletShooter: mouse event
+20:44:28 1017  BulletShooter: mouse event
+20:44:28 1017  BulletShooter: mouse event
+20:44:28 1017  BulletShooter: mouse event
+20:44:28 1018  BulletShooter: mouse event
+20:44:28 1018  BulletShooter: mouse event
+20:44:28 1019  BulletShooter: mouse event
+20:44:28 1019  BulletShooter: mouse event
+20:44:28 1020  BulletShooter: mouse event
+20:44:28 1020 Removing Asteroid
+20:44:28 1020 Removing Asteroid
+20:44:28 1021  BulletShooter: mouse event
+20:44:28 1022  BulletShooter: mouse event
+20:44:28 1023  BulletShooter: mouse event
+20:44:28 1023  BulletShooter: mouse event
+20:44:28 1023  BulletShooter: mouse event
+20:44:28 1024  BulletShooter: mouse event
+20:44:28 1024 Block hit by asteroid
+20:44:28 1026 Removing Asteroid
+20:44:28 1026 Removing Asteroid
+20:44:28 1028  BulletShooter: mouse event
+20:44:28 1028  BulletShooter: mouse event
+20:44:28 1029  BulletShooter: mouse event
+20:44:28 1030  BulletShooter: mouse event
+20:44:28 1030  BulletShooter: mouse event
+20:44:28 1031  BulletShooter: mouse event
+20:44:28 1032  BulletShooter: mouse event
+20:44:28 1033  BulletShooter: mouse event
+20:44:28 1034  BulletShooter: mouse event
+20:44:28 1034  BulletShooter: mouse event
+20:44:28 1035  BulletShooter: mouse event
+20:44:28 1036  BulletShooter: mouse event
+20:44:28 1037  BulletShooter: mouse event
+20:44:28 1038  BulletShooter: mouse event
+20:44:28 1038 Removing Asteroid
+20:44:28 1038 Removing Asteroid
+20:44:28 1039  BulletShooter: mouse event
+20:44:28 1040  BulletShooter: mouse event
+20:44:28 1040 Block hit by asteroid
+20:44:29 1041  BulletShooter: mouse event
+20:44:29 1042  BulletShooter: mouse event
+20:44:29 1043  BulletShooter: mouse event
+20:44:29 1044  BulletShooter: mouse event
+20:44:29 1045  BulletShooter: mouse event
+20:44:29 1046  BulletShooter: mouse event
+20:44:29 1046  BulletShooter: mouse event
+20:44:29 1047  BulletShooter: mouse event
+20:44:29 1048  BulletShooter: mouse event
+20:44:29 1049  BulletShooter: mouse event
+20:44:29 1050  BulletShooter: mouse event
+20:44:29 1051 BulletShooter: Pew Pew
+20:44:29 1051  BulletShooter: mouse event
+20:44:29 1051  BulletShooter: mouse event
+20:44:29 1051  BulletShooter: mouse event
+20:44:29 1052  BulletShooter: mouse event
+20:44:29 1052  BulletShooter: mouse event
+20:44:29 1052 Removing Asteroid
+20:44:29 1052 Removing Asteroid
+20:44:29 1053  BulletShooter: mouse event
+20:44:29 1053  BulletShooter: mouse event
+20:44:29 1054  BulletShooter: mouse event
+20:44:29 1054  BulletShooter: mouse event
+20:44:29 1055  BulletShooter: mouse event
+20:44:29 1056  BulletShooter: mouse event
+20:44:29 1057  BulletShooter: mouse event
+20:44:29 1057  BulletShooter: mouse event
+20:44:29 1058  BulletShooter: mouse event
+20:44:29 1059  BulletShooter: mouse event
+20:44:29 1060  BulletShooter: mouse event
+20:44:29 1061 Removing Asteroid
+20:44:29 1061 Removing Asteroid
+20:44:29 1061 Removing Asteroid
+20:44:29 1061 Removing Asteroid
+20:44:29 1062  BulletShooter: mouse event
+20:44:29 1062  BulletShooter: mouse event
+20:44:29 1063  BulletShooter: mouse event
+20:44:29 1063  BulletShooter: mouse event
+20:44:29 1063  BulletShooter: mouse event
+20:44:29 1064  BulletShooter: mouse event
+20:44:29 1064 Block hit by asteroid
+20:44:29 1068  BulletShooter: mouse event
+20:44:29 1068  BulletShooter: mouse event
+20:44:29 1069  BulletShooter: mouse event
+20:44:29 1069  BulletShooter: mouse event
+20:44:29 1070  BulletShooter: mouse event
+20:44:29 1070  BulletShooter: mouse event
+20:44:30 1071  BulletShooter: mouse event
+20:44:30 1071  BulletShooter: mouse event
+20:44:30 1072  BulletShooter: mouse event
+20:44:30 1073  BulletShooter: mouse event
+20:44:30 1074  BulletShooter: mouse event
+20:44:30 1075  BulletShooter: mouse event
+20:44:30 1076  BulletShooter: mouse event
+20:44:30 1077  BulletShooter: mouse event
+20:44:30 1078  BulletShooter: mouse event
+20:44:30 1079  BulletShooter: mouse event
+20:44:30 1080  BulletShooter: mouse event
+20:44:30 1080  BulletShooter: mouse event
+20:44:30 1080  BulletShooter: mouse event
+20:44:30 1080  BulletShooter: mouse event
+20:44:30 1081  BulletShooter: mouse event
+20:44:30 1081  BulletShooter: mouse event
+20:44:30 1082  BulletShooter: mouse event
+20:44:30 1082  BulletShooter: mouse event
+20:44:30 1083  BulletShooter: mouse event
+20:44:30 1084  BulletShooter: mouse event
+20:44:30 1085  BulletShooter: mouse event
+20:44:30 1086  BulletShooter: mouse event
+20:44:30 1087  BulletShooter: mouse event
+20:44:30 1087 BulletShooter: Pew Pew
+20:44:30 1087  BulletShooter: mouse event
+20:44:30 1087  BulletShooter: mouse event
+20:44:30 1087  BulletShooter: mouse event
+20:44:30 1088  BulletShooter: mouse event
+20:44:30 1088  BulletShooter: mouse event
+20:44:30 1089  BulletShooter: mouse event
+20:44:30 1089  BulletShooter: mouse event
+20:44:30 1090  BulletShooter: mouse event
+20:44:30 1090  BulletShooter: mouse event
+20:44:30 1091  BulletShooter: mouse event
+20:44:30 1092  BulletShooter: mouse event
+20:44:30 1093  BulletShooter: mouse event
+20:44:30 1093  BulletShooter: mouse event
+20:44:30 1093  BulletShooter: mouse event
+20:44:30 1094  BulletShooter: mouse event
+20:44:30 1094  BulletShooter: mouse event
+20:44:30 1095  BulletShooter: mouse event
+20:44:30 1096  BulletShooter: mouse event
+20:44:30 1096 Removing Asteroid
+20:44:30 1096 Removing Asteroid
+20:44:30 1097  BulletShooter: mouse event
+20:44:30 1098  BulletShooter: mouse event
+20:44:30 1099  BulletShooter: mouse event
+20:44:30 1099  BulletShooter: mouse event
+20:44:30 1100  BulletShooter: mouse event
+20:44:31 1101  BulletShooter: mouse event
+20:44:31 1103  BulletShooter: mouse event
+20:44:31 1104  BulletShooter: mouse event
+20:44:31 1104  BulletShooter: mouse event
+20:44:31 1104  BulletShooter: mouse event
+20:44:31 1105  BulletShooter: mouse event
+20:44:31 1105  BulletShooter: mouse event
+20:44:31 1106  BulletShooter: mouse event
+20:44:31 1106  BulletShooter: mouse event
+20:44:31 1107  BulletShooter: mouse event
+20:44:31 1107  BulletShooter: mouse event
+20:44:31 1108  BulletShooter: mouse event
+20:44:31 1109  BulletShooter: mouse event
+20:44:31 1109  BulletShooter: mouse event
+20:44:31 1110  BulletShooter: mouse event
+20:44:31 1111  BulletShooter: mouse event
+20:44:31 1111  BulletShooter: mouse event
+20:44:31 1111  BulletShooter: mouse event
+20:44:31 1111  BulletShooter: mouse event
+20:44:31 1112  BulletShooter: mouse event
+20:44:31 1113  BulletShooter: mouse event
+20:44:31 1113 Removing Asteroid
+20:44:31 1113 Removing Asteroid
+20:44:31 1114  BulletShooter: mouse event
+20:44:31 1115  BulletShooter: mouse event
+20:44:31 1116  BulletShooter: mouse event
+20:44:31 1116  BulletShooter: mouse event
+20:44:31 1117  BulletShooter: mouse event
+20:44:31 1119  BulletShooter: mouse event
+20:44:31 1119 BlockPlacer: Placing block
+20:44:31 1119 Block placed
+20:44:31 1119  BulletShooter: mouse event
+20:44:31 1119  BulletShooter: mouse event
+20:44:31 1120  BulletShooter: mouse event
+20:44:31 1120  BulletShooter: mouse event
+20:44:31 1121  BulletShooter: mouse event
+20:44:31 1122  BulletShooter: mouse event
+20:44:31 1122  BulletShooter: mouse event
+20:44:31 1123  BulletShooter: mouse event
+20:44:31 1123 Block hit by asteroid
+20:44:31 1123 Block Destroyed
+20:44:31 1124  BulletShooter: mouse event
+20:44:31 1125  BulletShooter: mouse event
+20:44:31 1129  BulletShooter: mouse event
+20:44:31 1130  BulletShooter: mouse event
+20:44:31 1130 Removing Asteroid
+20:44:31 1130 Removing Asteroid
+20:44:32 1131  BulletShooter: mouse event
+20:44:32 1132  BulletShooter: mouse event
+20:44:32 1132 BulletShooter: Pew Pew
+20:44:32 1132  BulletShooter: mouse event
+20:44:32 1132  BulletShooter: mouse event
+20:44:32 1132  BulletShooter: mouse event
+20:44:32 1133  BulletShooter: mouse event
+20:44:32 1133  BulletShooter: mouse event
+20:44:32 1134  BulletShooter: mouse event
+20:44:32 1134  BulletShooter: mouse event
+20:44:32 1135  BulletShooter: mouse event
+20:44:32 1135  BulletShooter: mouse event
+20:44:32 1135 Removing Asteroid
+20:44:32 1135 Removing Asteroid
+20:44:32 1136  BulletShooter: mouse event
+20:44:32 1137  BulletShooter: mouse event
+20:44:32 1138  BulletShooter: mouse event
+20:44:32 1138  BulletShooter: mouse event
+20:44:32 1138  BulletShooter: mouse event
+20:44:32 1139  BulletShooter: mouse event
+20:44:32 1139  BulletShooter: mouse event
+20:44:32 1140  BulletShooter: mouse event
+20:44:32 1140  BulletShooter: mouse event
+20:44:32 1141  BulletShooter: mouse event
+20:44:32 1141  BulletShooter: mouse event
+20:44:32 1142  BulletShooter: mouse event
+20:44:32 1142  BulletShooter: mouse event
+20:44:32 1143  BulletShooter: mouse event
+20:44:32 1144  BulletShooter: mouse event
+20:44:32 1144  BulletShooter: mouse event
+20:44:32 1144  BulletShooter: mouse event
+20:44:32 1145  BulletShooter: mouse event
+20:44:32 1146  BulletShooter: mouse event
+20:44:32 1146 Removing Asteroid
+20:44:32 1146 Removing Asteroid
+20:44:32 1147  BulletShooter: mouse event
+20:44:32 1150  BulletShooter: mouse event
+20:44:32 1150  BulletShooter: mouse event
+20:44:32 1151  BulletShooter: mouse event
+20:44:32 1152  BulletShooter: mouse event
+20:44:32 1153  BulletShooter: mouse event
+20:44:32 1153  BulletShooter: mouse event
+20:44:32 1154  BulletShooter: mouse event
+20:44:32 1155  BulletShooter: mouse event
+20:44:32 1155  BulletShooter: mouse event
+20:44:32 1156  BulletShooter: mouse event
+20:44:32 1156  BulletShooter: mouse event
+20:44:32 1156  BulletShooter: mouse event
+20:44:32 1157  BulletShooter: mouse event
+20:44:32 1157  BulletShooter: mouse event
+20:44:32 1158  BulletShooter: mouse event
+20:44:32 1158  BulletShooter: mouse event
+20:44:32 1159  BulletShooter: mouse event
+20:44:32 1159 Block hit by asteroid
+20:44:32 1160  BulletShooter: mouse event
+20:44:32 1160 Removing Asteroid
+20:44:32 1160 Removing Asteroid
+20:44:32 1161  BulletShooter: mouse event
+20:44:33 1162 BulletShooter: Pew Pew
+20:44:33 1162  BulletShooter: mouse event
+20:44:33 1162  BulletShooter: mouse event
+20:44:33 1163  BulletShooter: mouse event
+20:44:33 1163 Removing Asteroid
+20:44:33 1163 Removing Asteroid
+20:44:33 1164  BulletShooter: mouse event
+20:44:33 1164 Removing Asteroid
+20:44:33 1164 Removing Asteroid
+20:44:33 1165  BulletShooter: mouse event
+20:44:33 1165  BulletShooter: mouse event
+20:44:33 1166  BulletShooter: mouse event
+20:44:33 1167 Block hit by asteroid
+20:44:33 1168  BulletShooter: mouse event
+20:44:33 1168  BulletShooter: mouse event
+20:44:33 1168  BulletShooter: mouse event
+20:44:33 1169  BulletShooter: mouse event
+20:44:33 1170  BulletShooter: mouse event
+20:44:33 1171  BulletShooter: mouse event
+20:44:33 1172  BulletShooter: mouse event
+20:44:33 1174  BulletShooter: mouse event
+20:44:33 1175  BulletShooter: mouse event
+20:44:33 1176  BulletShooter: mouse event
+20:44:33 1177  BulletShooter: mouse event
+20:44:33 1178  BulletShooter: mouse event
+20:44:33 1179  BulletShooter: mouse event
+20:44:33 1180  BulletShooter: mouse event
+20:44:33 1180  BulletShooter: mouse event
+20:44:33 1180  BulletShooter: mouse event
+20:44:33 1181  BulletShooter: mouse event
+20:44:33 1181  BulletShooter: mouse event
+20:44:33 1182  BulletShooter: mouse event
+20:44:33 1182  BulletShooter: mouse event
+20:44:33 1182 Removing Asteroid
+20:44:33 1182 Removing Asteroid
+20:44:33 1183  BulletShooter: mouse event
+20:44:33 1183  BulletShooter: mouse event
+20:44:33 1183 Removing Asteroid
+20:44:33 1183 Removing Asteroid
+20:44:33 1184  BulletShooter: mouse event
+20:44:33 1185  BulletShooter: mouse event
+20:44:33 1186  BulletShooter: mouse event
+20:44:33 1186  BulletShooter: mouse event
+20:44:33 1187  BulletShooter: mouse event
+20:44:33 1188  BulletShooter: mouse event
+20:44:33 1189  BulletShooter: mouse event
+20:44:33 1190  BulletShooter: mouse event
+20:44:33 1191  BulletShooter: mouse event
+20:44:33 1191  BulletShooter: mouse event
+20:44:33 1191  BulletShooter: mouse event
+20:44:34 1192  BulletShooter: mouse event
+20:44:34 1192  BulletShooter: mouse event
+20:44:34 1193  BulletShooter: mouse event
+20:44:34 1202  BulletShooter: mouse event
+20:44:34 1203  BulletShooter: mouse event
+20:44:34 1204  BulletShooter: mouse event
+20:44:34 1205  BulletShooter: mouse event
+20:44:34 1206  BulletShooter: mouse event
+20:44:34 1207  BulletShooter: mouse event
+20:44:34 1208  BulletShooter: mouse event
+20:44:34 1209  BulletShooter: mouse event
+20:44:34 1210  BulletShooter: mouse event
+20:44:34 1211  BulletShooter: mouse event
+20:44:34 1212  BulletShooter: mouse event
+20:44:34 1213  BulletShooter: mouse event
+20:44:34 1213 Removing Asteroid
+20:44:34 1213 Removing Asteroid
+20:44:34 1213 Removing Asteroid
+20:44:34 1213 Removing Asteroid
+20:44:34 1213 Removing Asteroid
+20:44:34 1213 Removing Asteroid
+20:44:34 1213 Removing Asteroid
+20:44:34 1213 Removing Asteroid
+20:44:34 1214  BulletShooter: mouse event
+20:44:34 1215  BulletShooter: mouse event
+20:44:34 1216  BulletShooter: mouse event
+20:44:34 1217  BulletShooter: mouse event
+20:44:34 1218  BulletShooter: mouse event
+20:44:34 1219  BulletShooter: mouse event
+20:44:34 1220  BulletShooter: mouse event
+20:44:34 1221  BulletShooter: mouse event
+20:44:35 1223  BulletShooter: mouse event
+20:44:35 1225  BulletShooter: mouse event
+20:44:35 1226  BulletShooter: mouse event
+20:44:35 1227  BulletShooter: mouse event
+20:44:35 1228  BulletShooter: mouse event
+20:44:35 1229  BulletShooter: mouse event
+20:44:35 1229 Block hit by asteroid
+20:44:35 1229 Block Destroyed
+20:44:35 1232  BulletShooter: mouse event
+20:44:35 1232  BulletShooter: mouse event
+20:44:35 1233  BulletShooter: mouse event
+20:44:35 1234  BulletShooter: mouse event
+20:44:35 1234 Removing Asteroid
+20:44:35 1234 Removing Asteroid
+20:44:35 1235  BulletShooter: mouse event
+20:44:35 1235 Removing Asteroid
+20:44:35 1235 Removing Asteroid
+20:44:35 1236  BulletShooter: mouse event
+20:44:35 1237  BulletShooter: mouse event
+20:44:35 1238  BulletShooter: mouse event
+20:44:35 1239  BulletShooter: mouse event
+20:44:35 1240  BulletShooter: mouse event
+20:44:35 1240  BulletShooter: mouse event
+20:44:35 1241  BulletShooter: mouse event
+20:44:35 1241  BulletShooter: mouse event
+20:44:35 1241 Block hit by asteroid
+20:44:35 1242  BulletShooter: mouse event
+20:44:35 1243  BulletShooter: mouse event
+20:44:35 1243 Block hit by asteroid
+20:44:35 1244  BulletShooter: mouse event
+20:44:35 1245  BulletShooter: mouse event
+20:44:35 1252 Removing Asteroid
+20:44:35 1252 Removing Asteroid
+20:44:36 1257 Block hit by asteroid
+20:44:36 1257 Block Destroyed
+20:44:36 1270 Removing Asteroid
+20:44:36 1270 Removing Asteroid
+20:44:36 1278 Block hit by asteroid
+20:44:37 1284 Removing Asteroid
+20:44:37 1284 Removing Asteroid
+20:44:37 1286 Removing Asteroid
+20:44:37 1286 Removing Asteroid
+20:44:37 1288 Removing Asteroid
+20:44:37 1288 Removing Asteroid
+20:44:37 1288 Removing Asteroid
+20:44:37 1288 Removing Asteroid
+20:44:37 1294 Removing Asteroid
+20:44:37 1294 Removing Asteroid
+20:44:37 1301 Removing Asteroid
+20:44:37 1301 Removing Asteroid
+20:44:37 1304 Destroying BulletShooter
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 424)! Pointer is 0000018199A7FC30.
+20:44:37 1304 Block Destroyed
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 425)! Pointer is 0000018199A784C0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 426)! Pointer is 0000018199A7DA10.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 427)! Pointer is 0000018199A80D40.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 428)! Pointer is 0000018199A81E50.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 429)! Pointer is 0000018199A7A6E0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 430)! Pointer is 0000018199A7C900.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 431)! Pointer is 0000018199D4AC50.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 432)! Pointer is 0000018199D46810.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 433)! Pointer is 0000018199D434E0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 434)! Pointer is 0000018199D45700.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 435)! Pointer is 0000018199D445F0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 436)! Pointer is 0000018199D545E0.
+20:44:37 1304 Block Destroyed
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 437)! Pointer is 0000018199D556F0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 438)! Pointer is 0000018199D4F090.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 439)! Pointer is 0000018199D501A0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 440)! Pointer is 0000018199D5AC40.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 441)! Pointer is 0000018199D56800.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 442)! Pointer is 0000018199D58A20.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 443)! Pointer is 0000018199D5BD50.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 444)! Pointer is 0000018199CAC980.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 445)! Pointer is 0000018199CAB870.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 446)! Pointer is 0000018199CAEBA0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 447)! Pointer is 0000018199CAFCB0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 448)! Pointer is 0000018199CB1ED0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 449)! Pointer is 0000018199CADA90.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 450)! Pointer is 0000018199CB0DC0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 451)! Pointer is 0000018199CBDA80.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 452)! Pointer is 0000018199CBEB90.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 453)! Pointer is 0000018199CBFCA0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 454)! Pointer is 0000018199CC0DB0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 455)! Pointer is 0000018199CBA750.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 456)! Pointer is 0000018199CC2FD0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 457)! Pointer is 0000018199CC8520.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 458)! Pointer is 0000018199CB7420.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 459)! Pointer is 0000018199CB40F0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 460)! Pointer is 0000018199CB9640.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 461)! Pointer is 0000018199CBB860.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 462)! Pointer is 0000018199CC6300.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 463)! Pointer is 0000018199CC7410.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 464)! Pointer is 0000018199CC9630.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 465)! Pointer is 0000018199A6EB30.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 466)! Pointer is 0000018199A795D0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 467)! Pointer is 0000018199A74080.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 468)! Pointer is 0000018199A71E60.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 469)! Pointer is 0000018199A7B7F0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 470)! Pointer is 0000018199A7EB20.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 471)! Pointer is 0000018199D423D0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 472)! Pointer is 0000018199D4DF80.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 473)! Pointer is 0000018199D57910.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 474)! Pointer is 0000018199D512B0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 475)! Pointer is 0000018199D534D0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 476)! Pointer is 0000018199D523C0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 477)! Pointer is 0000018199D5DF70.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 478)! Pointer is 0000018199D5F080.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 479)! Pointer is 0000018199D60190.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 480)! Pointer is 0000018199CB2FE0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 481)! Pointer is 0000018199CB6310.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 482)! Pointer is 0000018199CB5200.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 483)! Pointer is 0000018199CB8530.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 484)! Pointer is 0000018199CC1EC0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 485)! Pointer is 0000018199CC40E0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 486)! Pointer is 0000018199CBC970.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 487)! Pointer is 0000018199CC51F0.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 488)! Pointer is 0000018199D4BD60.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 489)! Pointer is 0000018199D49B40.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 490)! Pointer is 0000018199D47920.
+20:44:37 1304 SceneGraph::removeObject(): Error removing Object (id 491)! Pointer is 0000018199D4CE70.
+20:44:37 1304 ****************************************************
+20:44:37 1304 ** Game engine stopped **

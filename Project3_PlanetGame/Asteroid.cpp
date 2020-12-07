@@ -42,6 +42,7 @@ Asteroid::~Asteroid()
 	// Create an explosion.
 	Explosion* p_explosion = new Explosion;
 	p_explosion->setPosition(this->getPosition());
+
 }
 
 int Asteroid::eventHandler(const df::Event* p_e)
@@ -77,6 +78,8 @@ void Asteroid::hit(const df::EventCollision* p_c)
 
 		LM.writeLog("Removing Asteroid");
 		WM.markForDelete(this);
+
+		new Asteroid;
 	}
 
 	// Play "explode" sound.

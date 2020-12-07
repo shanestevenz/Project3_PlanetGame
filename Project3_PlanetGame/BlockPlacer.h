@@ -12,4 +12,5 @@ public:
 	int draw(void);
 	void mouse(const df::EventMouse* p_mouse_event);
 	int numberOfBlocks;
+	void step();
 };

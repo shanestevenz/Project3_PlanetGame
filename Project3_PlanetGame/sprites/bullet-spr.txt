@@ -2,7 +2,7 @@
 frames 2
 width 2
 height 1
-color red
+color magenta
 slowdown 5
 </HEADER>
 <BODY>
