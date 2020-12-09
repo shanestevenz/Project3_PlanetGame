@@ -135,6 +135,10 @@ Planet::~Planet()
 	// Shake screen (severity 20 pixels x&y, duration 10 frames).
 	DM.shake(20, 20, 10);
 
+	// Play "big explosion" sound.
+	df::Sound* p_sound = RM.getSound("big explosion");
+	p_sound->play();
+
 	// Create GameOver object.
 	new GameOver;
 }

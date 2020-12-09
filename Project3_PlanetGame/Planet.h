@@ -3,6 +3,7 @@
 #include <EventCollision.h>
 #include <EventKeyboard.h>
 #include "BlockPlacer.h"
+#include "ResourceManager.h"
 
 class Planet : public df::Object 
 {

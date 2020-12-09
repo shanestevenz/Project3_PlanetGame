@@ -43,8 +43,10 @@ Asteroid::Asteroid()
 
 Asteroid::~Asteroid()
 {
+
 	// Create an explosion.
-	
+	Explosion* p_explosion = new Explosion;
+	p_explosion->setPosition(this->getPosition());
 
 }
 
@@ -109,8 +111,8 @@ void Asteroid::hit(const df::EventCollision* p_c)
 
 		LM.writeLog("Removing Asteroid");
 
-		Explosion* p_explosion = new Explosion;
-		p_explosion->setPosition(this->getPosition());
+		//Explosion* p_explosion = new Explosion;
+		//p_explosion->setPosition(this->getPosition());
 
 		WM.markForDelete(this);
 
@@ -122,8 +124,8 @@ void Asteroid::hit(const df::EventCollision* p_c)
 
 		LM.writeLog("Removing Asteroid, hit by big lad");
 
-		Explosion* p_explosion = new Explosion;
-		p_explosion->setPosition(this->getPosition());
+		//Explosion* p_explosion = new Explosion;
+		//p_explosion->setPosition(this->getPosition());
 
 		WM.markForDelete(this);
 

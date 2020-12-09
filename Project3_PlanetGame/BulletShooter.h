@@ -6,6 +6,7 @@
 #include "EventMouse.h"
 //#include "Reticle.h"
 #include "EventCollision.h"
+#include "ResourceManager.h"
 
 class BulletShooter : public df::Object
 {

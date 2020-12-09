@@ -97,6 +97,7 @@ void BulletShooter::mouse(const df::EventMouse* p_mouse_event)
 	{
 		//LM.writeLog("BulletShooter: Mouse Event");
 		fire(p_mouse_event->getMousePosition());
+
 	}
 	
 
@@ -119,7 +120,10 @@ void BulletShooter::fire(df::Vector target) //target = mousePOS
 	Bullet* p = new Bullet(getPosition());
 	p->setVelocity(v);
 
-	//play sound
+	// play fire sfx
+	// Play "laser" sound.
+	df::Sound* p_sound = RM.getSound("laser");
+	p_sound->play();
 
 }
 

@@ -1,2 +1,7 @@
-﻿  Bullet.cpp
+﻿  GameStart.cpp
+C:\Users\holdz\source\repos\Project3_PlanetGame\Project3_PlanetGame\GameStart.cpp(106,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\holdz\source\repos\Project3_PlanetGame\Project3_PlanetGame\GameStart.cpp(114,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\holdz\source\repos\Project3_PlanetGame\Project3_PlanetGame\GameStart.cpp(121,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Gameover.cpp
+  Generating Code...
   Project3_PlanetGame.vcxproj -> C:\Users\holdz\Source\Repos\Project3_PlanetGame\x64\Debug\Project3_PlanetGame.exe

@@ -1,257 +1,664 @@
-02:05:09    0 ****************************************************
-02:05:09    0 ** Dragonfly version 4.15 **
-02:05:09    0 ** Game engine started **
-02:05:09    0 ****************************************************
-02:05:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/asteroid-spr.txt'.
-02:05:10    0 ResourceManager::loadSprite(): Sprite 'asteroid' loaded.
-02:05:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/planet-spr.txt'.
-02:05:10    0 ResourceManager::loadSprite(): Sprite 'planet' loaded.
-02:05:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'.
-02:05:10    0 ResourceManager::loadSprite(): Sprite 'gameover' loaded.
-02:05:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'.
-02:05:10    0 ResourceManager::loadSprite(): Sprite 'gamestart' loaded.
-02:05:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet-spr.txt'.
-02:05:10    0 ResourceManager::loadSprite(): Sprite 'bullet' loaded.
-02:05:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'.
-02:05:10    0 ResourceManager::loadSprite(): Sprite 'explosion' loaded.
-02:05:10    0 ResourceManager::loadSprite(): Loading sprite 'sprites/block-spr.txt'.
-02:05:10    0 ResourceManager::loadSprite(): Sprite 'block' loaded.
-02:05:11   33 Spawning BulletShooter
-02:05:11   36  BulletShooter: mouse event
-02:05:11   39  BulletShooter: mouse event
-02:05:11   40  BulletShooter: mouse event
-02:05:11   41  BulletShooter: mouse event
-02:05:11   42  BulletShooter: mouse event
-02:05:11   43  BulletShooter: mouse event
-02:05:11   44  BulletShooter: mouse event
-02:05:11   44  BulletShooter: mouse event
-02:05:11   45  BulletShooter: mouse event
-02:05:11   46  BulletShooter: mouse event
-02:05:11   47  BulletShooter: mouse event
-02:05:12   48  BulletShooter: mouse event
-02:05:12   49  BulletShooter: mouse event
-02:05:12   50  BulletShooter: mouse event
-02:05:12   51  BulletShooter: mouse event
-02:05:12   52  BulletShooter: mouse event
-02:05:12   52  BulletShooter: mouse event
-02:05:12   53  BulletShooter: mouse event
-02:05:12   53  BulletShooter: mouse event
-02:05:12   54  BulletShooter: mouse event
-02:05:12   55  BulletShooter: mouse event
-02:05:12   56  BulletShooter: mouse event
-02:05:12   58  BulletShooter: mouse event
-02:05:12   58 BlockPlacer: Placing block
-02:05:12   58 Block placed
-02:05:12   58  BulletShooter: mouse event
-02:05:12   59  BulletShooter: mouse event
-02:05:12   61  BulletShooter: mouse event
-02:05:12   62  BulletShooter: mouse event
-02:05:12   63  BulletShooter: mouse event
-02:05:12   64  BulletShooter: mouse event
-02:05:12   65  BulletShooter: mouse event
-02:05:12   68  BulletShooter: mouse event
-02:05:12   69  BulletShooter: mouse event
-02:05:12   70  BulletShooter: mouse event
-02:05:12   71  BulletShooter: mouse event
-02:05:12   72  BulletShooter: mouse event
-02:05:12   73  BulletShooter: mouse event
-02:05:12   74  BulletShooter: mouse event
-02:05:12   75  BulletShooter: mouse event
-02:05:12   76  BulletShooter: mouse event
-02:05:12   77  BulletShooter: mouse event
-02:05:13   78  BulletShooter: mouse event
-02:05:13   79  BulletShooter: mouse event
-02:05:13   80  BulletShooter: mouse event
-02:05:13   81  BulletShooter: mouse event
-02:05:13   82  BulletShooter: mouse event
-02:05:13   83  BulletShooter: mouse event
-02:05:13   84  BulletShooter: mouse event
-02:05:13   85  BulletShooter: mouse event
-02:05:13   86  BulletShooter: mouse event
-02:05:13   87  BulletShooter: mouse event
-02:05:13   88  BulletShooter: mouse event
-02:05:13   89  BulletShooter: mouse event
-02:05:13   90  BulletShooter: mouse event
-02:05:13   90 Block hit by asteroid
-02:05:13   91  BulletShooter: mouse event
-02:05:13   92  BulletShooter: mouse event
-02:05:13   99  BulletShooter: mouse event
-02:05:13  100  BulletShooter: mouse event
-02:05:13  101  BulletShooter: mouse event
-02:05:13  101  BulletShooter: mouse event
-02:05:13  102  BulletShooter: mouse event
-02:05:13  103  BulletShooter: mouse event
-02:05:13  104  BulletShooter: mouse event
-02:05:13  105  BulletShooter: mouse event
-02:05:13  108  BulletShooter: mouse event
-02:05:13  108 BlockPlacer: Placing block
-02:05:13  108 Block placed
-02:05:13  108  BulletShooter: mouse event
-02:05:14  109  BulletShooter: mouse event
-02:05:14  110  BulletShooter: mouse event
-02:05:14  111  BulletShooter: mouse event
-02:05:14  112  BulletShooter: mouse event
-02:05:14  113  BulletShooter: mouse event
-02:05:14  114  BulletShooter: mouse event
-02:05:14  114  BulletShooter: mouse event
-02:05:14  115  BulletShooter: mouse event
-02:05:14  116  BulletShooter: mouse event
-02:05:14  117  BulletShooter: mouse event
-02:05:14  118  BulletShooter: mouse event
-02:05:14  119  BulletShooter: mouse event
-02:05:14  120  BulletShooter: mouse event
-02:05:14  121  BulletShooter: mouse event
-02:05:14  122  BulletShooter: mouse event
-02:05:14  123  BulletShooter: mouse event
-02:05:14  123 BlockPlacer: Placing block
-02:05:14  123 Block placed
-02:05:14  123  BulletShooter: mouse event
-02:05:14  124  BulletShooter: mouse event
-02:05:14  124  BulletShooter: mouse event
-02:05:14  126  BulletShooter: mouse event
-02:05:14  126  BulletShooter: mouse event
-02:05:14  127  BulletShooter: mouse event
-02:05:14  127  BulletShooter: mouse event
-02:05:14  128  BulletShooter: mouse event
-02:05:14  129  BulletShooter: mouse event
-02:05:14  130  BulletShooter: mouse event
-02:05:14  131  BulletShooter: mouse event
-02:05:14  132  BulletShooter: mouse event
-02:05:14  133  BulletShooter: mouse event
-02:05:14  134  BulletShooter: mouse event
-02:05:14  135  BulletShooter: mouse event
-02:05:14  136  BulletShooter: mouse event
-02:05:14  137  BulletShooter: mouse event
-02:05:14  137 BlockPlacer: Placing block
-02:05:14  137 Block placed
-02:05:14  137  BulletShooter: mouse event
-02:05:14  137  BulletShooter: mouse event
-02:05:14  138  BulletShooter: mouse event
-02:05:14  138  BulletShooter: mouse event
-02:05:15  139  BulletShooter: mouse event
-02:05:15  139  BulletShooter: mouse event
-02:05:15  140  BulletShooter: mouse event
-02:05:15  140  BulletShooter: mouse event
-02:05:15  140  BulletShooter: mouse event
-02:05:15  141  BulletShooter: mouse event
-02:05:15  142  BulletShooter: mouse event
-02:05:15  143  BulletShooter: mouse event
-02:05:15  144  BulletShooter: mouse event
-02:05:15  145  BulletShooter: mouse event
-02:05:15  146  BulletShooter: mouse event
-02:05:15  147  BulletShooter: mouse event
-02:05:15  148  BulletShooter: mouse event
-02:05:15  148 BlockPlacer: Placing block
-02:05:15  148 Block placed
-02:05:15  148  BulletShooter: mouse event
-02:05:15  149  BulletShooter: mouse event
-02:05:15  150  BulletShooter: mouse event
-02:05:15  151  BulletShooter: mouse event
-02:05:15  152  BulletShooter: mouse event
-02:05:15  153  BulletShooter: mouse event
-02:05:15  154  BulletShooter: mouse event
-02:05:15  155  BulletShooter: mouse event
-02:05:15  156  BulletShooter: mouse event
-02:05:15  157  BulletShooter: mouse event
-02:05:15  158  BulletShooter: mouse event
-02:05:15  159  BulletShooter: mouse event
-02:05:15  160  BulletShooter: mouse event
-02:05:15  160  BulletShooter: mouse event
-02:05:15  161  BulletShooter: mouse event
-02:05:15  162  BulletShooter: mouse event
-02:05:15  163  BulletShooter: mouse event
-02:05:15  164  BulletShooter: mouse event
-02:05:15  165  BulletShooter: mouse event
-02:05:15  168  BulletShooter: mouse event
-02:05:16  169  BulletShooter: mouse event
-02:05:16  170  BulletShooter: mouse event
-02:05:16  171  BulletShooter: mouse event
-02:05:16  172  BulletShooter: mouse event
-02:05:16  173  BulletShooter: mouse event
-02:05:16  174  BulletShooter: mouse event
-02:05:16  176  BulletShooter: mouse event
-02:05:16  176  BulletShooter: mouse event
-02:05:16  177  BulletShooter: mouse event
-02:05:16  178  BulletShooter: mouse event
-02:05:16  179  BulletShooter: mouse event
-02:05:16  180  BulletShooter: mouse event
-02:05:16  180 BulletShooter: Pew Pew
-02:05:16  180  BulletShooter: mouse event
-02:05:16  180  BulletShooter: mouse event
-02:05:16  180  BulletShooter: mouse event
-02:05:16  181  BulletShooter: mouse event
-02:05:16  181  BulletShooter: mouse event
-02:05:16  182  BulletShooter: mouse event
-02:05:16  183  BulletShooter: mouse event
-02:05:16  183  BulletShooter: mouse event
-02:05:16  184  BulletShooter: mouse event
-02:05:16  187  BulletShooter: mouse event
-02:05:16  188  BulletShooter: mouse event
-02:05:16  189  BulletShooter: mouse event
-02:05:16  189  BulletShooter: mouse event
-02:05:16  190  BulletShooter: mouse event
-02:05:16  191  BulletShooter: mouse event
-02:05:16  192  BulletShooter: mouse event
-02:05:16  193  BulletShooter: mouse event
-02:05:16  194  BulletShooter: mouse event
-02:05:16  195  BulletShooter: mouse event
-02:05:16  196  BulletShooter: mouse event
-02:05:16  196 Block hit by asteroid
-02:05:16  197  BulletShooter: mouse event
-02:05:16  198  BulletShooter: mouse event
-02:05:17  199  BulletShooter: mouse event
-02:05:17  199  BulletShooter: mouse event
-02:05:17  199 BlockPlacer: Out of blocks
-02:05:17  199  BulletShooter: mouse event
-02:05:17  200  BulletShooter: mouse event
-02:05:17  200 Block hit by asteroid
-02:05:17  201  BulletShooter: mouse event
-02:05:17  204  BulletShooter: mouse event
-02:05:17  205  BulletShooter: mouse event
-02:05:17  206  BulletShooter: mouse event
-02:05:17  207  BulletShooter: mouse event
-02:05:17  210  BulletShooter: mouse event
-02:05:17  211  BulletShooter: mouse event
-02:05:17  212  BulletShooter: mouse event
-02:05:17  213  BulletShooter: mouse event
-02:05:17  213  BulletShooter: mouse event
-02:05:17  214  BulletShooter: mouse event
-02:05:17  215  BulletShooter: mouse event
-02:05:17  219  BulletShooter: mouse event
-02:05:17  220  BulletShooter: mouse event
-02:05:17  220 Removing Asteroid
-02:05:17  220 Removing Asteroid
-02:05:17  221  BulletShooter: mouse event
-02:05:17  222  BulletShooter: mouse event
-02:05:17  223  BulletShooter: mouse event
-02:05:17  224  BulletShooter: mouse event
-02:05:17  224  BulletShooter: mouse event
-02:05:17  225  BulletShooter: mouse event
-02:05:17  226  BulletShooter: mouse event
-02:05:17  227  BulletShooter: mouse event
-02:05:17  228  BulletShooter: mouse event
-02:05:18  229  BulletShooter: mouse event
-02:05:18  257 Block hit by asteroid
-02:05:19  288 Block hit by asteroid
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 33)! Pointer is 000001C2FE8441E0.
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 34)! Pointer is 000001C2FE8452F0.
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 35)! Pointer is 000001C2FE846400.
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 36)! Pointer is 000001C2FE83FDA0.
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 37)! Pointer is 000001C2FE84FD90.
-02:05:20  299 SceneGraph::updateType(): Error! Unable to remove Object (38) type (Undefined)
-02:05:20  299 SceneGraph::updateType(): Error! Unable to remove Object (38) type ViewObject
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 38)! Pointer is 000001C2FE9D9060.
-02:05:20  299 Destroying BulletShooter
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 39)! Pointer is 000001C2FE84DB70.
-02:05:20  299 Block Destroyed
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 40)! Pointer is 000001C2FE849730.
-02:05:20  299 Block Destroyed
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 41)! Pointer is 000001C2FE84A840.
-02:05:20  299 Block Destroyed
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 42)! Pointer is 000001C2FE84B950.
-02:05:20  299 Block Destroyed
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 43)! Pointer is 000001C2FE84EC80.
-02:05:20  299 Block Destroyed
-02:05:20  299 SceneGraph::removeObject(): Error removing Object (id 44)! Pointer is 000001C2FE83B960.
-02:05:20  299 ****************************************************
-02:05:20  299 ** Game engine stopped **
+07:35:32    0 ****************************************************
+07:35:32    0 ** Dragonfly version 4.15 **
+07:35:32    0 ** Game engine started **
+07:35:32    0 ****************************************************
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/asteroid-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'asteroid' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/biglad-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'biglad' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/planet-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'planet' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gameover-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'gameover' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/gamestart-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'gamestart' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/bullet-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'bullet' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/explosion-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'explosion' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/block-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'block' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/heavyblock-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'heavyblock' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/bomb-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'bomb' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/level1-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'level1' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/buymanager-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'buymanager' loaded.
+07:35:36   90 ResourceManager::loadSprite(): Loading sprite 'sprites/bigsmile-spr.txt'.
+07:35:36   90 ResourceManager::loadSprite(): Sprite 'bigsmile' loaded.
+07:35:38   62 GameManager::run(): Can't keep up! frame_time 33 ms, split 39 ms
+07:35:48  366 BIG LAD event
+07:35:48  366 BIG LAD SPAWN
+07:35:48  366 Spawning BulletShooter
+07:35:49  411 BulletShooter: Pew Pew
+07:35:53  526 Removing Asteroid
+07:35:53  526 Removing Asteroid
+07:35:54  540 Removing Asteroid
+07:35:54  540 Removing Asteroid
+07:35:56  605 Removing Asteroid
+07:35:56  605 Removing Asteroid
+07:35:59  704 Removing Asteroid
+07:35:59  704 Removing Asteroid
+07:35:59  704 Removing Asteroid
+07:35:59  704 Removing Asteroid
+07:35:59  709 Removing Asteroid
+07:35:59  709 Removing Asteroid
+07:35:59  716 Removing Asteroid
+07:35:59  716 Removing Asteroid
+07:36:01  753 Removing Asteroid
+07:36:01  753 Removing Asteroid
+07:36:01  753 Removing Asteroid
+07:36:01  753 Removing Asteroid
+07:36:01  761 Removing Asteroid
+07:36:01  761 Removing Asteroid
+07:36:03  811 Removing Asteroid
+07:36:03  811 Removing Asteroid
+07:36:03  828 Removing Asteroid
+07:36:03  828 Removing Asteroid
+07:36:04  841 Removing Asteroid
+07:36:04  841 Removing Asteroid
+07:36:05  879 Removing Asteroid
+07:36:05  879 Removing Asteroid
+07:36:05  885 BIG LAD event
+07:36:05  885 BIG LAD COLLISION event
+07:36:05  885 BIG LAD hit:  °|¨| on @y¨|
+07:36:05  885 Big lad hit asteroid
+07:36:05  885 Removing Asteroid, hit by big lad
+07:36:05  892 Removing Asteroid
+07:36:05  892 Removing Asteroid
+07:36:05  893 Removing Asteroid
+07:36:05  893 Removing Asteroid
+07:36:05  898 Removing Asteroid
+07:36:05  898 Removing Asteroid
+07:36:06  911 Removing Asteroid
+07:36:06  911 Removing Asteroid
+07:36:06  912 Removing Asteroid, hit by big lad
+07:36:06  912 BIG LAD event
+07:36:06  912 BIG LAD COLLISION event
+07:36:06  912 BIG LAD hit:  àq®| on 0m®|
+07:36:06  912 Big lad hit asteroid
+07:36:10  998 Removing Asteroid
+07:36:10  998 Removing Asteroid
+07:36:10 1014 Removing Asteroid
+07:36:10 1014 Removing Asteroid
+07:36:11 1036 Removing Asteroid
+07:36:11 1036 Removing Asteroid
+07:36:11 1040 BIG LAD event
+07:36:11 1040 BIG LAD COLLISION event
+07:36:11 1040 BIG LAD hit:  ðDª| on ÐKª|
+07:36:11 1040 Big lad hit asteroid
+07:36:11 1040 Removing Asteroid, hit by big lad
+07:36:12 1055 Removing Asteroid
+07:36:12 1055 Removing Asteroid
+07:36:12 1076 Removing Asteroid, hit by big lad
+07:36:12 1076 BIG LAD event
+07:36:12 1076 BIG LAD COLLISION event
+07:36:12 1076 BIG LAD hit:  ðë¨| on Pë¨|
+07:36:12 1076 Big lad hit asteroid
+07:36:13 1090 Removing Asteroid
+07:36:13 1090 Removing Asteroid
+07:36:14 1122 Removing Asteroid
+07:36:14 1122 Removing Asteroid
+07:36:17 1204 Removing Asteroid, hit by big lad
+07:36:17 1204 BIG LAD event
+07:36:17 1204 BIG LAD COLLISION event
+07:36:17 1204 BIG LAD hit:   ÙŸ| on  ÌŸ|
+07:36:17 1204 Big lad hit asteroid
+07:36:17 1212 Removing Asteroid
+07:36:17 1212 Removing Asteroid
+07:36:17 1214 Removing Asteroid
+07:36:17 1214 Removing Asteroid
+07:36:17 1214 Removing Asteroid
+07:36:17 1214 Removing Asteroid
+07:36:17 1215 Removing Asteroid
+07:36:17 1215 Removing Asteroid
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (181) type (Undefined)
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 181)! Pointer is 0000027C0F102310.
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (182) type (Undefined)
+07:36:18 1247 SceneGraph::updateType(): Error! Unable to remove Object (182) type ViewObject
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 182)! Pointer is 0000027C016F1150.
+07:36:18 1247 Destroying BulletShooter
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 183)! Pointer is 0000027C0F10BCA0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 184)! Pointer is 0000027C0F10CDB0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 185)! Pointer is 0000027C0F10AB90.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 186)! Pointer is 0000027C0F1111F0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 187)! Pointer is 0000027C0F10DEC0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 188)! Pointer is 0000027C0F116740.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 189)! Pointer is 0000027C0F1100E0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 190)! Pointer is 0000027C0F114520.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 191)! Pointer is 0000027C0F10EFD0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 192)! Pointer is 0000027C0F112300.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 193)! Pointer is 0000027C0F113410.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 194)! Pointer is 0000027C0F11AB80.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 195)! Pointer is 0000027C0F115630.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 196)! Pointer is 0000027C0F11DEB0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 197)! Pointer is 0000027C0F117850.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 198)! Pointer is 0000027C0F118960.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 199)! Pointer is 0000027C0F119A70.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 200)! Pointer is 0000027C0F1200D0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 201)! Pointer is 0000027C0F1211E0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 202)! Pointer is 0000027C0F123400.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 203)! Pointer is 0000027C0F11CDA0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 204)! Pointer is 0000027C0F11EFC0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 205)! Pointer is 0000027C0F1222F0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 206)! Pointer is 0000027C0F11BC90.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 207)! Pointer is 0000027C0F125620.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 208)! Pointer is 0000027C0F124510.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 209)! Pointer is 0000027C0F129A60.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 210)! Pointer is 0000027C0F12DEA0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 211)! Pointer is 0000027C0F126730.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 212)! Pointer is 0000027C0F12AB70.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 213)! Pointer is 0000027C0F12CD90.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 214)! Pointer is 0000027C0F12BC80.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 215)! Pointer is 0000027C0F12EFB0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 216)! Pointer is 0000027C0F127840.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 217)! Pointer is 0000027C0F128950.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 218)! Pointer is 0000027C0EAAA4D0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 219)! Pointer is 0000027C0EAB1C40.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 220)! Pointer is 0000027C0EAB2D50.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 221)! Pointer is 0000027C0EAAFA20.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 222)! Pointer is 0000027C0EAAC6F0.
+07:36:18 1247 SceneGraph::removeObject(): Error removing Object (id 223)! Pointer is 0000027C0EAAD800.
+07:36:18 1247 ****************************************************
+07:36:18 1247 ** Game engine stopped **

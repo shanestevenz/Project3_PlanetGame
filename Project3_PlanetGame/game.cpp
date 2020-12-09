@@ -34,6 +34,9 @@ int main(int argc, char* argv[])
 
 	LM.setFlush(true);
 
+	// Show splash screen.
+	df::splash();
+
 	// Load game resources.
 	loadResources();
 
@@ -69,6 +72,14 @@ void loadResources(void) {
 	RM.loadSprite("sprites/buymanager-spr.txt", "buymanager");
 	
 	RM.loadSprite("sprites/bigsmile-spr.txt", "bigsmile");
+
+
+	// load sfx
+	RM.loadMusic("sounds/theme.wav", "theme");
+	RM.loadSound("sounds/explosion.wav", "explosion");
+	RM.loadSound("sounds/big-explosion.wav", "big explosion");
+	RM.loadSound("sounds/laser.wav", "laser");
+	RM.loadSound("sounds/purchase.wav", "purchase");
 }
 
 // Populate world with some objects.
