@@ -33,12 +33,12 @@ GameStart::GameStart() {
 
     registerInterest(df::KEYBOARD_EVENT); //register event
 
-   // p_music = RM.getMusic("start music");
-    //playMusic();
+    p_music = RM.getMusic("theme");
+    playMusic();
 }
 
 void GameStart::playMusic() {
-   // p_music->play();
+    p_music->play();
 }
 
 //event handler. returns 0 if ignored
@@ -100,13 +100,12 @@ void GameStart::start() {  //things that needs to be spawned when the game resta
 
 
 
-
     df::ViewObject* p_1 = new df::ViewObject; // Block count Gui
     p_1->setViewString("Block $25");
     p_1->setColor(df::BLUE);
     p_1->setPosition(df::Vector(8, DM.getVertical() - 2));
     p_1->setDrawValue(false);
-    setActive(false);
+    //setActive(false);
 
 
     df::ViewObject* p_2 = new df::ViewObject; // Block count Gui
@@ -123,6 +122,8 @@ void GameStart::start() {  //things that needs to be spawned when the game resta
     p_3->setDrawValue(false);
 
 
+    // Pause start music.
+    p_music->pause();
 
     setActive(false);
 }

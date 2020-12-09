@@ -107,18 +107,33 @@ void BlockPlacer::mouse(const df::EventMouse* p_mouse_event) {
 			if (currentBlock->getType() == "Block")
 			{
 				LM.writeLog("BlockPlacer: Placing block");
+
+				// Play "purchase" sound.
+				df::Sound* p_sound = RM.getSound("purchase");
+				p_sound->play();
+
 				(new Block(placePos))->setPlaced(true);
 				
 			}
 			else if (currentBlock->getType() == "HeavyBlock")
 			{
 				LM.writeLog("BlockPlacer: Placing HEAVY block");
+
+				// Play "purchase" sound.
+				df::Sound* p_sound = RM.getSound("purchase");
+				p_sound->play();
+
 				(new HeavyBlock(placePos))->setPlaced(true);
 			
 			}
 			else if (currentBlock->getType() == "Bomb")
 			{
 				LM.writeLog("BlockPlacer: Placing Bomb");
+
+				// Play "puchase" sound.
+				df::Sound* p_sound = RM.getSound("purchase");
+				p_sound->play();
+
 				(new Bomb(placePos))->setPlaced(true);
 
 			}

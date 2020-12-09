@@ -77,6 +77,10 @@ void Bomb::hit(const df::EventCollision* p_c)
 		WM.onEvent(&ex);
 
 
+		// Play "big explosion" sound.
+		df::Sound* p_sound = RM.getSound("big explosion");
+		p_sound->play();
+
 		WM.markForDelete(this);  //explode
 		LM.writeLog("Bomb hit: %s on %s", p_c->getObject1()->getType(), p_c->getObject2()->getType());
 

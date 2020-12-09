@@ -63,6 +63,13 @@ void Bullet::hit(const df::EventCollision* p_collision_event) {
 		(p_collision_event->getObject2()->getType() == "Asteroid")) {
 		WM.markForDelete(p_collision_event->getObject1());
 		WM.markForDelete(p_collision_event->getObject2());
+
+
+		// Play "explosion" sound.
+		df::Sound* p_sound = RM.getSound("explosion");
+		p_sound->play();
+
+
 		new Asteroid;
 		df::EventView ev(MONEY_STRING, +5, true); //give Money
 		WM.onEvent(&ev);

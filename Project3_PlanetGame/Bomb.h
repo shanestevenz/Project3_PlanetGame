@@ -1,5 +1,6 @@
 #pragma once
 #include "Block.h"
+#include "ResourceManager.h"
 class Bomb : public Block
 {
 

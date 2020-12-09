@@ -48,6 +48,7 @@ int Block::eventHandler(const df::Event* p_e)
 		const df::EventCollision* p_collision_event =
 			dynamic_cast <const df::EventCollision*> (p_e);
 		hit(p_collision_event);
+
 		return 1;
 	}
 
