@@ -11,6 +11,16 @@
     <ClCompile Include="Gameover.cpp" />
     <ClCompile Include="GameStart.cpp" />
     <ClCompile Include="Planet.cpp" />
+    <ClCompile Include="Points.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="BigSmile.cpp" />
+    <ClCompile Include="ChangeBlockButton.cpp" />
+    <ClCompile Include="BuyManager.cpp" />
+    <ClCompile Include="HeavyBlock.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="ExplosionEvent.cpp" />
+    <ClCompile Include="BigLad.cpp" />
+    <ClCompile Include="AsteroidSpawner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Asteroid.h" />
@@ -22,5 +32,15 @@
     <ClInclude Include="Gameover.h" />
     <ClInclude Include="GameStart.h" />
     <ClInclude Include="Planet.h" />
+    <ClInclude Include="Points.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="BigSmile.h" />
+    <ClInclude Include="ChangeBlockButton.h" />
+    <ClInclude Include="BuyManager.h" />
+    <ClInclude Include="HeavyBlock.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="ExplosionEvent.h" />
+    <ClInclude Include="BigLad.h" />
+    <ClInclude Include="AsteroidSpawner.h" />
   </ItemGroup>
 </Project>

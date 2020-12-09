@@ -14,6 +14,8 @@
 #include "Asteroid.h"
 //events
 #include "EventOut.h"
+#include "Points.h"
+#include <EventView.h>
 #pragma endregion
 
 Bullet::Bullet(df::Vector start_pos)
@@ -26,6 +28,10 @@ Bullet::Bullet(df::Vector start_pos)
 	setPosition(p);
 	setSpeed(1);//moves 1 space per gameloop
 
+}
+
+Bullet::~Bullet()
+{
 }
 
 // Eventhandler: Return 1 if handled. else 0 if ignored
@@ -58,6 +64,7 @@ void Bullet::hit(const df::EventCollision* p_collision_event) {
 		WM.markForDelete(p_collision_event->getObject1());
 		WM.markForDelete(p_collision_event->getObject2());
 		new Asteroid;
-		
+		df::EventView ev(MONEY_STRING, +5, true); //give Money
+		WM.onEvent(&ev);
 	}
 }

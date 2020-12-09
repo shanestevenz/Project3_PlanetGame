@@ -1,0 +1,20 @@
+<HEADER>
+frames 1
+width 15
+height 7
+color magenta
+slowdown 5
+</HEADER>
+<BODY>
+ ------------- 
+|-       '  o |
+|    O        |
+|        \    |
+|    -      o |
+|o       _    |
+ ------------- 
+end
+</BODY>
+<FOOTER>
+version 1
+</FOOTER>

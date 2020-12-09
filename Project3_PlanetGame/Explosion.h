@@ -9,6 +9,7 @@ private:
 
 public:
     Explosion();
+    ~Explosion();
     Explosion(df::Color color);
     int eventHandler(const df::Event* p_e);
 };

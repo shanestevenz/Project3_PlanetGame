@@ -9,9 +9,9 @@ public:
 	Block(df::Vector);
 	~Block();
 	int durability;
-
-	int eventHandler(const df::Event* p_e);
-	void hit(const df::EventCollision* p_c);
-
+	bool placed;
+	virtual int eventHandler(const df::Event* p_e);
+	virtual void hit(const df::EventCollision* p_c);
+	void setPlaced(bool isPlaced);
 
 };

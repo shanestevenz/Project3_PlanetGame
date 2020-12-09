@@ -6,18 +6,23 @@
 #include "ResourceManager.h"
 #include "WorldManager.h"
 
+#include "AsteroidSpawner.h"
+
 // Game includes.
 #include "GameStart.h"
-
+#include "Level.h"
+#include "Points.h"
 #include "Music.h"
 #include "Asteroid.h"
 #include "Planet.h"
 #include "BulletShooter.h"
-#include "Color.h"
+#include "BlockPlacer.h"
+#include "BigSmile.h"
+#include "ChangeBlockButton.h"
 #include "Vector.h"
-//Events
-#include "EventKeyboard.h"
+#include "BuyManager.h"
 
+#include "BigLad.h"
 #pragma endregion
 
 GameStart::GameStart() {
@@ -62,36 +67,63 @@ void GameStart::start() {  //things that needs to be spawned when the game resta
 
 
 
-    for (int i = 0; i < 10; i++)
-        new Asteroid;
-    
-   
+    //spawn stuff for this level
+
+    new BigLad;
+
     new Planet;
-  
-    new BulletShooter; //cringe but whatever -> creates new planet and then creates bullet shooter at the positon without having to explicitly store pointer reference
 
-    new BlockPlacer;
+    new BulletShooter; //handles shooting bullets
 
-    //start
+    //new BlockPlacer; //handles placing 
+
+    new BuyManager;
     
+
+    new AsteroidSpawner;
+    // new ChangeBlockButton();
+    // new BigSmile;
+
     df::ViewObject* p_Health = new df::ViewObject; // Health Gui 
     p_Health->setLocation(df::TOP_CENTER);
     p_Health->setViewString("Health");
-    p_Health->setValue(3);
+    p_Health->setValue(100);
     p_Health->setColor(df::RED);
-    
+
 
     df::ViewObject* p_BlockCount = new df::ViewObject; // Block count Gui
     p_BlockCount->setLocation(df::TOP_RIGHT);
     p_BlockCount->setViewString("# of Blocks");
     p_BlockCount->setValue(5);
     p_BlockCount->setColor(df::BLUE);
-    
 
-    // stop the menu music
-   // p_music->pause();
 
-    // turn off when game starts
+
+
+
+    df::ViewObject* p_1 = new df::ViewObject; // Block count Gui
+    p_1->setViewString("Block $25");
+    p_1->setColor(df::BLUE);
+    p_1->setPosition(df::Vector(8, DM.getVertical() - 2));
+    p_1->setDrawValue(false);
+    setActive(false);
+
+
+    df::ViewObject* p_2 = new df::ViewObject; // Block count Gui
+    p_2->setViewString("Heavy Block $50");
+    p_2->setColor(df::RED);
+    p_2->setPosition(df::Vector(25, DM.getVertical() - 2));
+    p_2->setDrawValue(false);
+
+
+    df::ViewObject* p_3 = new df::ViewObject; // Block count Gui
+    p_3->setViewString("Bomb $50");
+    p_3->setColor(df::GREEN);
+    p_3->setPosition(df::Vector(48, DM.getVertical() - 2));
+    p_3->setDrawValue(false);
+
+
+
     setActive(false);
 }
 

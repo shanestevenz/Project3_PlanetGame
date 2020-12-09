@@ -13,9 +13,9 @@ public:
 	~Asteroid();
 	int randomIndex;
 
-	int eventHandler(const df::Event* p_e);
+	virtual int eventHandler(const df::Event* p_e);
 	void out();
-	void hit(const df::EventCollision* p_c);
+	virtual void hit(const df::EventCollision* p_c);
 	void moveToStart();
 
 };
