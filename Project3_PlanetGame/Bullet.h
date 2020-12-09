@@ -10,5 +10,6 @@ private:
 
 public:
     Bullet(df::Vector hero_pos);
+    ~Bullet();
     int eventHandler(const df::Event* p_e);
 };

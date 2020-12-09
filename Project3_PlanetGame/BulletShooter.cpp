@@ -61,7 +61,7 @@ int BulletShooter::eventHandler(const df::Event* p_e)
 	if (p_e->getType() == df::MSE_EVENT) {
 		const df::EventMouse* p_mouse_event = dynamic_cast <const df::EventMouse*> (p_e);
 		mouse(p_mouse_event);
-		LM.writeLog(" BulletShooter: mouse event");
+		//LM.writeLog(" BulletShooter: mouse event");
 		return 1;
 	}
 

@@ -1,23 +1,11 @@
 <HEADER>
-frames 4
+frames 1
 width 7
 height 3
 color cyan
 slowdown 3
 </HEADER>
 <BODY>
- _____ 
-      |
-      |
-end
-       
-      |
- _____|
-end
-       
-|      
-|_____ 
-end
  _____ 
 |     |
 |_____|

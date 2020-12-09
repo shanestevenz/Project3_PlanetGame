@@ -23,6 +23,11 @@ Explosion::Explosion() {
 
 }
 
+Explosion::~Explosion()
+{
+
+}
+
 
 Explosion::Explosion(df::Color color) {
 

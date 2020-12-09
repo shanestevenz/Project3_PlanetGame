@@ -13,9 +13,9 @@ __________.__                        __   _________.__                   __
  |____|   |____(____  /___|  /\___  >__|/_______  /|___|  /\____/ \____/|__|  / ____|
                     \/     \/     \/            \/      \/                    \/     
                                                                                      
-     Controls: Not sure yet,              'q' quits                                  
+     Controls: Left-Click to place blocks, Right-Click to Shoot, press 'q' to quit   
                                                                                      
-                    Press 'p' to play, 'q' to quit                                   
+                    Press 'p' to start game, 'q' to quit game                        
 end
 </BODY>
 <FOOTER>

@@ -30,7 +30,7 @@ Planet::Planet()
 	df::Vector p(WM.getBoundary().getHorizontal()/2 , WM.getBoundary().getVertical()/2 );
 	//df::Vector p(10, 4);
 	setPosition(p);
-	health = 3;
+	health = 100;
 }
 
 
@@ -65,8 +65,35 @@ void Planet::hit(const df::EventCollision* p_c)
 
 
 		//decerese health
-		health--;
-		df::EventView ev2("Health", -1, true); //update UI
+		health -= 10;
+		df::EventView ev2("Health", -10, true); //update UI
+		WM.onEvent(&ev2);
+
+
+
+		if (health <= 0) //PLANET died
+		{
+			WM.markForDelete(this);
+
+			return;
+		}
+
+	}
+
+	if (((p_c->getObject2()->getType()) == "BigLad") || ((p_c->getObject1()->getType()) == "BigLad"))
+	{
+		if (((p_c->getObject1()->getType()) == "BigLad"))
+		{
+			WM.markForDelete(p_c->getObject1());
+		}
+		else
+			WM.markForDelete(p_c->getObject2()); //delete Asteroid
+
+		LM.writeLog("Planet was hit by big lad");
+
+		//decerese health
+		health -= 80;
+		df::EventView ev2("Health", -80, true); //update UI
 		WM.onEvent(&ev2);
 
 
