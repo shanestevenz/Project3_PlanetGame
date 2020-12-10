@@ -7,6 +7,8 @@
 #include "HeavyBlock.h"
 #include "Block.h"
 #include "Bomb.h"
+#include "ChangeHealthEvent.h"
+
 void BuyManager::step()
 {
 }
@@ -83,12 +85,15 @@ void BuyManager::kbd(const df::EventKeyboard* p_keyboard_event)
 
         break;
     case df::Keyboard::NUM4:
-        if (buy(25))
+        if (buy(75))
         {
-            LM.writeLog("Buy Manager: Buy 4");
+            LM.writeLog("Buy Manager: Buy 4: +25 health");
+
+            ChangeHealthEvent h_ev(+25); //add health
+            WM.onEvent(&h_ev);
         }
     case df::Keyboard::T:
-        df::EventView ev(MONEY_STRING, +50, true); //remove money
+        df::EventView ev(MONEY_STRING, +50, true); //add money
         WM.onEvent(&ev);
         break;
     

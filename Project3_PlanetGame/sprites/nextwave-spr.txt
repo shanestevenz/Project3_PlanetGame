@@ -1,0 +1,20 @@
+<HEADER>
+frames 1
+width 46
+height 6
+color yellow
+slowdown 15
+transparency  
+</HEADER>
+<BODY>
+ _   _           _     _    _                 
+| \ | |         | |   | |  | |                
+|  \| | _____  _| |_  | |  | | __ ___   _____ 
+| . ` |/ _ \ \/ / __| | |/\| |/ _` \ \ / / _ \
+| |\  |  __/>  <| |_  \  /\  / (_| |\ V /  __/
+\_| \_/\___/_/\_\\__|  \/  \/ \__,_| \_/ \___|
+end
+</BODY>
+<FOOTER>
+version 1
+</FOOTER>

@@ -8,12 +8,14 @@
 #include <DisplayManager.h>
 #include "EventCollision.h"
 #include "HeavyBlock.h"
+#include "Points.h"
+#include <EventView.h>
 BigLad::BigLad()
 {
 
 
 	// initiallize the random index
-	//(left screen--1 , top screen--2, right screen--3, bottom screen--4 )
+	
 	randomIndex = rand() % 2 + 1;
 
 	// set sprite
@@ -24,13 +26,10 @@ BigLad::BigLad()
 
 	registerInterest(EXPLOSION_EVENT);
 	double xVel = 0.15f;
-
-	// set the horizontal speed according to index
-	// if left screen--1, move 1 space right every 4 frame
 	if (randomIndex == 1) setVelocity(df::Vector(xVel, 0));
 
 	// if right screen--3, move 1 space left every 4 frame
-	if (randomIndex == 3) setVelocity(df::Vector(-xVel, 0));
+	if (randomIndex == 2) setVelocity(df::Vector(-xVel, 0));
 
 
 	// spawn the Asteroid randomly at a start location
@@ -48,6 +47,12 @@ BigLad::~BigLad()
 	df::addParticles(df::SPARKS, getPosition(), 2, df::BLUE);
 	df::addParticles(df::SPARKS, getPosition(), 1, df::MAGENTA);
 
+	if (health >= 0) //was destroyed by player, not system
+	{
+		df::EventView ev(MONEY_STRING, +100, true); //give Money
+		WM.onEvent(&ev);
+	}
+	
 }
 
 
@@ -127,6 +132,24 @@ void BigLad::hit(const df::EventCollision* p_c)
 
 	}
 
+
+	if ((p_c->getObject1()->getType() == "Bullet") || (p_c->getObject2()->getType() == "Bullet"))
+	{
+
+		
+
+		Explosion* p_explosion = new Explosion;
+		p_explosion->setPosition(p_c->getObject1()->getPosition());
+
+		//LM.writeLog("Big lad hit the planet");
+		health--;
+
+	}
+
+	if (health <= 0 )
+	{
+		WM.markForDelete(this);
+	}
 }
 
 int BigLad::eventHandler(const df::Event* p_e)
@@ -174,3 +197,55 @@ int BigLad::eventHandler(const df::Event* p_e)
 	
 	return 0;
 }
+
+
+
+
+void BigLad::moveToStart()
+{
+
+	LM.writeLog("BIG LAD MOVE TO START %d", randomIndex);
+	df::Vector temp_pos;
+	// get the world boundary
+	float world_horiz = WM.getBoundary().getHorizontal();
+	float world_vert = WM.getBoundary().getVertical();
+
+	if (randomIndex == 1) { 	// if left screen--1
+
+		temp_pos.setX(-3); 	// x is off left side of window
+
+		temp_pos.setY(20 + rand() % (int)(((world_vert - 20) + 1) - 20)); // y is in vertical range.
+
+
+		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
+		while (!collision_list.isEmpty()) {
+			temp_pos.setY(temp_pos.getY() + 3);
+			temp_pos.setX(temp_pos.getX() - 1);
+			collision_list = WM.getCollisions(this, temp_pos);
+		}
+		WM.moveObject(this, temp_pos);
+
+
+	}
+	
+
+	else if (randomIndex == 2) { // if right screen--3
+
+		temp_pos.setX(world_horiz + 3); 	// x is off left side of window
+
+		temp_pos.setY(20 + rand() % (int)(((world_vert - 20) + 1) - 20)); // y is in vertical range.
+
+
+		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
+		while (!collision_list.isEmpty()) {
+			temp_pos.setY(temp_pos.getY() - 3);
+			temp_pos.setX(temp_pos.getX() - 1);
+			collision_list = WM.getCollisions(this, temp_pos);
+		}
+		WM.moveObject(this, temp_pos);
+	}
+
+
+
+}
+

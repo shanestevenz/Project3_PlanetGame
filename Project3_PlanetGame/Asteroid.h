@@ -16,6 +16,6 @@ public:
 	virtual int eventHandler(const df::Event* p_e);
 	void out();
 	virtual void hit(const df::EventCollision* p_c);
-	void moveToStart();
+	virtual void moveToStart();
 
 };

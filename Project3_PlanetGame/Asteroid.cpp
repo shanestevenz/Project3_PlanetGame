@@ -78,7 +78,7 @@ int Asteroid::eventHandler(const df::Event* p_e)
 
 			WM.markForDelete(this);
 
-			new Asteroid;
+			//new Asteroid;
 			LM.writeLog("Asteroid destroyed by explosion");
 		}
 
@@ -101,7 +101,7 @@ void Asteroid::out()
 	// Spawn new Saucer to make the game get harder.
 	moveToStart();
 
-	new Asteroid;
+	//new Asteroid;
 }
 
 void Asteroid::hit(const df::EventCollision* p_c)
@@ -116,7 +116,7 @@ void Asteroid::hit(const df::EventCollision* p_c)
 
 		WM.markForDelete(this);
 
-		new Asteroid;
+		//new Asteroid;
 	}
 
 	if ((p_c->getObject1()->getType() == "BigLad") ||
@@ -129,7 +129,7 @@ void Asteroid::hit(const df::EventCollision* p_c)
 
 		WM.markForDelete(this);
 
-		new Asteroid;
+		//new Asteroid;
 	}
 
 	// Play "explode" sound.
@@ -145,76 +145,76 @@ void Asteroid::moveToStart()
 	float world_horiz = WM.getBoundary().getHorizontal();
 	float world_vert = WM.getBoundary().getVertical();
 
-	// if left screen--1
-	if (randomIndex == 1) {
-		// x is off left side of window
-		temp_pos.setX(0 - rand() % (int)world_horiz + 4.0f);
+	if (randomIndex == 1) { 	// if left screen--1
+	
+		temp_pos.setX(-3); 	// x is off left side of window
 
-		// y is in vertical range.
-		temp_pos.setY(rand() % (int)(world_vert - 4) + 4.0f);
+		temp_pos.setY(10 + rand() %  (int)(((world_vert - 10) + 1) - 10)  ); // y is in vertical range.
 
-		// If collision, move left slightly until empty space.
+
 		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
 		while (!collision_list.isEmpty()) {
+			temp_pos.setY(temp_pos.getY() + 3);
 			temp_pos.setX(temp_pos.getX() - 1);
 			collision_list = WM.getCollisions(this, temp_pos);
 		}
+		WM.moveObject(this, temp_pos);
 
+
+	}
+	else if (randomIndex == 2) {// if top screen--2
+	
+		temp_pos.setX(10 + rand() % (int)(((world_horiz - 10) + 1) - 10) );	// x is in vertical range
+
+	
+		temp_pos.setY(-3);	// y is off top of window
+
+
+		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
+		while (!collision_list.isEmpty()) {
+			temp_pos.setY(temp_pos.getY() - 3);
+			temp_pos.setX(temp_pos.getX() - 1);
+			collision_list = WM.getCollisions(this, temp_pos);
+		}
+		WM.moveObject(this, temp_pos);
+
+
+	}
+
+	
+	else if (randomIndex == 3) { // if right screen--3
+		
+		temp_pos.setX(world_horiz + 3); 	// x is off left side of window
+
+		temp_pos.setY(10 + rand() % (int)(((world_vert - 10) + 1) - 10)); // y is in vertical range.
+
+
+		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
+		while (!collision_list.isEmpty()) {
+			temp_pos.setY(temp_pos.getY() - 3);
+			temp_pos.setX(temp_pos.getX() - 1);
+			collision_list = WM.getCollisions(this, temp_pos);
+		}
 		WM.moveObject(this, temp_pos);
 	}
 
-	// if top screen--2
-	if (randomIndex == 2) {
-		// x is in vertical range
-		temp_pos.setX(rand() % (int)(world_horiz - 4) + 4.0f);
+	
+	else if (randomIndex == 4) {// if bottom screen--4
+		temp_pos.setX(10 + rand() % (int)(((world_horiz - 10) + 1) - 10));	// x is in vertical range
 
-		// y is off top of window
-		temp_pos.setY(0 - rand() % (int)world_vert + 2.0f);
 
-		// If collision, move up slightly until empty space.
+		temp_pos.setY(world_vert + 3);	// y is off top of window
+
+
 		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
 		while (!collision_list.isEmpty()) {
-			temp_pos.setY(temp_pos.getY() - 1);
+			temp_pos.setY(temp_pos.getY() + 3);
+			temp_pos.setX(temp_pos.getX() - 1);
 			collision_list = WM.getCollisions(this, temp_pos);
 		}
-
 		WM.moveObject(this, temp_pos);
-	}
 
-	// if right screen--3
-	if (randomIndex == 3) {
-		// x is off right side of window
-		temp_pos.setX(world_horiz + rand() % (int)world_horiz + 4.0f);
 
-		// y is in vertical range.
-		temp_pos.setY(rand() % (int)(world_vert - 4) + 4.0f);
-
-		// If collision, move right slightly until empty space.
-		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
-		while (!collision_list.isEmpty()) {
-			temp_pos.setX(temp_pos.getX() + 1);
-			collision_list = WM.getCollisions(this, temp_pos);
-		}
-
-		WM.moveObject(this, temp_pos);
-	}
-
-	// if bottom screen--4
-	if (randomIndex == 4) {
-		// x is in horizontal range
-		temp_pos.setX(rand() % (int)(world_horiz - 4) + 4.0f);
-
-		// y is down off window
-		temp_pos.setY(world_vert + rand() % (int)world_vert + 2.0f);
-
-		// If collision, move down slightly until empty space.
-		df::ObjectList collision_list = WM.getCollisions(this, temp_pos);
-		while (!collision_list.isEmpty()) {
-			temp_pos.setY(temp_pos.getY() + 1);
-			collision_list = WM.getCollisions(this, temp_pos);
-		}
-
-		WM.moveObject(this, temp_pos);
 	}
 
 

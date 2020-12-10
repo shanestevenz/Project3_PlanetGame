@@ -69,7 +69,7 @@ void GameStart::start() {  //things that needs to be spawned when the game resta
 
     //spawn stuff for this level
 
-    new BigLad;
+    //new BigLad;
 
     new Planet;
 
@@ -91,16 +91,24 @@ void GameStart::start() {  //things that needs to be spawned when the game resta
     p_Health->setColor(df::RED);
 
 
-    df::ViewObject* p_BlockCount = new df::ViewObject; // Block count Gui
-    p_BlockCount->setLocation(df::TOP_RIGHT);
-    p_BlockCount->setViewString("# of Blocks");
-    p_BlockCount->setValue(5);
-    p_BlockCount->setColor(df::BLUE);
+    df::ViewObject* p_Wave = new df::ViewObject; // Health Gui 
+    p_Wave->setLocation(df::TOP_RIGHT);
+    p_Wave->setViewString("Wave #");
+    p_Wave->setValue(0);
+    p_Wave->setColor(df::YELLOW);
+
+
+    df::ViewObject* p_CurrentWave = new df::ViewObject; // Health Gui 
+    p_CurrentWave->setLocation(df::CENTER_RIGHT);
+    p_CurrentWave->setViewString("CurrentWave");
+    p_CurrentWave->setValue(0);
+    p_CurrentWave->setColor(df::YELLOW);
 
 
 
 
-    df::ViewObject* p_1 = new df::ViewObject; // Block count Gui
+
+    df::ViewObject* p_1 = new df::ViewObject; // block buy
     p_1->setViewString("Block $25");
     p_1->setColor(df::BLUE);
     p_1->setPosition(df::Vector(8, DM.getVertical() - 2));
@@ -108,19 +116,25 @@ void GameStart::start() {  //things that needs to be spawned when the game resta
     //setActive(false);
 
 
-    df::ViewObject* p_2 = new df::ViewObject; // Block count Gui
+    df::ViewObject* p_2 = new df::ViewObject; // heavy block buy
     p_2->setViewString("Heavy Block $50");
     p_2->setColor(df::RED);
     p_2->setPosition(df::Vector(25, DM.getVertical() - 2));
     p_2->setDrawValue(false);
 
 
-    df::ViewObject* p_3 = new df::ViewObject; // Block count Gui
+    df::ViewObject* p_3 = new df::ViewObject; // bomb buy
     p_3->setViewString("Bomb $50");
     p_3->setColor(df::GREEN);
     p_3->setPosition(df::Vector(48, DM.getVertical() - 2));
     p_3->setDrawValue(false);
 
+
+    df::ViewObject* p_4 = new df::ViewObject; // Health buy
+    p_4->setViewString("+25 Health $75");
+    p_4->setColor(df::YELLOW);
+    p_4->setPosition(df::Vector(68, DM.getVertical() - 2));
+    p_4->setDrawValue(false);
 
     // Pause start music.
     p_music->pause();

@@ -21,6 +21,10 @@
     <ClCompile Include="ExplosionEvent.cpp" />
     <ClCompile Include="BigLad.cpp" />
     <ClCompile Include="AsteroidSpawner.cpp" />
+    <ClCompile Include="ChangeHealthEvent.cpp" />
+    <ClCompile Include="Wave.cpp" />
+    <ClCompile Include="NextWave.cpp" />
+    <ClCompile Include="GameWin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Asteroid.h" />
@@ -42,5 +46,9 @@
     <ClInclude Include="ExplosionEvent.h" />
     <ClInclude Include="BigLad.h" />
     <ClInclude Include="AsteroidSpawner.h" />
+    <ClInclude Include="ChangeHealthEvent.h" />
+    <ClInclude Include="Wave.h" />
+    <ClInclude Include="NextWave.h" />
+    <ClInclude Include="GameWin.h" />
   </ItemGroup>
 </Project>

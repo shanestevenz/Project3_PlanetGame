@@ -35,7 +35,7 @@ int main(int argc, char* argv[])
 	LM.setFlush(true);
 
 	// Show splash screen.
-	df::splash();
+	//df::splash();
 
 	// Load game resources.
 	loadResources();
@@ -58,8 +58,13 @@ void loadResources(void) {
 	RM.loadSprite("sprites/biglad-spr.txt", "biglad");
 
 	RM.loadSprite("sprites/planet-spr.txt", "planet");
+
 	RM.loadSprite("sprites/gameover-spr.txt", "gameover");
 	RM.loadSprite("sprites/gamestart-spr.txt", "gamestart");
+	RM.loadSprite("sprites/nextwave-spr.txt", "nextwave");
+	RM.loadSprite("sprites/gamewin-spr.txt", "gamewin");
+
+
 	RM.loadSprite("sprites/bullet-spr.txt", "bullet");
 	RM.loadSprite("sprites/explosion-spr.txt", "explosion");
 

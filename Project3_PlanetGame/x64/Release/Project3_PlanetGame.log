@@ -1,0 +1,97 @@
+﻿  Asteroid.cpp
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(28,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(31,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(34,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(37,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(152,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(167,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(189,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Asteroid.cpp(203,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  AsteroidSpawner.cpp
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\AsteroidSpawner.cpp(177,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  BigLad.cpp
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\BigLad.cpp(29,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\BigLad.cpp(32,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\BigLad.cpp(190,48): warning C4244: '-=': conversion from 'const double' to 'int', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\BigLad.cpp(217,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\BigLad.cpp(236,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  BigSmile.cpp
+  Block.cpp
+  BlockPlacer.cpp
+  Bomb.cpp
+  Bullet.cpp
+  BulletShooter.cpp
+  BuyManager.cpp
+  ChangeBlockButton.cpp
+  ChangeHealthEvent.cpp
+  Explosion.cpp
+  ExplosionEvent.cpp
+  game.cpp
+  Gameover.cpp
+  GameStart.cpp
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\GameStart.cpp(114,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\GameStart.cpp(122,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\GameStart.cpp(129,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\GameStart.cpp(136,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameWin.cpp
+  HeavyBlock.cpp
+  Level.cpp
+  Compiling...
+  NextWave.cpp
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\NextWave.cpp(24,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Planet.cpp
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Planet.cpp(59,41): warning C4244: '+=': conversion from 'const double' to 'int', possible loss of data
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Planet.cpp(61,45): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+  Points.cpp
+  Wave.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\BuyManager.cpp(50): warning C4715: 'BuyManager::eventHandler': not all control paths return a value
+C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\Project3_PlanetGame\Planet.cpp(69): warning C4715: 'Planet::eventHandler': not all control paths return a value
+  All 579 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+libdragonfly-x64-release.lib(Animation.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Animation.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Box.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Box.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Button.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Button.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Circle.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Circle.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Clock.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Clock.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Config.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Config.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(DisplayManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(DisplayManager.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Event.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Event.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventCollision.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventCollision.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventKeyboard.obj) : warning LNK4099: PDB '' was not found with 'libdragonfly-x64-release.lib(EventKeyboard.obj)' or at ''; linking object as if no debug info
+libdragonfly-x64-release.lib(EventMouse.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventMouse.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventNetwork.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventNetwork.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventOut.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventOut.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventPath.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventPath.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventStep.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventStep.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(EventView.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(EventView.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Firework.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Firework.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Frame.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Frame.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(GameManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(GameManager.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(InputManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(InputManager.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Line.obj) : warning LNK4099: PDB '' was not found with 'libdragonfly-x64-release.lib(Line.obj)' or at ''; linking object as if no debug info
+libdragonfly-x64-release.lib(LogManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(LogManager.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Manager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Manager.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Music.obj) : warning LNK4099: PDB '' was not found with 'libdragonfly-x64-release.lib(Music.obj)' or at ''; linking object as if no debug info
+libdragonfly-x64-release.lib(NetworkManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(NetworkManager.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Object.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Object.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(ObjectList.obj) : warning LNK4099: PDB '' was not found with 'libdragonfly-x64-release.lib(ObjectList.obj)' or at ''; linking object as if no debug info
+libdragonfly-x64-release.lib(ObjectListIterator.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(ObjectListIterator.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Particle.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Particle.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Path.obj) : warning LNK4099: PDB '' was not found with 'libdragonfly-x64-release.lib(Path.obj)' or at ''; linking object as if no debug info
+libdragonfly-x64-release.lib(PathFind.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(PathFind.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(PathManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(PathManager.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Precipitation.obj) : warning LNK4099: PDB '' was not found with 'libdragonfly-x64-release.lib(Precipitation.obj)' or at ''; linking object as if no debug info
+libdragonfly-x64-release.lib(ResourceManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(ResourceManager.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(SceneGraph.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(SceneGraph.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Shape.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Shape.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Sound.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Sound.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Splash.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Splash.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(SplashDragonfly.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(SplashDragonfly.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Sprite.obj) : warning LNK4099: PDB '' was not found with 'libdragonfly-x64-release.lib(Sprite.obj)' or at ''; linking object as if no debug info
+libdragonfly-x64-release.lib(utility.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(utility.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(Vector.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(Vector.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(ViewObject.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(ViewObject.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+libdragonfly-x64-release.lib(WorldManager.obj) : warning LNK4099: PDB 'dragonfly.pdb' was not found with 'libdragonfly-x64-release.lib(WorldManager.obj)' or at 'C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\dragonfly.pdb'; linking object as if no debug info
+  Project3_PlanetGame.vcxproj -> C:\Users\shane\OneDrive\Documents\Visual Studio 2019\Projects\Project3_PlanetGame\x64\Release\Project3_PlanetGame.exe

@@ -6,7 +6,8 @@
 #include <DisplayManager.h>
 #include <LogManager.h>
 #include <EventStep.h>
-
+#include "ChangeHealthEvent.h"
+#include "BigLad.h"
 
 
 Planet::Planet()
@@ -25,7 +26,7 @@ Planet::Planet()
 
 	// Need to update rate control each step.
 	registerInterest(df::STEP_EVENT);
-
+	registerInterest(HEALTH_EVENT);
 
 	df::Vector p(WM.getBoundary().getHorizontal()/2 , WM.getBoundary().getVertical()/2 );
 	//df::Vector p(10, 4);
@@ -48,6 +49,23 @@ int Planet::eventHandler(const df::Event* p_e)
 		hit(p_collision_event);
 		return 1;
 	}
+
+	if (p_e->getType() == HEALTH_EVENT) {
+		const ChangeHealthEvent* p_health_event =
+			dynamic_cast <const ChangeHealthEvent*> (p_e);
+		
+		LM.writeLog("Planet: HEALING for 25");
+
+		health += p_health_event->healthAmount;
+
+		df::EventView ev3("Health", p_health_event->healthAmount, true); //update UI
+		WM.onEvent(&ev3);
+
+		//play sound?? healing noise
+
+		return 1;
+	}
+
 }
 
 void Planet::hit(const df::EventCollision* p_c)
@@ -89,11 +107,24 @@ void Planet::hit(const df::EventCollision* p_c)
 		else
 			WM.markForDelete(p_c->getObject2()); //delete Asteroid
 
+
+		const BigLad* p_BigLad;
+
+		if (((p_c->getObject1()->getType()) == "BigLad"))
+		{
+			p_BigLad = dynamic_cast <const BigLad*> (p_c->getObject1());
+		}
+		else
+			p_BigLad = dynamic_cast <const BigLad*> (p_c->getObject2());
+
+
+
+
 		LM.writeLog("Planet was hit by big lad");
 
 		//decerese health
-		health -= 80;
-		df::EventView ev2("Health", -80, true); //update UI
+		health -= p_BigLad->health;
+		df::EventView ev2("Health", -p_BigLad->health, true); //update UI
 		WM.onEvent(&ev2);
 
 

@@ -1,21 +1,22 @@
 <HEADER>
 frames 1
-width 85
-height 10
+width 111
+height 11
 color yellow
 slowdown 15
 </HEADER>
 <BODY>
-__________.__                        __   _________.__                   __          
-\______   \  | _____    ____   _____/  |_/   _____/|  |__   ____   _____/  |_ ___.__.
- |     ___/  | \__  \  /    \_/ __ \   __\_____  \ |  |  \ /  _ \ /  _ \   __<   |  |
- |    |   |  |__/ __ \|   |  \  ___/|  | /        \|   Y  (  <_> |  <_> )  |  \___  |
- |____|   |____(____  /___|  /\___  >__|/_______  /|___|  /\____/ \____/|__|  / ____|
-                    \/     \/     \/            \/      \/                    \/     
-                                                                                     
-     Controls: Left-Click to place blocks, Right-Click to Shoot, press 'q' to quit   
-                                                                                     
-                    Press 'p' to start game, 'q' to quit game                        
+            __________.__                        __   _________.__                   __                        
+            \______   \  | _____    ____   _____/  |_/   _____/|  |__   ____   _____/  |_ ___.__.              
+             |     ___/  | \__  \  /    \_/ __ \   __\_____  \ |  |  \ /  _ \ /  _ \   __<   |  |              
+             |    |   |  |__/ __ \|   |  \  ___/|  | /        \|   Y  (  <_> |  <_> )  |  \___  |              
+             |____|   |____(____  /___|  /\___  >__|/_______  /|___|  /\____/ \____/|__|  / ____|              
+                                \/     \/     \/            \/      \/                    \/                   
+                                                                                                               
+                               Controls: Use Num 1, 2, 3, 4 to buy defences,                                   
+                    Left-Click to place them, Right-Click to Shoot, press 'q' to quit                          
+                                                                                                               
+                                Press 'p' to start game, 'q' to quit game                                      
 end
 </BODY>
 <FOOTER>

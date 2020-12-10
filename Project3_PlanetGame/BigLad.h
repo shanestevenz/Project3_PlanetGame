@@ -14,5 +14,6 @@ public:
 	void hit(const df::EventCollision* p_c);
 	int eventHandler(const df::Event* p_e);
 	int health;
+	 void moveToStart();
 };
 

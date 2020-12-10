@@ -70,8 +70,26 @@ void Bullet::hit(const df::EventCollision* p_collision_event) {
 		p_sound->play();
 
 
-		new Asteroid;
+		//new Asteroid;
 		df::EventView ev(MONEY_STRING, +5, true); //give Money
 		WM.onEvent(&ev);
 	}
+
+	if ((p_collision_event->getObject1()->getType() == "BigLad") ||
+		(p_collision_event->getObject2()->getType() == "BigLad")) {
+		
+
+		WM.markForDelete(this);
+
+		// Play "explosion" sound.
+		df::Sound* p_sound = RM.getSound("explosion");
+		p_sound->play();
+
+
+		//new Asteroid; //TODO: Remove this
+		df::EventView ev(MONEY_STRING, +1, true); //give Money
+		WM.onEvent(&ev);
+	}
+
+
 }

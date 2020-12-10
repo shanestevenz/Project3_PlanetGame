@@ -60,13 +60,13 @@ int BlockPlacer::draw()
 
 void BlockPlacer::step() {
 
-
+	/*
 	if (numberOfBlocks < 5) {
 		numberOfBlocks++;
 		df::EventView ev("# of Blocks", +1, true); //update UI
 		WM.onEvent(&ev);
 	}
-	
+	*/
 
 }
 
